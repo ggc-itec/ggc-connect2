@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.ggc.it"
+    android:versionCode="22"
+    android:versionName="1.3.9">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-sdk android:minSdkVersion="11" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ggc_connect_icon"
+        android:label="@string/app_name">
+        <activity
+            android:name="edu.ggc.it.Main"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.ggc.it.News"
+            android:label="News"></activity>
+        <activity
+            android:name="edu.ggc.it.Credits"
+            android:label="@string/credits"></activity>
+        <activity
+            android:name="edu.ggc.it.direction.DirectionActivity"
+            android:label="@string/title_activity_direction"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="edu.ggc.it.map.MapActivity"
+            android:screenOrientation="landscape"></activity>
+        <activity
+            android:name="edu.ggc.it.schedule.ScheduleActivity"
+            android:label="@string/title_activity_schedule">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.ggc.it.Main" />
+        </activity>
+        <activity
+            android:name="edu.ggc.it.schedule.SchedulePreferenceActivity"
+            android:parentActivityName="edu.ggc.it.schedule.ScheduleActivity"></activity>
+        <activity
+            android:name="edu.ggc.it.love.SetupActivity"
+            android:label="@string/dating_label"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="edu.ggc.it.directory.DirectoryActivity"
+            android:label="@string/title_activity_directory"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="edu.ggc.it.directory.DirectorySearchWebView"
+            android:label="@string/title_activity_directory_search_web_view"
+            android:parentActivityName="edu.ggc.it.directory.DirectoryActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.ggc.it.directory.DirectoryActivity" />
+        </activity>
+        <activity
+            android:name="edu.ggc.it.schedule.ScheduleUpdateActivity"
+            android:label="@string/title_activity_schedule_update_class"
+            android:parentActivityName="edu.ggc.it.schedule.ScheduleActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.ggc.it.schedule.ScheduleActivity" />
+        </activity>
+        <activity
+            android:name="edu.ggc.it.gym.GymMainActivity"
+            android:label="@string/gym_label"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="edu.ggc.it.gym.GymScheduleActivity"
+            android:label="@string/gym_label"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="edu.ggc.it.gym.GroupsActivity"
+            android:label="@string/gym_label"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="edu.ggc.it.map.ImageTouchABuildingActivity"></activity>
+        <activity android:name="edu.ggc.it.map.ImageTouchBBuildingActivity"></activity>
+        <activity android:name="edu.ggc.it.map.ImageTouchCBuildingActivity"></activity>
+        <activity android:name="edu.ggc.it.map.ImageTouchDBuildingActivity"></activity>
+        <activity android:name="edu.ggc.it.map.ImageTouchFBuildingActivity"></activity>
+        <activity android:name="edu.ggc.it.map.ImageTouchLBuildingActivity"></activity>
+        <activity android:name="edu.ggc.it.map.ImageTouchStudentCenterActivity"></activity>
+        <activity
+            android:name="edu.ggc.it.todo.ToDoListActivity"
+            android:label="TODO List"></activity>
+        <activity
+            android:name="edu.ggc.it.todo.ToDoUpdateActivity"
+            android:label="TODO Update"
+            android:windowSoftInputMode="stateVisible"></activity>
+        <activity android:name="edu.ggc.it.rss.RSSActivity"></activity>
+        <activity
+            android:name="edu.ggc.it.directory.SavedSearchUpdateActivity"
+            android:label="Saved Search"></activity>
+        <activity
+            android:name="edu.ggc.it.catalog.ClassSearchActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="edu.ggc.it.social.SocialListActivity"
+            android:label="Social"></activity>
+        <activity android:name="edu.ggc.it.social.SocialUpdateActivity"></activity>
+        <activity android:name="edu.ggc.it.catalog.SearchResultsActivity"></activity>
+        <activity android:name="edu.ggc.it.catalog.SectionDetailActivity"></activity>
+        <activity android:name="edu.ggc.it.myinfo.MyInfoActivity"></activity>
+        <activity
+            android:name="edu.ggc.it.reminders.RemindersActivity"
+            android:label="@string/title_activity_reminders"
+            android:parentActivityName="edu.ggc.it.Main">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.ggc.it.Main" />
+        </activity>
+        <activity
+            android:name="edu.ggc.it.reminders.CreateReminderActivity"
+            android:label="@string/title_activity_create_reminder"></activity>
+
+        <receiver android:name="edu.ggc.it.reminders.Reminder"></receiver>
+
+        <activity
+            android:name="edu.ggc.it.about.AboutMainActivity"
+            android:label="@string/title_activity_about_main"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="edu.ggc.it.about.HistoryButtonActivity"
+            android:label="@string/title_activity_history_button"></activity>
+        <activity
+            android:name="edu.ggc.it.about.GGCGeographyActivity"
+            android:label="@string/title_activity_ggcgeography"></activity>
+        <activity
+            android:name="edu.ggc.it.about.GGCFunFactsActivity"
+            android:label="@string/title_activity_ggcfun_facts"></activity>
+        <activity
+            android:name="edu.ggc.it.about.GGCSongActivity"
+            android:label="@string/title_activity_ggcsong"
+            android:screenOrientation="portrait"></activity>
+
+        <!--
+        The property configChanges was added here to tell Android
+        not to reset the activity to default when the keyboard is pulled out, 
+        or the phone is rotated; I want to handle this myself.
+
+        -->
+        <activity
+            android:name="edu.ggc.it.gpacalc.GPACalcActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_gpacalc"></activity>
+        <activity
+            android:name="edu.ggc.it.gpacalc.GPACalcSemester"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_gpacalc_semester"></activity>
+        <activity
+            android:name="edu.ggc.it.departmenthours.DepartmentHoursActivity"
+            android:label="@string/title_activity_departmenthours">
+            <intent-filter>
+                <action android:name="edu.ggc.it.departmenthours" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name="edu.ggc.it.widget.WidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info" />
+        </receiver>
+
+        <service
+            android:name="edu.ggc.it.widget.WidgetService"
+            android:exported="false"
+            android:permission="android.permission.BIND_REMOTEVIEWS"></service>
+
+        <provider
+            android:name="edu.ggc.it.rss.RSSProvider"
+            android:authorities="edu.ggc.it.rss.RSSProvider"
+            android:exported="true"></provider>
+
+        <activity
+            android:name="edu.ggc.it.calendar.CalendarActivity"
+            android:label="@string/title_activity_calendar"></activity>
+        <activity
+            android:name="edu.ggc.it.degrees.Biology"
+            android:label="@string/title_activity_biology"></activity>
+        <activity
+            android:name="edu.ggc.it.degrees.Business"
+            android:label="@string/title_activity_business"></activity>
+        <activity
+            android:name="edu.ggc.it.degrees.CriminalJustice"
+            android:label="@string/title_activity_criminal_justice"></activity>
+        <activity
+            android:name="edu.ggc.it.degrees.DegreesMainActivity"
+            android:label="@string/title_activity_degrees_main"></activity>
+        <activity
+            android:name="edu.ggc.it.degrees.Education"
+            android:label="@string/title_activity_education"></activity>
+        <activity
+            android:name="edu.ggc.it.degrees.HealthScience"
+            android:label="@string/title_activity_health_science"></activity>
+        <activity
+            android:name="edu.ggc.it.degrees.InformationTechnology"
+            android:label="@string/title_activity_information_technology"></activity>
+        <activity
+            android:name="edu.ggc.it.degrees.LiberalArts"
+            android:label="@string/title_activity_liberal_arts"></activity>
+        <activity
+            android:name="edu.ggc.it.degrees.LiberalArtsEnglish"
+            android:label="@string/title_activity_liberal_arts_english"></activity>
+        <activity
+            android:name="edu.ggc.it.degrees.LiberalArtsHistory"
+            android:label="@string/title_activity_liberal_arts_history"></activity>
+        <activity
+            android:name="edu.ggc.it.degrees.LiberalArtsPoliticalScience"
+            android:label="@string/title_activity_liberal_arts_political_science"></activity>
+        <activity
+            android:name="edu.ggc.it.degrees.Mathematics"
+            android:label="@string/title_activity_mathematics"></activity>
+        <activity
+            android:name="edu.ggc.it.degrees.Schools"
+            android:label="@string/title_activity_schools"></activity>
+        <activity
+            android:name="edu.ggc.it.degrees.ScienceTechnology"
+            android:label="@string/title_activity_science_technology"></activity>
+        <activity
+            android:name="edu.ggc.it.banner_web.BannerWebLoginActivity"
+            android:label="@string/title_activity_banner_web_login"></activity>
+        <activity
+            android:name="edu.ggc.it.banner_web.BannerWebActivity"
+            android:label="@string/title_activity_banner_web"></activity>
+        <activity
+            android:name="edu.ggc.it.d2l_web.D2LWebActivity"
+            android:label="@string/title_activity_d2_lweb"></activity>
+        <activity
+            android:name="edu.ggc.it.d2l_web.D2LWebLoginActivity"
+            android:label="@string/title_activity_d2_lweb_login"></activity>
+        <activity
+            android:name="edu.ggc.it.library.LibraryActivity"
+            android:label="@string/title_activity_library"></activity>
+    </application>
+
+</manifest>

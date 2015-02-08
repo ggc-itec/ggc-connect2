@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2">
+
+    <item jar="C:\Users\tim\AndroidstudioProjects\ggc-connect\app\libs\Parse-1.2.2.jar"
+        jumboMode="false" revision="21.1.2" sha1="507264e0ffaa17b19b0e0d534d2da650f520a74a">
+        <dex
+            dex="C:\Users\tim\AndroidstudioProjects\ggc-connect\app\build\intermediates\pre-dexed\debug\Parse-1.2.2-a4e9df3bc456bcb9f3ece1015bd106d4e73ddd21.jar" />
+    </item>
+    <item
+        jar="C:\Users\tim\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false" revision="21.1.2" sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex
+            dex="C:\Users\tim\AndroidstudioProjects\ggc-connect\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-0bb90093a02635ddf56648eea679d03945d3e401.jar" />
+    </item>
+    <item jar="C:\Users\tim\AndroidstudioProjects\ggc-connect\app\libs\jsoup-1.7.3.jar"
+        jumboMode="false" revision="21.1.2" sha1="ab1f22cadc2f8b514e55ba368f5128056fe304da">
+        <dex
+            dex="C:\Users\tim\AndroidstudioProjects\ggc-connect\app\build\intermediates\pre-dexed\debug\jsoup-1.7.3-00be1a6008512d7826bd056a78006539fe5f0461.jar" />
+    </item>
+
+</items>

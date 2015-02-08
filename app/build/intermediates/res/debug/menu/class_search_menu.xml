@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_catalog_refresh"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="Refresh" />
+</menu>
+
+
+<!-- From: file:/C:/Users/tim/AndroidstudioProjects/ggc-connect/app/src/main/res/menu/class_search_menu.xml -->

@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ggc_green"
+    android:gravity="center"
+    tools:context=".GymMainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="29dp"
+        android:layout_marginRight="29dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/gymSchedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gym Schedule" />
+
+        <Button
+            android:id="@+id/Group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Group Fitness" />
+
+        <Button
+            android:id="@+id/healthMagazine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Health Magazine" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/quoteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginTop="25dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>

@@ -1,0 +1,103 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gitignore
+* CodingStandards.java
+* README.md
+* TODO.md
+* default.properties
+* out\
+* out\production\
+* out\production\ggc-connect\
+* out\production\ggc-connect\edu\
+* out\production\ggc-connect\edu\ggc\
+* out\production\ggc-connect\edu\ggc\it\
+* out\production\ggc-connect\edu\ggc\it\direction\
+* out\production\ggc-connect\edu\ggc\it\direction\DirectionUML.ucls
+* out\production\ggc-connect\edu\ggc\it\map\
+* out\production\ggc-connect\edu\ggc\it\map\MapActivity.java.orig
+* out\production\ggc-connect\ggc-connect.apk.res
+* out\res-cache\
+* out\res-cache\ggc-connect\
+* out\res-cache\ggc-connect\drawable-hdpi\
+* out\res-cache\ggc-connect\drawable-hdpi\clear.png
+* out\res-cache\ggc-connect\drawable-hdpi\ggc_building_a_map.png
+* out\res-cache\ggc-connect\drawable-hdpi\ggc_building_b_map.png
+* out\res-cache\ggc-connect\drawable-hdpi\ggc_building_f_map.png
+* out\res-cache\ggc-connect\drawable-hdpi\icon.png
+* out\res-cache\ggc-connect\drawable-hdpi\icon_facebook.png
+* out\res-cache\ggc-connect\drawable-hdpi\icon_rss.png
+* out\res-cache\ggc-connect\drawable-hdpi\icon_twitter.png
+* out\res-cache\ggc-connect\drawable-hdpi\icon_youtube.png
+* out\res-cache\ggc-connect\drawable-hdpi\main_button_class_search.png
+* out\res-cache\ggc-connect\drawable-hdpi\main_button_directions.png
+* out\res-cache\ggc-connect\drawable-hdpi\main_button_directory.png
+* out\res-cache\ggc-connect\drawable-hdpi\main_button_gym.png
+* out\res-cache\ggc-connect\drawable-hdpi\main_button_maps.png
+* out\res-cache\ggc-connect\drawable-hdpi\main_button_schedule.png
+* out\res-cache\ggc-connect\drawable-ldpi\
+* out\res-cache\ggc-connect\drawable-ldpi\icon.png
+* out\res-cache\ggc-connect\drawable-ldpi\map_a_button.png
+* out\res-cache\ggc-connect\drawable-ldpi\map_b_button.png
+* out\res-cache\ggc-connect\drawable-ldpi\map_c_button.png
+* out\res-cache\ggc-connect\drawable-ldpi\map_d_button.png
+* out\res-cache\ggc-connect\drawable-ldpi\map_f_button.png
+* out\res-cache\ggc-connect\drawable-ldpi\map_l_button.png
+* out\res-cache\ggc-connect\drawable-ldpi\map_student_center_button.png
+* out\res-cache\ggc-connect\drawable-ldpi\red_dot.png
+* out\res-cache\ggc-connect\drawable-mdpi\
+* out\res-cache\ggc-connect\drawable-mdpi\ggc_connect_icon.png
+* out\res-cache\ggc-connect\drawable-mdpi\ggc_scale_gray_button.png
+* out\res-cache\ggc-connect\drawable-mdpi\icon.png
+* out\res-cache\ggc-connect\drawable\
+* out\res-cache\ggc-connect\drawable\green.png
+* out\res-cache\ggc-connect\drawable\ic_credits.png
+* out\res-cache\ggc-connect\drawable\ic_welcome.png
+* out\res-cache\ggc-connect\drawable\white.png
+* proguard.cfg
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* libs\jsoup-1.7.3.jar => app\libs\jsoup-1.7.3.jar
+* libs\Parse-1.2.2.jar => app\libs\Parse-1.2.2.jar
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+* ggc_b_building.JPG => ggc_b_building.jpg
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ggc_building_f_map"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="matrix"
+        android:src="@drawable/map_f_building" />
+
+</FrameLayout><!-- From: file:/C:/Users/tim/AndroidstudioProjects/ggc-connect/app/src/main/res/layout/ggc_f_building_map.xml -->

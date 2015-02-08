@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView_ggc_building_b_map"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="matrix"
+        android:src="@drawable/map_b_building" />
+
+</RelativeLayout><!-- From: file:/C:/Users/tim/AndroidstudioProjects/ggc-connect/app/src/main/res/layout/ggc_b_building_map.xml -->
