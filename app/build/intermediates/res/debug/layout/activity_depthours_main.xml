@@ -8,4 +8,4 @@
         android:id="@android:id/list"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"></ListView>
-</LinearLayout><!-- From: file:/C:/Users/tim/AndroidstudioProjects/ggc-connect/app/src/main/res/layout/activity_depthours_main.xml -->
+</LinearLayout><!-- From: file:/C:/Users/Matt/AndroidStudioProjects/ggc-connect2/app/src/main/res/layout/activity_depthours_main.xml -->

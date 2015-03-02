@@ -5,4 +5,4 @@
     <item android:drawable="@drawable/widget_button_pressed" android:state_focused="true" />
     <item android:drawable="@drawable/widget_button" android:state_focused="false" android:state_pressed="false" />
 </selector>
-<!-- From: file:/C:/Users/tim/AndroidstudioProjects/ggc-connect/app/src/main/res/drawable-hdpi/widget_btn_selector.xml -->
+<!-- From: file:/C:/Users/Matt/AndroidStudioProjects/ggc-connect2/app/src/main/res/drawable-hdpi/widget_btn_selector.xml -->

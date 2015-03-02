@@ -19,4 +19,4 @@
     <item
         android:id="@android:id/progress"
         android:drawable="@drawable/seekbar_progress_bg" />
-</layer-list><!-- From: file:/C:/Users/tim/AndroidstudioProjects/ggc-connect/app/src/main/res/drawable-hdpi/seekbar_progress.xml -->
+</layer-list><!-- From: file:/C:/Users/Matt/AndroidStudioProjects/ggc-connect2/app/src/main/res/drawable-hdpi/seekbar_progress.xml -->
