@@ -1,4 +1,0 @@
-C:\Users\tim\AndroidstudioProjects\ggc-connect\app\build\intermediates\classes\debug
-C:\Users\tim\AndroidstudioProjects\ggc-connect\app\build\intermediates\pre-dexed\debug\jsoup-1.7.3-00be1a6008512d7826bd056a78006539fe5f0461.jar
-C:\Users\tim\AndroidstudioProjects\ggc-connect\app\build\intermediates\pre-dexed\debug\Parse-1.2.2-a4e9df3bc456bcb9f3ece1015bd106d4e73ddd21.jar
-C:\Users\tim\AndroidstudioProjects\ggc-connect\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-0bb90093a02635ddf56648eea679d03945d3e401.jar
