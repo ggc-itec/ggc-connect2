@@ -368,5 +368,7 @@
     <string name="title_activity_d2_lweb">Desire2Learn Web</string>
     <string name="title_activity_d2_lweb_login">Desire2Learn Login</string>
     <string name="title_activity_library">LibraryActivity</string>
+    <string name="title_activity_parking_map">Parking Map</string>
+    <string name="title_activity_parking">Campus Parking</string>
 
 </resources>

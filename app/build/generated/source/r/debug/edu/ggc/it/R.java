@@ -36,18 +36,192 @@ public final class R {
         public static final int years_array=0x7f07000e;
     }
     public static final class attr {
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cameraBearing=0x7f010004;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cameraTargetLat=0x7f010005;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cameraTargetLng=0x7f010006;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cameraTilt=0x7f010007;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cameraZoom=0x7f010008;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int circleCrop=0x7f010002;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int imageAspectRatio=0x7f010001;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>adjust_width</code></td><td>1</td><td></td></tr>
+<tr><td><code>adjust_height</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static final int imageAspectRatioAdjust=0x7f010000;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int liteMode=0x7f010009;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>normal</code></td><td>1</td><td></td></tr>
+<tr><td><code>satellite</code></td><td>2</td><td></td></tr>
+<tr><td><code>terrain</code></td><td>3</td><td></td></tr>
+<tr><td><code>hybrid</code></td><td>4</td><td></td></tr>
+</table>
+         */
+        public static final int mapType=0x7f010003;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int uiCompass=0x7f01000a;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int uiMapToolbar=0x7f010012;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int uiRotateGestures=0x7f01000b;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int uiScrollGestures=0x7f01000c;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int uiTiltGestures=0x7f01000d;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int uiZoomControls=0x7f01000e;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int uiZoomGestures=0x7f01000f;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int useViewLifecycle=0x7f010010;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int zOrderOnTop=0x7f010011;
     }
     public static final class color {
-        public static final int cs_header=0x7f080000;
-        public static final int cs_section_header=0x7f080001;
-        public static final int cs_selected=0x7f080002;
-        public static final int cs_unselected=0x7f080003;
-        public static final int ggc_green=0x7f080004;
-        public static final int main_background=0x7f080005;
-        public static final int main_button_text=0x7f080006;
-        public static final int thai_black_color=0x7f080007;
-        public static final int thai_spinner_color=0x7f080008;
-        public static final int thai_white_color=0x7f080009;
+        public static final int common_action_bar_splitter=0x7f080000;
+        public static final int common_signin_btn_dark_text_default=0x7f080001;
+        public static final int common_signin_btn_dark_text_disabled=0x7f080002;
+        public static final int common_signin_btn_dark_text_focused=0x7f080003;
+        public static final int common_signin_btn_dark_text_pressed=0x7f080004;
+        public static final int common_signin_btn_default_background=0x7f080005;
+        public static final int common_signin_btn_light_text_default=0x7f080006;
+        public static final int common_signin_btn_light_text_disabled=0x7f080007;
+        public static final int common_signin_btn_light_text_focused=0x7f080008;
+        public static final int common_signin_btn_light_text_pressed=0x7f080009;
+        public static final int common_signin_btn_text_dark=0x7f080014;
+        public static final int common_signin_btn_text_light=0x7f080015;
+        public static final int cs_header=0x7f08000a;
+        public static final int cs_section_header=0x7f08000b;
+        public static final int cs_selected=0x7f08000c;
+        public static final int cs_unselected=0x7f08000d;
+        public static final int ggc_green=0x7f08000e;
+        public static final int main_background=0x7f08000f;
+        public static final int main_button_text=0x7f080010;
+        public static final int thai_black_color=0x7f080011;
+        public static final int thai_spinner_color=0x7f080012;
+        public static final int thai_white_color=0x7f080013;
     }
     public static final class dimen {
         public static final int activity_horizontal_margin=0x7f090000;
@@ -69,511 +243,552 @@ public final class R {
         public static final int building_f=0x7f02000c;
         public static final int building_l=0x7f02000d;
         public static final int clear=0x7f02000e;
-        public static final int cs_table_border=0x7f02000f;
-        public static final int did_you_know=0x7f020010;
-        public static final int ggc_b_building=0x7f020011;
-        public static final int ggc_building_a_map=0x7f020012;
-        public static final int ggc_building_b_map=0x7f020013;
-        public static final int ggc_building_f_map=0x7f020014;
-        public static final int ggc_connect_icon=0x7f020015;
-        public static final int ggc_ground_breaking=0x7f020016;
-        public static final int ggc_logo=0x7f020017;
-        public static final int ggc_scale_gray_button=0x7f020018;
-        public static final int ggclogodm=0x7f020019;
-        public static final int green=0x7f02001a;
-        public static final int here=0x7f02001b;
-        public static final int ic_credits=0x7f02001c;
-        public static final int ic_welcome=0x7f02001d;
-        public static final int icon=0x7f02001e;
-        public static final int icon_facebook=0x7f02001f;
-        public static final int icon_rss=0x7f020020;
-        public static final int icon_twitter=0x7f020021;
-        public static final int icon_youtube=0x7f020022;
-        public static final int img_btn_backward=0x7f020023;
-        public static final int img_btn_backward_pressed=0x7f020024;
-        public static final int img_btn_forward=0x7f020025;
-        public static final int img_btn_forward_pressed=0x7f020026;
-        public static final int img_btn_pause=0x7f020027;
-        public static final int img_btn_pause_pressed=0x7f020028;
-        public static final int img_btn_play=0x7f020029;
-        public static final int img_btn_play_pressed=0x7f02002a;
-        public static final int img_seekbar_bg=0x7f02002b;
-        public static final int img_seekbar_progress_blue=0x7f02002c;
-        public static final int kaufman=0x7f02002d;
-        public static final int main_button_about_ggc=0x7f02002e;
-        public static final int main_button_banner_web=0x7f02002f;
-        public static final int main_button_calendar=0x7f020030;
-        public static final int main_button_class_search=0x7f020031;
-        public static final int main_button_d2l_web=0x7f020032;
-        public static final int main_button_directions=0x7f020033;
-        public static final int main_button_directory=0x7f020034;
-        public static final int main_button_gpa_calc=0x7f020035;
-        public static final int main_button_gym=0x7f020036;
-        public static final int main_button_library=0x7f020037;
-        public static final int main_button_maps=0x7f020038;
-        public static final int main_button_schedule=0x7f020039;
-        public static final int map_a_building=0x7f02003a;
-        public static final int map_a_button=0x7f02003b;
-        public static final int map_b_building=0x7f02003c;
-        public static final int map_b_button=0x7f02003d;
-        public static final int map_c_building=0x7f02003e;
-        public static final int map_c_button=0x7f02003f;
-        public static final int map_d_building=0x7f020040;
-        public static final int map_d_button=0x7f020041;
-        public static final int map_f_building=0x7f020042;
-        public static final int map_f_button=0x7f020043;
-        public static final int map_h_button=0x7f020044;
-        public static final int map_l_button=0x7f020045;
-        public static final int map_library=0x7f020046;
-        public static final int map_map=0x7f020047;
-        public static final int map_student_center=0x7f020048;
-        public static final int map_student_center_button=0x7f020049;
-        public static final int red_dot=0x7f02004a;
-        public static final int seek_handler=0x7f02004b;
-        public static final int seekbar_progress=0x7f02004c;
-        public static final int seekbar_progress_bg=0x7f02004d;
-        public static final int thai_ggc_map=0x7f02004e;
-        public static final int white=0x7f02004f;
-        public static final int widget_banner_background=0x7f020050;
-        public static final int widget_btn_selector=0x7f020051;
-        public static final int widget_button=0x7f020052;
-        public static final int widget_button_pressed=0x7f020053;
-        public static final int widget_item_background=0x7f020054;
-        public static final int widget_view_flipper_background=0x7f020055;
-        public static final int you=0x7f020056;
+        public static final int common_full_open_on_phone=0x7f02000f;
+        public static final int common_ic_googleplayservices=0x7f020010;
+        public static final int common_signin_btn_icon_dark=0x7f020011;
+        public static final int common_signin_btn_icon_disabled_dark=0x7f020012;
+        public static final int common_signin_btn_icon_disabled_focus_dark=0x7f020013;
+        public static final int common_signin_btn_icon_disabled_focus_light=0x7f020014;
+        public static final int common_signin_btn_icon_disabled_light=0x7f020015;
+        public static final int common_signin_btn_icon_focus_dark=0x7f020016;
+        public static final int common_signin_btn_icon_focus_light=0x7f020017;
+        public static final int common_signin_btn_icon_light=0x7f020018;
+        public static final int common_signin_btn_icon_normal_dark=0x7f020019;
+        public static final int common_signin_btn_icon_normal_light=0x7f02001a;
+        public static final int common_signin_btn_icon_pressed_dark=0x7f02001b;
+        public static final int common_signin_btn_icon_pressed_light=0x7f02001c;
+        public static final int common_signin_btn_text_dark=0x7f02001d;
+        public static final int common_signin_btn_text_disabled_dark=0x7f02001e;
+        public static final int common_signin_btn_text_disabled_focus_dark=0x7f02001f;
+        public static final int common_signin_btn_text_disabled_focus_light=0x7f020020;
+        public static final int common_signin_btn_text_disabled_light=0x7f020021;
+        public static final int common_signin_btn_text_focus_dark=0x7f020022;
+        public static final int common_signin_btn_text_focus_light=0x7f020023;
+        public static final int common_signin_btn_text_light=0x7f020024;
+        public static final int common_signin_btn_text_normal_dark=0x7f020025;
+        public static final int common_signin_btn_text_normal_light=0x7f020026;
+        public static final int common_signin_btn_text_pressed_dark=0x7f020027;
+        public static final int common_signin_btn_text_pressed_light=0x7f020028;
+        public static final int cs_table_border=0x7f020029;
+        public static final int did_you_know=0x7f02002a;
+        public static final int ggc_b_building=0x7f02002b;
+        public static final int ggc_building_a_map=0x7f02002c;
+        public static final int ggc_building_b_map=0x7f02002d;
+        public static final int ggc_building_f_map=0x7f02002e;
+        public static final int ggc_connect_icon=0x7f02002f;
+        public static final int ggc_ground_breaking=0x7f020030;
+        public static final int ggc_logo=0x7f020031;
+        public static final int ggc_scale_gray_button=0x7f020032;
+        public static final int ggclogodm=0x7f020033;
+        public static final int green=0x7f020034;
+        public static final int here=0x7f020035;
+        public static final int ic_credits=0x7f020036;
+        public static final int ic_plusone_medium_off_client=0x7f020037;
+        public static final int ic_plusone_small_off_client=0x7f020038;
+        public static final int ic_plusone_standard_off_client=0x7f020039;
+        public static final int ic_plusone_tall_off_client=0x7f02003a;
+        public static final int ic_welcome=0x7f02003b;
+        public static final int icon=0x7f02003c;
+        public static final int icon_facebook=0x7f02003d;
+        public static final int icon_rss=0x7f02003e;
+        public static final int icon_twitter=0x7f02003f;
+        public static final int icon_youtube=0x7f020040;
+        public static final int img_btn_backward=0x7f020041;
+        public static final int img_btn_backward_pressed=0x7f020042;
+        public static final int img_btn_forward=0x7f020043;
+        public static final int img_btn_forward_pressed=0x7f020044;
+        public static final int img_btn_pause=0x7f020045;
+        public static final int img_btn_pause_pressed=0x7f020046;
+        public static final int img_btn_play=0x7f020047;
+        public static final int img_btn_play_pressed=0x7f020048;
+        public static final int img_seekbar_bg=0x7f020049;
+        public static final int img_seekbar_progress_blue=0x7f02004a;
+        public static final int kaufman=0x7f02004b;
+        public static final int main_button_about_ggc=0x7f02004c;
+        public static final int main_button_banner_web=0x7f02004d;
+        public static final int main_button_calendar=0x7f02004e;
+        public static final int main_button_class_search=0x7f02004f;
+        public static final int main_button_d2l_web=0x7f020050;
+        public static final int main_button_directions=0x7f020051;
+        public static final int main_button_directory=0x7f020052;
+        public static final int main_button_gpa_calc=0x7f020053;
+        public static final int main_button_gym=0x7f020054;
+        public static final int main_button_library=0x7f020055;
+        public static final int main_button_maps=0x7f020056;
+        public static final int main_button_schedule=0x7f020057;
+        public static final int map_a_building=0x7f020058;
+        public static final int map_a_button=0x7f020059;
+        public static final int map_b_building=0x7f02005a;
+        public static final int map_b_button=0x7f02005b;
+        public static final int map_c_building=0x7f02005c;
+        public static final int map_c_button=0x7f02005d;
+        public static final int map_d_building=0x7f02005e;
+        public static final int map_d_button=0x7f02005f;
+        public static final int map_f_building=0x7f020060;
+        public static final int map_f_button=0x7f020061;
+        public static final int map_h_button=0x7f020062;
+        public static final int map_l_button=0x7f020063;
+        public static final int map_library=0x7f020064;
+        public static final int map_map=0x7f020065;
+        public static final int map_student_center=0x7f020066;
+        public static final int map_student_center_button=0x7f020067;
+        public static final int red_dot=0x7f020068;
+        public static final int seek_handler=0x7f020069;
+        public static final int seekbar_progress=0x7f02006a;
+        public static final int seekbar_progress_bg=0x7f02006b;
+        public static final int thai_ggc_map=0x7f02006c;
+        public static final int white=0x7f02006d;
+        public static final int widget_banner_background=0x7f02006e;
+        public static final int widget_btn_selector=0x7f02006f;
+        public static final int widget_button=0x7f020070;
+        public static final int widget_button_pressed=0x7f020071;
+        public static final int widget_item_background=0x7f020072;
+        public static final int widget_view_flipper_background=0x7f020073;
+        public static final int you=0x7f020074;
     }
     public static final class id {
-        public static final int Crim_LibArts=0x7f0d0049;
-        public static final int Group=0x7f0d0099;
-        public static final int History_back=0x7f0d00d4;
-        public static final int IT_back=0x7f0d00c3;
-        public static final int IT_business=0x7f0d00c1;
-        public static final int ImEzSendButton=0x7f0d0153;
-        public static final int Muscle1=0x7f0d0025;
-        public static final int Muscle2=0x7f0d0027;
-        public static final int ScrollView=0x7f0d00ed;
-        public static final int SearchDirectoryButton=0x7f0d0076;
-        public static final int accounting_major=0x7f0d0013;
-        public static final int action_catalog_refresh=0x7f0d01ad;
-        public static final int action_settings=0x7f0d01a0;
-        public static final int addTaskButton=0x7f0d011f;
-        public static final int add_class=0x7f0d01aa;
-        public static final int americanHistory=0x7f0d00cf;
-        public static final int american_government=0x7f0d00d5;
-        public static final int ampm_spinner=0x7f0d00ea;
-        public static final int applied_math=0x7f0d00de;
-        public static final int biochemistry=0x7f0d000d;
-        public static final int biology_back=0x7f0d0011;
-        public static final int biology_major=0x7f0d010d;
-        public static final int btnBackward=0x7f0d0081;
-        public static final int btnForward=0x7f0d0083;
-        public static final int btnPlay=0x7f0d0082;
-        public static final int btn_schedule_update_cancel=0x7f0d0105;
-        public static final int btn_schedule_update_end_time=0x7f0d00f6;
-        public static final int btn_schedule_update_start_time=0x7f0d00f4;
-        public static final int btn_schedule_update_submit=0x7f0d0106;
-        public static final int building_location_row=0x7f0d00fe;
-        public static final int business_back=0x7f0d001b;
-        public static final int buttonDeleteToDoDB=0x7f0d0122;
-        public static final int buttonLayout=0x7f0d015c;
-        public static final int buttonSaveToDoDB=0x7f0d0121;
-        public static final int button_FunFacts=0x7f0d0004;
-        public static final int button_GGCSong=0x7f0d0003;
-        public static final int button_Geography=0x7f0d0002;
-        public static final int button_History=0x7f0d0000;
-        public static final int button_add_course=0x7f0d0094;
-        public static final int button_banner_login=0x7f0d000c;
-        public static final int button_banner_web=0x7f0d016c;
-        public static final int button_d2l_login=0x7f0d0052;
-        public static final int button_d2l_web=0x7f0d0173;
-        public static final int button_next=0x7f0d008e;
-        public static final int button_remove_course=0x7f0d0095;
-        public static final int button_social_addentry=0x7f0d0112;
-        public static final int button_social_cancel=0x7f0d011d;
-        public static final int button_social_submit=0x7f0d011e;
-        public static final int button_submit=0x7f0d0096;
-        public static final int buttons_row=0x7f0d0104;
-        public static final int calendar_btn=0x7f0d017c;
-        public static final int calendar_webview=0x7f0d001c;
-        public static final int camp1=0x7f0d002b;
-        public static final int camp2=0x7f0d002d;
-        public static final int cellBio=0x7f0d000e;
-        public static final int checkbox_save_banner_login=0x7f0d000b;
-        public static final int checkbox_save_d2l_login=0x7f0d0051;
-        public static final int child_layout_1=0x7f0d0091;
-        public static final int child_layout_2=0x7f0d0093;
-        public static final int chk_schedule_update_friday=0x7f0d00fc;
-        public static final int chk_schedule_update_monday=0x7f0d00f8;
-        public static final int chk_schedule_update_saturday=0x7f0d00fd;
-        public static final int chk_schedule_update_thursday=0x7f0d00fb;
-        public static final int chk_schedule_update_tuesday=0x7f0d00f9;
-        public static final int chk_schedule_update_wednesday=0x7f0d00fa;
-        public static final int clearSearchButton=0x7f0d0073;
-        public static final int clear_schedule=0x7f0d01ab;
-        public static final int comparative_politics=0x7f0d00d6;
-        public static final int create_reminder_button=0x7f0d00e4;
-        public static final int credits=0x7f0d01a4;
-        public static final int creditsTextView=0x7f0d014a;
-        public static final int creditsWebView=0x7f0d014b;
-        public static final int crimJustice_back=0x7f0d004a;
-        public static final int criminal_justice=0x7f0d0047;
-        public static final int criminal_justice_major=0x7f0d00c4;
-        public static final int criminology=0x7f0d0048;
-        public static final int cs_actual_text=0x7f0d012d;
-        public static final int cs_capacity_text=0x7f0d012c;
-        public static final int cs_course_number_input=0x7f0d0138;
-        public static final int cs_course_number_row=0x7f0d0136;
-        public static final int cs_course_title=0x7f0d0131;
-        public static final int cs_credits_input=0x7f0d013c;
-        public static final int cs_credits_row=0x7f0d013b;
-        public static final int cs_date_detail=0x7f0d0185;
-        public static final int cs_days_detail=0x7f0d0184;
-        public static final int cs_days_preview=0x7f0d0189;
-        public static final int cs_days_row=0x7f0d0141;
-        public static final int cs_desc_abbreviated=0x7f0d0195;
-        public static final int cs_detail_desc=0x7f0d0126;
-        public static final int cs_detail_hours=0x7f0d0127;
-        public static final int cs_detail_layout=0x7f0d0124;
-        public static final int cs_detail_loading=0x7f0d0129;
-        public static final int cs_detail_progress=0x7f0d012a;
-        public static final int cs_detail_scroll=0x7f0d0123;
-        public static final int cs_detail_title=0x7f0d0125;
-        public static final int cs_end_time_input=0x7f0d0140;
-        public static final int cs_end_time_row=0x7f0d013f;
-        public static final int cs_enrollment_table=0x7f0d012b;
-        public static final int cs_friday_check=0x7f0d0146;
-        public static final int cs_hours_preview=0x7f0d0196;
-        public static final int cs_instructor_detail=0x7f0d0188;
-        public static final int cs_instructor_input=0x7f0d013a;
-        public static final int cs_instructor_preview=0x7f0d0137;
-        public static final int cs_instructor_row=0x7f0d0139;
-        public static final int cs_loading_layout=0x7f0d0128;
-        public static final int cs_location_detail=0x7f0d0187;
-        public static final int cs_meeting_header=0x7f0d0198;
-        public static final int cs_meeting_preview_table=0x7f0d0197;
-        public static final int cs_monday_check=0x7f0d0142;
-        public static final int cs_remaining_text=0x7f0d012e;
-        public static final int cs_saturday_check=0x7f0d0147;
-        public static final int cs_search_button=0x7f0d0149;
-        public static final int cs_search_row=0x7f0d0148;
-        public static final int cs_start_time_input=0x7f0d013e;
-        public static final int cs_start_time_row=0x7f0d013d;
-        public static final int cs_subject_list=0x7f0d0135;
-        public static final int cs_subject_row=0x7f0d0133;
-        public static final int cs_term_input=0x7f0d0132;
-        public static final int cs_term_row=0x7f0d0130;
-        public static final int cs_thursday_check=0x7f0d0145;
-        public static final int cs_time_detail=0x7f0d0186;
-        public static final int cs_time_preview=0x7f0d0134;
-        public static final int cs_tuesday_check=0x7f0d0143;
-        public static final int cs_type_text=0x7f0d0183;
-        public static final int cs_wednesday_check=0x7f0d0144;
-        public static final int day_spinner=0x7f0d00e6;
-        public static final int days_row=0x7f0d00b3;
-        public static final int degrees_button=0x7f0d017b;
-        public static final int depthours_hours=0x7f0d0058;
-        public static final int depthours_name=0x7f0d0056;
-        public static final int depthours_open_closed=0x7f0d0057;
-        public static final int didYouKnowImage=0x7f0d0060;
-        public static final int digital_media=0x7f0d00c2;
-        public static final int direction_button=0x7f0d015f;
-        public static final int directory_button=0x7f0d015e;
-        public static final int directory_listView=0x7f0d0079;
-        public static final int early_childhood_major=0x7f0d005d;
-        public static final int economics_major=0x7f0d0014;
-        public static final int editText1=0x7f0d0155;
-        public static final int editText2=0x7f0d0156;
-        public static final int editTextTask=0x7f0d0120;
-        public static final int edittext_banner_password=0x7f0d000a;
-        public static final int edittext_banner_username=0x7f0d0008;
-        public static final int edittext_d2l_password=0x7f0d0050;
-        public static final int edittext_d2l_username=0x7f0d004e;
-        public static final int edittext_schedule_update_name=0x7f0d00ef;
-        public static final int edittext_schedule_update_room_location=0x7f0d0103;
-        public static final int edittext_schedule_update_section=0x7f0d00f2;
-        public static final int edittext_social_body=0x7f0d011b;
-        public static final int edittext_social_name=0x7f0d0115;
-        public static final int edittext_social_subject=0x7f0d0118;
-        public static final int education_back=0x7f0d005f;
-        public static final int end_time_row=0x7f0d00b2;
-        public static final int english_back=0x7f0d00ce;
-        public static final int english_major=0x7f0d00c5;
-        public static final int enterprise_systems=0x7f0d00be;
-        public static final int exercise_science_major=0x7f0d010e;
-        public static final int facebook_page=0x7f0d0158;
-        public static final int feedback=0x7f0d01a8;
-        public static final int finance_major=0x7f0d0015;
-        public static final int firstNameText=0x7f0d0070;
-        public static final int flickrLink=0x7f0d0063;
-        public static final int flickrLinkIntro=0x7f0d0062;
-        public static final int flipper=0x7f0d015d;
-        public static final int focusholder=0x7f0d012f;
-        public static final int generalBio=0x7f0d000f;
-        public static final int general_business_major=0x7f0d0016;
-        public static final int geographyLink=0x7f0d0066;
-        public static final int geographyLinkTitle=0x7f0d0065;
-        public static final int ggc_building_f_map=0x7f0d0150;
-        public static final int ggc_logo=0x7f0d0054;
-        public static final int ggc_text=0x7f0d0053;
-        public static final int gpa_calc_button=0x7f0d0177;
-        public static final int gymSchedule=0x7f0d0098;
-        public static final int gym_button=0x7f0d0164;
-        public static final int gym_email=0x7f0d00a8;
-        public static final int gym_phone=0x7f0d00a5;
-        public static final int gymfbuilding=0x7f0d00a2;
-        public static final int healthMagazine=0x7f0d009a;
-        public static final int health_science_back=0x7f0d00bd;
-        public static final int historyImageView1=0x7f0d0067;
-        public static final int historyImageView2=0x7f0d0069;
-        public static final int historyTextView1=0x7f0d0068;
-        public static final int historyTextView2=0x7f0d006a;
-        public static final int historyTextView3=0x7f0d006b;
-        public static final int history_major=0x7f0d00c6;
-        public static final int imEzSearchButton=0x7f0d0154;
-        public static final int imageMap=0x7f0d005b;
-        public static final int imageView1=0x7f0d0064;
-        public static final int imageView_GGCLogo=0x7f0d0001;
-        public static final int imageView_ggc_a_Building_map=0x7f0d014c;
-        public static final int imageView_ggc_building_b_map=0x7f0d014d;
-        public static final int imageView_ggc_c_Building_map=0x7f0d014e;
-        public static final int imageView_ggc_d_Building_map=0x7f0d014f;
-        public static final int imageView_ggc_l_Building_map=0x7f0d0151;
-        public static final int imageView_ggc_student_center_map=0x7f0d0152;
-        public static final int imageview_id=0x7f0d0012;
-        public static final int information_technology_major=0x7f0d010f;
-        public static final int input_credit_hours=0x7f0d008d;
-        public static final int input_gpa=0x7f0d008b;
-        public static final int instruction_text=0x7f0d005a;
-        public static final int interDiscHistory=0x7f0d00d0;
-        public static final int interStudies=0x7f0d00ca;
-        public static final int international_business_major=0x7f0d0017;
-        public static final int international_relations=0x7f0d00d7;
-        public static final int interval1=0x7f0d0028;
-        public static final int interval2=0x7f0d003a;
-        public static final int interval3=0x7f0d003e;
-        public static final int kickboxing=0x7f0d0036;
-        public static final int langLit=0x7f0d00cb;
-        public static final int lastNameText=0x7f0d0071;
-        public static final int leadership_major=0x7f0d0018;
-        public static final int legal_studies=0x7f0d00d8;
-        public static final int letes=0x7f0d0034;
-        public static final int liberal_arts_back=0x7f0d00c9;
-        public static final int library_button=0x7f0d017a;
-        public static final int library_webview=0x7f0d00db;
-        public static final int linearLayout1=0x7f0d0097;
-        public static final int linearLayout_focus=0x7f0d006c;
-        public static final int links=0x7f0d01a3;
-        public static final int listView1=0x7f0d0074;
-        public static final int list_complex_caption=0x7f0d00ec;
-        public static final int list_complex_title=0x7f0d00eb;
-        public static final int list_header_title=0x7f0d018f;
-        public static final int list_item_title=0x7f0d0190;
-        public static final int lyricsDisplay=0x7f0d0084;
-        public static final int lyricsScrollView=0x7f0d0086;
-        public static final int lyricsText=0x7f0d0088;
-        public static final int lyricsTextDisplay=0x7f0d0087;
-        public static final int lyricsTitle=0x7f0d0085;
-        public static final int main_textview_class_search=0x7f0d0165;
-        public static final int main_textview_directions=0x7f0d0166;
-        public static final int main_textview_directory=0x7f0d0160;
-        public static final int main_textview_gym=0x7f0d0169;
-        public static final int main_textview_maps=0x7f0d0168;
-        public static final int main_textview_schedule=0x7f0d016a;
-        public static final int map_button=0x7f0d0167;
-        public static final int marketing_major=0x7f0d001a;
-        public static final int math_back=0x7f0d00e0;
-        public static final int mathematics_major=0x7f0d0110;
-        public static final int menu_settings=0x7f0d01a1;
-        public static final int mis_major=0x7f0d0019;
-        public static final int month_spinner=0x7f0d00e7;
-        public static final int myInfoWebView=0x7f0d00e1;
-        public static final int myinfo=0x7f0d01a5;
-        public static final int name_row=0x7f0d00aa;
-        public static final int notification_on_row=0x7f0d0191;
-        public static final int notification_time_Row=0x7f0d0193;
-        public static final int nursing_major=0x7f0d00bc;
-        public static final int player_footer_bg=0x7f0d0080;
-        public static final int player_header_bg=0x7f0d007a;
-        public static final int political_science_major=0x7f0d00c7;
-        public static final int politics_back=0x7f0d00da;
-        public static final int psychology_major=0x7f0d00c8;
-        public static final int pure_math=0x7f0d00df;
-        public static final int quoteTextView=0x7f0d009b;
-        public static final int recentSearches=0x7f0d0075;
-        public static final int reminder_date_label=0x7f0d00e8;
-        public static final int reminder_description=0x7f0d00e2;
-        public static final int reminder_label=0x7f0d00e3;
-        public static final int reminder_label_view=0x7f0d0045;
-        public static final int reminder_notification_view=0x7f0d0044;
-        public static final int reminder_text_view=0x7f0d0046;
-        public static final int reminders=0x7f0d01a9;
-        public static final int room_location_row=0x7f0d0101;
-        public static final int rss_body=0x7f0d018c;
-        public static final int rss_date=0x7f0d018b;
-        public static final int rss_feed=0x7f0d015b;
-        public static final int rss_pager=0x7f0d018d;
-        public static final int rss_pager_title_strip=0x7f0d018e;
-        public static final int rss_title=0x7f0d018a;
-        public static final int saveSearchButton=0x7f0d0077;
-        public static final int schedule_button=0x7f0d0162;
-        public static final int schedule_pref_spn_reminder=0x7f0d0194;
-        public static final int schedule_pref_txt_notify=0x7f0d0192;
-        public static final int schedule_settings=0x7f0d01ac;
-        public static final int school_business=0x7f0d0107;
-        public static final int school_education=0x7f0d0108;
-        public static final int school_health=0x7f0d0109;
-        public static final int school_liberalarts=0x7f0d010a;
-        public static final int school_sciencetech=0x7f0d010b;
-        public static final int schools_back=0x7f0d010c;
-        public static final int science_technology_back=0x7f0d0111;
-        public static final int screen=0x7f0d00dd;
-        public static final int scrollView1=0x7f0d0072;
-        public static final int search_button=0x7f0d0161;
-        public static final int section_row=0x7f0d00f0;
-        public static final int semester_layout=0x7f0d0090;
-        public static final int semester_scroll_layout=0x7f0d008f;
-        public static final int social=0x7f0d01a7;
-        public static final int socialLinearLayout=0x7f0d0163;
-        public static final int social_body_row=0x7f0d0119;
-        public static final int social_buttons_row=0x7f0d011c;
-        public static final int social_name_row=0x7f0d0113;
-        public static final int social_subject_row=0x7f0d0116;
-        public static final int software_development=0x7f0d00bf;
-        public static final int songAuthorText=0x7f0d0089;
-        public static final int songCurrentDurationLabel=0x7f0d007d;
-        public static final int songProgressBar=0x7f0d007f;
-        public static final int songTitle=0x7f0d007b;
-        public static final int songTotalDurationLabel=0x7f0d007e;
-        public static final int special_education_major=0x7f0d005e;
-        public static final int spinnerText=0x7f0d0059;
-        public static final int spinner_schedule_update_building_location=0x7f0d0100;
-        public static final int start_button=0x7f0d0055;
-        public static final int start_time_row=0x7f0d00ab;
-        public static final int strength=0x7f0d0030;
-        public static final int systems_security=0x7f0d00c0;
-        public static final int tab1=0x7f0d0078;
-        public static final int tab2=0x7f0d006e;
-        public static final int tabHost=0x7f0d006d;
-        public static final int tableLayout1=0x7f0d009c;
-        public static final int tableRow1=0x7f0d001d;
-        public static final int tableRow10=0x7f0d00ad;
-        public static final int tableRow11=0x7f0d00ae;
-        public static final int tableRow12=0x7f0d00af;
-        public static final int tableRow13=0x7f0d00b0;
-        public static final int tableRow14=0x7f0d00b1;
-        public static final int tableRow15=0x7f0d00b4;
-        public static final int tableRow16=0x7f0d00b5;
-        public static final int tableRow17=0x7f0d00b6;
-        public static final int tableRow18=0x7f0d00b7;
-        public static final int tableRow19=0x7f0d00b8;
-        public static final int tableRow2=0x7f0d0023;
-        public static final int tableRow20=0x7f0d00b9;
-        public static final int tableRow21=0x7f0d00ba;
-        public static final int tableRow22=0x7f0d00a9;
-        public static final int tableRow23=0x7f0d009e;
-        public static final int tableRow24=0x7f0d00a0;
-        public static final int tableRow25=0x7f0d009d;
-        public static final int tableRow26=0x7f0d00a3;
-        public static final int tableRow27=0x7f0d00a6;
-        public static final int tableRow28=0x7f0d009f;
-        public static final int tableRow3=0x7f0d0029;
-        public static final int tableRow4=0x7f0d003f;
-        public static final int tableRow5=0x7f0d003b;
-        public static final int tableRow6=0x7f0d0037;
-        public static final int tableRow7=0x7f0d002e;
-        public static final int tableRow8=0x7f0d0032;
-        public static final int tableRow9=0x7f0d00ac;
-        public static final int taskEntry=0x7f0d0157;
-        public static final int teacherCert=0x7f0d00cd;
-        public static final int teacherCertHistory=0x7f0d00d3;
-        public static final int teacherCert_bio=0x7f0d0010;
-        public static final int teacher_cert=0x7f0d00d9;
-        public static final int textView1=0x7f0d001e;
-        public static final int textView10=0x7f0d0038;
-        public static final int textView11=0x7f0d002f;
-        public static final int textView12=0x7f0d0033;
-        public static final int textView13=0x7f0d0039;
-        public static final int textView14=0x7f0d003d;
-        public static final int textView15=0x7f0d0041;
-        public static final int textView16=0x7f0d0026;
-        public static final int textView17=0x7f0d002c;
-        public static final int textView18=0x7f0d0031;
-        public static final int textView19=0x7f0d0035;
-        public static final int textView2=0x7f0d001f;
-        public static final int textView20=0x7f0d0042;
-        public static final int textView21=0x7f0d00bb;
-        public static final int textView22=0x7f0d00a1;
-        public static final int textView23=0x7f0d00a4;
-        public static final int textView25=0x7f0d00a7;
-        public static final int textView3=0x7f0d0020;
-        public static final int textView4=0x7f0d0021;
-        public static final int textView5=0x7f0d0022;
-        public static final int textView6=0x7f0d0024;
-        public static final int textView7=0x7f0d002a;
-        public static final int textView8=0x7f0d0040;
-        public static final int textView9=0x7f0d003c;
-        public static final int textView_funFacts=0x7f0d0061;
-        public static final int text_class_info=0x7f0d0092;
-        public static final int text_credit_hours=0x7f0d008c;
-        public static final int text_gpa=0x7f0d008a;
-        public static final int textview_banner_password=0x7f0d0009;
-        public static final int textview_banner_title=0x7f0d0006;
-        public static final int textview_banner_username=0x7f0d0007;
-        public static final int textview_banner_web=0x7f0d0172;
-        public static final int textview_d2l_password=0x7f0d004f;
-        public static final int textview_d2l_title=0x7f0d004c;
-        public static final int textview_d2l_username=0x7f0d004d;
-        public static final int textview_d2l_web=0x7f0d0174;
-        public static final int textview_schedule_add_name=0x7f0d006f;
-        public static final int textview_schedule_update_building_location=0x7f0d00ff;
-        public static final int textview_schedule_update_days=0x7f0d00f7;
-        public static final int textview_schedule_update_end_time=0x7f0d00f5;
-        public static final int textview_schedule_update_name=0x7f0d00ee;
-        public static final int textview_schedule_update_room_location=0x7f0d0102;
-        public static final int textview_schedule_update_section=0x7f0d00f1;
-        public static final int textview_schedule_update_start_time=0x7f0d00f3;
-        public static final int textview_social_body=0x7f0d011a;
-        public static final int textview_social_name=0x7f0d0114;
-        public static final int textview_social_subject=0x7f0d0117;
-        public static final int timerDisplay=0x7f0d007c;
-        public static final int times_spinner=0x7f0d00e9;
-        public static final int todo=0x7f0d01a6;
-        public static final int twitter_page=0x7f0d0159;
-        public static final int view_three_dummy_btn3=0x7f0d016b;
-        public static final int view_three_dummy_btn4=0x7f0d0170;
-        public static final int view_three_dummy_btn5=0x7f0d016f;
-        public static final int view_three_dummy_btn6=0x7f0d016e;
-        public static final int view_three_textview3=0x7f0d016d;
-        public static final int view_three_textview4=0x7f0d0175;
-        public static final int view_three_textview5=0x7f0d0176;
-        public static final int view_three_textview6=0x7f0d0171;
-        public static final int view_two_about_ggc_btn=0x7f0d0178;
-        public static final int view_two_about_ggc_textview=0x7f0d017e;
-        public static final int view_two_calendar_textview=0x7f0d0181;
-        public static final int view_two_degrees=0x7f0d0182;
-        public static final int view_two_department_hours_btn=0x7f0d017f;
-        public static final int view_two_department_hours_textview=0x7f0d0180;
-        public static final int view_two_textview3=0x7f0d0179;
-        public static final int view_two_textview_library=0x7f0d017d;
-        public static final int weather=0x7f0d01ae;
-        public static final int webView=0x7f0d00dc;
-        public static final int webView1=0x7f0d005c;
-        public static final int webview_banner=0x7f0d0005;
-        public static final int webview_d2l=0x7f0d004b;
-        public static final int welcome=0x7f0d01a2;
-        public static final int westernCiv=0x7f0d00d1;
-        public static final int widget_banner=0x7f0d019a;
-        public static final int widget_next_button=0x7f0d019f;
-        public static final int widget_previous_button=0x7f0d019c;
-        public static final int widget_refresh_button=0x7f0d019e;
-        public static final int widget_switch_button=0x7f0d019d;
-        public static final int widget_titles_textview=0x7f0d0199;
-        public static final int widget_view_flipper=0x7f0d019b;
-        public static final int worldHistory=0x7f0d00d2;
-        public static final int writingRhetoric=0x7f0d00cc;
-        public static final int year_spinner=0x7f0d00e5;
-        public static final int yoga=0x7f0d0043;
-        public static final int youtube_page=0x7f0d015a;
+        public static final int Crim_LibArts=0x7f0e0050;
+        public static final int Group=0x7f0e00a0;
+        public static final int History_back=0x7f0e00db;
+        public static final int IT_back=0x7f0e00ca;
+        public static final int IT_business=0x7f0e00c8;
+        public static final int ImEzSendButton=0x7f0e015b;
+        public static final int Muscle1=0x7f0e002c;
+        public static final int Muscle2=0x7f0e002e;
+        public static final int ScrollView=0x7f0e00f5;
+        public static final int SearchDirectoryButton=0x7f0e007d;
+        public static final int accounting_major=0x7f0e001a;
+        public static final int action_catalog_refresh=0x7f0e01b5;
+        public static final int action_settings=0x7f0e01a8;
+        public static final int addTaskButton=0x7f0e0127;
+        public static final int add_class=0x7f0e01b2;
+        public static final int adjust_height=0x7f0e0000;
+        public static final int adjust_width=0x7f0e0001;
+        public static final int americanHistory=0x7f0e00d6;
+        public static final int american_government=0x7f0e00dc;
+        public static final int ampm_spinner=0x7f0e00f2;
+        public static final int applied_math=0x7f0e00e5;
+        public static final int biochemistry=0x7f0e0014;
+        public static final int biology_back=0x7f0e0018;
+        public static final int biology_major=0x7f0e0115;
+        public static final int btnBackward=0x7f0e0088;
+        public static final int btnForward=0x7f0e008a;
+        public static final int btnPlay=0x7f0e0089;
+        public static final int btn_schedule_update_cancel=0x7f0e010d;
+        public static final int btn_schedule_update_end_time=0x7f0e00fe;
+        public static final int btn_schedule_update_start_time=0x7f0e00fc;
+        public static final int btn_schedule_update_submit=0x7f0e010e;
+        public static final int building_location_row=0x7f0e0106;
+        public static final int business_back=0x7f0e0022;
+        public static final int buttonDeleteToDoDB=0x7f0e012a;
+        public static final int buttonLayout=0x7f0e0164;
+        public static final int buttonSaveToDoDB=0x7f0e0129;
+        public static final int button_FunFacts=0x7f0e000b;
+        public static final int button_GGCSong=0x7f0e000a;
+        public static final int button_Geography=0x7f0e0009;
+        public static final int button_History=0x7f0e0007;
+        public static final int button_add_course=0x7f0e009b;
+        public static final int button_banner_login=0x7f0e0013;
+        public static final int button_banner_web=0x7f0e0174;
+        public static final int button_d2l_login=0x7f0e0059;
+        public static final int button_d2l_web=0x7f0e017b;
+        public static final int button_next=0x7f0e0095;
+        public static final int button_remove_course=0x7f0e009c;
+        public static final int button_social_addentry=0x7f0e011a;
+        public static final int button_social_cancel=0x7f0e0125;
+        public static final int button_social_submit=0x7f0e0126;
+        public static final int button_submit=0x7f0e009d;
+        public static final int buttons_row=0x7f0e010c;
+        public static final int calendar_btn=0x7f0e0184;
+        public static final int calendar_webview=0x7f0e0023;
+        public static final int camp1=0x7f0e0032;
+        public static final int camp2=0x7f0e0034;
+        public static final int cellBio=0x7f0e0015;
+        public static final int checkbox_save_banner_login=0x7f0e0012;
+        public static final int checkbox_save_d2l_login=0x7f0e0058;
+        public static final int child_layout_1=0x7f0e0098;
+        public static final int child_layout_2=0x7f0e009a;
+        public static final int chk_schedule_update_friday=0x7f0e0104;
+        public static final int chk_schedule_update_monday=0x7f0e0100;
+        public static final int chk_schedule_update_saturday=0x7f0e0105;
+        public static final int chk_schedule_update_thursday=0x7f0e0103;
+        public static final int chk_schedule_update_tuesday=0x7f0e0101;
+        public static final int chk_schedule_update_wednesday=0x7f0e0102;
+        public static final int clearSearchButton=0x7f0e007a;
+        public static final int clear_schedule=0x7f0e01b3;
+        public static final int comparative_politics=0x7f0e00dd;
+        public static final int create_reminder_button=0x7f0e00ec;
+        public static final int credits=0x7f0e01ac;
+        public static final int creditsTextView=0x7f0e0152;
+        public static final int creditsWebView=0x7f0e0153;
+        public static final int crimJustice_back=0x7f0e0051;
+        public static final int criminal_justice=0x7f0e004e;
+        public static final int criminal_justice_major=0x7f0e00cb;
+        public static final int criminology=0x7f0e004f;
+        public static final int cs_actual_text=0x7f0e0135;
+        public static final int cs_capacity_text=0x7f0e0134;
+        public static final int cs_course_number_input=0x7f0e0140;
+        public static final int cs_course_number_row=0x7f0e013e;
+        public static final int cs_course_title=0x7f0e0139;
+        public static final int cs_credits_input=0x7f0e0144;
+        public static final int cs_credits_row=0x7f0e0143;
+        public static final int cs_date_detail=0x7f0e018d;
+        public static final int cs_days_detail=0x7f0e018c;
+        public static final int cs_days_preview=0x7f0e0191;
+        public static final int cs_days_row=0x7f0e0149;
+        public static final int cs_desc_abbreviated=0x7f0e019d;
+        public static final int cs_detail_desc=0x7f0e012e;
+        public static final int cs_detail_hours=0x7f0e012f;
+        public static final int cs_detail_layout=0x7f0e012c;
+        public static final int cs_detail_loading=0x7f0e0131;
+        public static final int cs_detail_progress=0x7f0e0132;
+        public static final int cs_detail_scroll=0x7f0e012b;
+        public static final int cs_detail_title=0x7f0e012d;
+        public static final int cs_end_time_input=0x7f0e0148;
+        public static final int cs_end_time_row=0x7f0e0147;
+        public static final int cs_enrollment_table=0x7f0e0133;
+        public static final int cs_friday_check=0x7f0e014e;
+        public static final int cs_hours_preview=0x7f0e019e;
+        public static final int cs_instructor_detail=0x7f0e0190;
+        public static final int cs_instructor_input=0x7f0e0142;
+        public static final int cs_instructor_preview=0x7f0e013f;
+        public static final int cs_instructor_row=0x7f0e0141;
+        public static final int cs_loading_layout=0x7f0e0130;
+        public static final int cs_location_detail=0x7f0e018f;
+        public static final int cs_meeting_header=0x7f0e01a0;
+        public static final int cs_meeting_preview_table=0x7f0e019f;
+        public static final int cs_monday_check=0x7f0e014a;
+        public static final int cs_remaining_text=0x7f0e0136;
+        public static final int cs_saturday_check=0x7f0e014f;
+        public static final int cs_search_button=0x7f0e0151;
+        public static final int cs_search_row=0x7f0e0150;
+        public static final int cs_start_time_input=0x7f0e0146;
+        public static final int cs_start_time_row=0x7f0e0145;
+        public static final int cs_subject_list=0x7f0e013d;
+        public static final int cs_subject_row=0x7f0e013b;
+        public static final int cs_term_input=0x7f0e013a;
+        public static final int cs_term_row=0x7f0e0138;
+        public static final int cs_thursday_check=0x7f0e014d;
+        public static final int cs_time_detail=0x7f0e018e;
+        public static final int cs_time_preview=0x7f0e013c;
+        public static final int cs_tuesday_check=0x7f0e014b;
+        public static final int cs_type_text=0x7f0e018b;
+        public static final int cs_wednesday_check=0x7f0e014c;
+        public static final int day_spinner=0x7f0e00ee;
+        public static final int days_row=0x7f0e00ba;
+        public static final int degrees_button=0x7f0e0183;
+        public static final int depthours_hours=0x7f0e005f;
+        public static final int depthours_name=0x7f0e005d;
+        public static final int depthours_open_closed=0x7f0e005e;
+        public static final int didYouKnowImage=0x7f0e0067;
+        public static final int digital_media=0x7f0e00c9;
+        public static final int direction_button=0x7f0e0167;
+        public static final int directory_button=0x7f0e0166;
+        public static final int directory_listView=0x7f0e0080;
+        public static final int early_childhood_major=0x7f0e0064;
+        public static final int economics_major=0x7f0e001b;
+        public static final int editText1=0x7f0e015d;
+        public static final int editText2=0x7f0e015e;
+        public static final int editTextTask=0x7f0e0128;
+        public static final int edittext_banner_password=0x7f0e0011;
+        public static final int edittext_banner_username=0x7f0e000f;
+        public static final int edittext_d2l_password=0x7f0e0057;
+        public static final int edittext_d2l_username=0x7f0e0055;
+        public static final int edittext_schedule_update_name=0x7f0e00f7;
+        public static final int edittext_schedule_update_room_location=0x7f0e010b;
+        public static final int edittext_schedule_update_section=0x7f0e00fa;
+        public static final int edittext_social_body=0x7f0e0123;
+        public static final int edittext_social_name=0x7f0e011d;
+        public static final int edittext_social_subject=0x7f0e0120;
+        public static final int education_back=0x7f0e0066;
+        public static final int end_time_row=0x7f0e00b9;
+        public static final int english_back=0x7f0e00d5;
+        public static final int english_major=0x7f0e00cc;
+        public static final int enterprise_systems=0x7f0e00c5;
+        public static final int exercise_science_major=0x7f0e0116;
+        public static final int facebook_page=0x7f0e0160;
+        public static final int feedback=0x7f0e01b0;
+        public static final int finance_major=0x7f0e001c;
+        public static final int firstNameText=0x7f0e0077;
+        public static final int flickrLink=0x7f0e006a;
+        public static final int flickrLinkIntro=0x7f0e0069;
+        public static final int flipper=0x7f0e0165;
+        public static final int focusholder=0x7f0e0137;
+        public static final int generalBio=0x7f0e0016;
+        public static final int general_business_major=0x7f0e001d;
+        public static final int geographyLink=0x7f0e006d;
+        public static final int geographyLinkTitle=0x7f0e006c;
+        public static final int ggc_building_f_map=0x7f0e0158;
+        public static final int ggc_logo=0x7f0e005b;
+        public static final int ggc_text=0x7f0e005a;
+        public static final int gpa_calc_button=0x7f0e017f;
+        public static final int gymSchedule=0x7f0e009f;
+        public static final int gym_button=0x7f0e016c;
+        public static final int gym_email=0x7f0e00af;
+        public static final int gym_phone=0x7f0e00ac;
+        public static final int gymfbuilding=0x7f0e00a9;
+        public static final int healthMagazine=0x7f0e00a1;
+        public static final int health_science_back=0x7f0e00c4;
+        public static final int historyImageView1=0x7f0e006e;
+        public static final int historyImageView2=0x7f0e0070;
+        public static final int historyTextView1=0x7f0e006f;
+        public static final int historyTextView2=0x7f0e0071;
+        public static final int historyTextView3=0x7f0e0072;
+        public static final int history_major=0x7f0e00cd;
+        public static final int hybrid=0x7f0e0003;
+        public static final int imEzSearchButton=0x7f0e015c;
+        public static final int imageMap=0x7f0e0062;
+        public static final int imageView1=0x7f0e006b;
+        public static final int imageView_GGCLogo=0x7f0e0008;
+        public static final int imageView_ggc_a_Building_map=0x7f0e0154;
+        public static final int imageView_ggc_building_b_map=0x7f0e0155;
+        public static final int imageView_ggc_c_Building_map=0x7f0e0156;
+        public static final int imageView_ggc_d_Building_map=0x7f0e0157;
+        public static final int imageView_ggc_l_Building_map=0x7f0e0159;
+        public static final int imageView_ggc_student_center_map=0x7f0e015a;
+        public static final int imageview_id=0x7f0e0019;
+        public static final int information_technology_major=0x7f0e0117;
+        public static final int input_credit_hours=0x7f0e0094;
+        public static final int input_gpa=0x7f0e0092;
+        public static final int instruction_text=0x7f0e0061;
+        public static final int interDiscHistory=0x7f0e00d7;
+        public static final int interStudies=0x7f0e00d1;
+        public static final int international_business_major=0x7f0e001e;
+        public static final int international_relations=0x7f0e00de;
+        public static final int interval1=0x7f0e002f;
+        public static final int interval2=0x7f0e0041;
+        public static final int interval3=0x7f0e0045;
+        public static final int kickboxing=0x7f0e003d;
+        public static final int langLit=0x7f0e00d2;
+        public static final int lastNameText=0x7f0e0078;
+        public static final int leadership_major=0x7f0e001f;
+        public static final int legal_studies=0x7f0e00df;
+        public static final int letes=0x7f0e003b;
+        public static final int liberal_arts_back=0x7f0e00d0;
+        public static final int library_button=0x7f0e0182;
+        public static final int library_webview=0x7f0e00e2;
+        public static final int linearLayout1=0x7f0e009e;
+        public static final int linearLayout_focus=0x7f0e0073;
+        public static final int links=0x7f0e01ab;
+        public static final int listView1=0x7f0e007b;
+        public static final int list_complex_caption=0x7f0e00f4;
+        public static final int list_complex_title=0x7f0e00f3;
+        public static final int list_header_title=0x7f0e0197;
+        public static final int list_item_title=0x7f0e0198;
+        public static final int lyricsDisplay=0x7f0e008b;
+        public static final int lyricsScrollView=0x7f0e008d;
+        public static final int lyricsText=0x7f0e008f;
+        public static final int lyricsTextDisplay=0x7f0e008e;
+        public static final int lyricsTitle=0x7f0e008c;
+        public static final int main_textview_class_search=0x7f0e016d;
+        public static final int main_textview_directions=0x7f0e016e;
+        public static final int main_textview_directory=0x7f0e0168;
+        public static final int main_textview_gym=0x7f0e0171;
+        public static final int main_textview_maps=0x7f0e0170;
+        public static final int main_textview_schedule=0x7f0e0172;
+        public static final int map=0x7f0e00e9;
+        public static final int map_button=0x7f0e016f;
+        public static final int marketing_major=0x7f0e0021;
+        public static final int math_back=0x7f0e00e7;
+        public static final int mathematics_major=0x7f0e0118;
+        public static final int menu_settings=0x7f0e01a9;
+        public static final int mis_major=0x7f0e0020;
+        public static final int month_spinner=0x7f0e00ef;
+        public static final int myInfoWebView=0x7f0e00e8;
+        public static final int myinfo=0x7f0e01ad;
+        public static final int name_row=0x7f0e00b1;
+        public static final int none=0x7f0e0002;
+        public static final int normal=0x7f0e0004;
+        public static final int notification_on_row=0x7f0e0199;
+        public static final int notification_time_Row=0x7f0e019b;
+        public static final int nursing_major=0x7f0e00c3;
+        public static final int player_footer_bg=0x7f0e0087;
+        public static final int player_header_bg=0x7f0e0081;
+        public static final int political_science_major=0x7f0e00ce;
+        public static final int politics_back=0x7f0e00e1;
+        public static final int psychology_major=0x7f0e00cf;
+        public static final int pure_math=0x7f0e00e6;
+        public static final int quoteTextView=0x7f0e00a2;
+        public static final int recentSearches=0x7f0e007c;
+        public static final int reminder_date_label=0x7f0e00f0;
+        public static final int reminder_description=0x7f0e00ea;
+        public static final int reminder_label=0x7f0e00eb;
+        public static final int reminder_label_view=0x7f0e004c;
+        public static final int reminder_notification_view=0x7f0e004b;
+        public static final int reminder_text_view=0x7f0e004d;
+        public static final int reminders=0x7f0e01b1;
+        public static final int room_location_row=0x7f0e0109;
+        public static final int rss_body=0x7f0e0194;
+        public static final int rss_date=0x7f0e0193;
+        public static final int rss_feed=0x7f0e0163;
+        public static final int rss_pager=0x7f0e0195;
+        public static final int rss_pager_title_strip=0x7f0e0196;
+        public static final int rss_title=0x7f0e0192;
+        public static final int satellite=0x7f0e0005;
+        public static final int saveSearchButton=0x7f0e007e;
+        public static final int schedule_button=0x7f0e016a;
+        public static final int schedule_pref_spn_reminder=0x7f0e019c;
+        public static final int schedule_pref_txt_notify=0x7f0e019a;
+        public static final int schedule_settings=0x7f0e01b4;
+        public static final int school_business=0x7f0e010f;
+        public static final int school_education=0x7f0e0110;
+        public static final int school_health=0x7f0e0111;
+        public static final int school_liberalarts=0x7f0e0112;
+        public static final int school_sciencetech=0x7f0e0113;
+        public static final int schools_back=0x7f0e0114;
+        public static final int science_technology_back=0x7f0e0119;
+        public static final int screen=0x7f0e00e4;
+        public static final int scrollView1=0x7f0e0079;
+        public static final int search_button=0x7f0e0169;
+        public static final int section_row=0x7f0e00f8;
+        public static final int semester_layout=0x7f0e0097;
+        public static final int semester_scroll_layout=0x7f0e0096;
+        public static final int social=0x7f0e01af;
+        public static final int socialLinearLayout=0x7f0e016b;
+        public static final int social_body_row=0x7f0e0121;
+        public static final int social_buttons_row=0x7f0e0124;
+        public static final int social_name_row=0x7f0e011b;
+        public static final int social_subject_row=0x7f0e011e;
+        public static final int software_development=0x7f0e00c6;
+        public static final int songAuthorText=0x7f0e0090;
+        public static final int songCurrentDurationLabel=0x7f0e0084;
+        public static final int songProgressBar=0x7f0e0086;
+        public static final int songTitle=0x7f0e0082;
+        public static final int songTotalDurationLabel=0x7f0e0085;
+        public static final int special_education_major=0x7f0e0065;
+        public static final int spinnerText=0x7f0e0060;
+        public static final int spinner_schedule_update_building_location=0x7f0e0108;
+        public static final int start_button=0x7f0e005c;
+        public static final int start_time_row=0x7f0e00b2;
+        public static final int strength=0x7f0e0037;
+        public static final int systems_security=0x7f0e00c7;
+        public static final int tab1=0x7f0e007f;
+        public static final int tab2=0x7f0e0075;
+        public static final int tabHost=0x7f0e0074;
+        public static final int tableLayout1=0x7f0e00a3;
+        public static final int tableRow1=0x7f0e0024;
+        public static final int tableRow10=0x7f0e00b4;
+        public static final int tableRow11=0x7f0e00b5;
+        public static final int tableRow12=0x7f0e00b6;
+        public static final int tableRow13=0x7f0e00b7;
+        public static final int tableRow14=0x7f0e00b8;
+        public static final int tableRow15=0x7f0e00bb;
+        public static final int tableRow16=0x7f0e00bc;
+        public static final int tableRow17=0x7f0e00bd;
+        public static final int tableRow18=0x7f0e00be;
+        public static final int tableRow19=0x7f0e00bf;
+        public static final int tableRow2=0x7f0e002a;
+        public static final int tableRow20=0x7f0e00c0;
+        public static final int tableRow21=0x7f0e00c1;
+        public static final int tableRow22=0x7f0e00b0;
+        public static final int tableRow23=0x7f0e00a5;
+        public static final int tableRow24=0x7f0e00a7;
+        public static final int tableRow25=0x7f0e00a4;
+        public static final int tableRow26=0x7f0e00aa;
+        public static final int tableRow27=0x7f0e00ad;
+        public static final int tableRow28=0x7f0e00a6;
+        public static final int tableRow3=0x7f0e0030;
+        public static final int tableRow4=0x7f0e0046;
+        public static final int tableRow5=0x7f0e0042;
+        public static final int tableRow6=0x7f0e003e;
+        public static final int tableRow7=0x7f0e0035;
+        public static final int tableRow8=0x7f0e0039;
+        public static final int tableRow9=0x7f0e00b3;
+        public static final int taskEntry=0x7f0e015f;
+        public static final int teacherCert=0x7f0e00d4;
+        public static final int teacherCertHistory=0x7f0e00da;
+        public static final int teacherCert_bio=0x7f0e0017;
+        public static final int teacher_cert=0x7f0e00e0;
+        public static final int terrain=0x7f0e0006;
+        public static final int textView1=0x7f0e0025;
+        public static final int textView10=0x7f0e003f;
+        public static final int textView11=0x7f0e0036;
+        public static final int textView12=0x7f0e003a;
+        public static final int textView13=0x7f0e0040;
+        public static final int textView14=0x7f0e0044;
+        public static final int textView15=0x7f0e0048;
+        public static final int textView16=0x7f0e002d;
+        public static final int textView17=0x7f0e0033;
+        public static final int textView18=0x7f0e0038;
+        public static final int textView19=0x7f0e003c;
+        public static final int textView2=0x7f0e0026;
+        public static final int textView20=0x7f0e0049;
+        public static final int textView21=0x7f0e00c2;
+        public static final int textView22=0x7f0e00a8;
+        public static final int textView23=0x7f0e00ab;
+        public static final int textView25=0x7f0e00ae;
+        public static final int textView3=0x7f0e0027;
+        public static final int textView4=0x7f0e0028;
+        public static final int textView5=0x7f0e0029;
+        public static final int textView6=0x7f0e002b;
+        public static final int textView7=0x7f0e0031;
+        public static final int textView8=0x7f0e0047;
+        public static final int textView9=0x7f0e0043;
+        public static final int textView_funFacts=0x7f0e0068;
+        public static final int text_class_info=0x7f0e0099;
+        public static final int text_credit_hours=0x7f0e0093;
+        public static final int text_gpa=0x7f0e0091;
+        public static final int textview_banner_password=0x7f0e0010;
+        public static final int textview_banner_title=0x7f0e000d;
+        public static final int textview_banner_username=0x7f0e000e;
+        public static final int textview_banner_web=0x7f0e017a;
+        public static final int textview_d2l_password=0x7f0e0056;
+        public static final int textview_d2l_title=0x7f0e0053;
+        public static final int textview_d2l_username=0x7f0e0054;
+        public static final int textview_d2l_web=0x7f0e017c;
+        public static final int textview_schedule_add_name=0x7f0e0076;
+        public static final int textview_schedule_update_building_location=0x7f0e0107;
+        public static final int textview_schedule_update_days=0x7f0e00ff;
+        public static final int textview_schedule_update_end_time=0x7f0e00fd;
+        public static final int textview_schedule_update_name=0x7f0e00f6;
+        public static final int textview_schedule_update_room_location=0x7f0e010a;
+        public static final int textview_schedule_update_section=0x7f0e00f9;
+        public static final int textview_schedule_update_start_time=0x7f0e00fb;
+        public static final int textview_social_body=0x7f0e0122;
+        public static final int textview_social_name=0x7f0e011c;
+        public static final int textview_social_subject=0x7f0e011f;
+        public static final int timerDisplay=0x7f0e0083;
+        public static final int times_spinner=0x7f0e00f1;
+        public static final int todo=0x7f0e01ae;
+        public static final int twitter_page=0x7f0e0161;
+        public static final int view_three_dummy_btn3=0x7f0e0173;
+        public static final int view_three_dummy_btn5=0x7f0e0177;
+        public static final int view_three_dummy_btn6=0x7f0e0176;
+        public static final int view_three_parking_button=0x7f0e0178;
+        public static final int view_three_textView_parkingmap=0x7f0e017d;
+        public static final int view_three_textview3=0x7f0e0175;
+        public static final int view_three_textview5=0x7f0e017e;
+        public static final int view_three_textview6=0x7f0e0179;
+        public static final int view_two_about_ggc_btn=0x7f0e0180;
+        public static final int view_two_about_ggc_textview=0x7f0e0186;
+        public static final int view_two_calendar_textview=0x7f0e0189;
+        public static final int view_two_degrees=0x7f0e018a;
+        public static final int view_two_department_hours_btn=0x7f0e0187;
+        public static final int view_two_department_hours_textview=0x7f0e0188;
+        public static final int view_two_textview3=0x7f0e0181;
+        public static final int view_two_textview_library=0x7f0e0185;
+        public static final int weather=0x7f0e01b6;
+        public static final int webView=0x7f0e00e3;
+        public static final int webView1=0x7f0e0063;
+        public static final int webview_banner=0x7f0e000c;
+        public static final int webview_d2l=0x7f0e0052;
+        public static final int welcome=0x7f0e01aa;
+        public static final int westernCiv=0x7f0e00d8;
+        public static final int widget_banner=0x7f0e01a2;
+        public static final int widget_next_button=0x7f0e01a7;
+        public static final int widget_previous_button=0x7f0e01a4;
+        public static final int widget_refresh_button=0x7f0e01a6;
+        public static final int widget_switch_button=0x7f0e01a5;
+        public static final int widget_titles_textview=0x7f0e01a1;
+        public static final int widget_view_flipper=0x7f0e01a3;
+        public static final int worldHistory=0x7f0e00d9;
+        public static final int writingRhetoric=0x7f0e00d3;
+        public static final int year_spinner=0x7f0e00ed;
+        public static final int yoga=0x7f0e004a;
+        public static final int youtube_page=0x7f0e0162;
+    }
+    public static final class integer {
+        public static final int google_play_services_version=0x7f0a0000;
     }
     public static final class layout {
         public static final int activity_about_main=0x7f030000;
@@ -616,212 +831,246 @@ public final class R {
         public static final int activity_main=0x7f030025;
         public static final int activity_mathematics=0x7f030026;
         public static final int activity_myinfo=0x7f030027;
-        public static final int activity_reminders=0x7f030028;
-        public static final int activity_saved_search_database=0x7f030029;
-        public static final int activity_schedule=0x7f03002a;
-        public static final int activity_schedule_update_class=0x7f03002b;
-        public static final int activity_schools=0x7f03002c;
-        public static final int activity_science_technology=0x7f03002d;
-        public static final int activity_social_listview=0x7f03002e;
-        public static final int activity_social_update=0x7f03002f;
-        public static final int activity_todo=0x7f030030;
-        public static final int activity_updatedb=0x7f030031;
-        public static final int bg_player_footer=0x7f030032;
-        public static final int bg_player_header=0x7f030033;
-        public static final int class_detail=0x7f030034;
-        public static final int class_search=0x7f030035;
-        public static final int credits=0x7f030036;
-        public static final int ggc_a_building_map=0x7f030037;
-        public static final int ggc_b_building_map=0x7f030038;
-        public static final int ggc_c_building_map=0x7f030039;
-        public static final int ggc_d_building_map=0x7f03003a;
-        public static final int ggc_f_building_map=0x7f03003b;
-        public static final int ggc_l_building_map=0x7f03003c;
-        public static final int ggc_student_center_map=0x7f03003d;
-        public static final int imez=0x7f03003e;
-        public static final int list_row=0x7f03003f;
-        public static final int main_screen_social_view=0x7f030040;
-        public static final int main_screen_view=0x7f030041;
-        public static final int main_screen_view_one=0x7f030042;
-        public static final int main_screen_view_three=0x7f030043;
-        public static final int main_screen_view_two=0x7f030044;
-        public static final int meeting_detail=0x7f030045;
-        public static final int meeting_preview=0x7f030046;
-        public static final int news=0x7f030047;
-        public static final int rounded_corner=0x7f030048;
-        public static final int rss_list=0x7f030049;
-        public static final int rss_list_row=0x7f03004a;
-        public static final int rss_view_pager=0x7f03004b;
-        public static final int schedule_list_header=0x7f03004c;
-        public static final int schedule_list_item=0x7f03004d;
-        public static final int schedule_preference=0x7f03004e;
-        public static final int section_preview=0x7f03004f;
-        public static final int widget_item=0x7f030050;
-        public static final int widget_layout=0x7f030051;
+        public static final int activity_parking_map=0x7f030028;
+        public static final int activity_reminders=0x7f030029;
+        public static final int activity_saved_search_database=0x7f03002a;
+        public static final int activity_schedule=0x7f03002b;
+        public static final int activity_schedule_update_class=0x7f03002c;
+        public static final int activity_schools=0x7f03002d;
+        public static final int activity_science_technology=0x7f03002e;
+        public static final int activity_social_listview=0x7f03002f;
+        public static final int activity_social_update=0x7f030030;
+        public static final int activity_todo=0x7f030031;
+        public static final int activity_updatedb=0x7f030032;
+        public static final int bg_player_footer=0x7f030033;
+        public static final int bg_player_header=0x7f030034;
+        public static final int class_detail=0x7f030035;
+        public static final int class_search=0x7f030036;
+        public static final int credits=0x7f030037;
+        public static final int ggc_a_building_map=0x7f030038;
+        public static final int ggc_b_building_map=0x7f030039;
+        public static final int ggc_c_building_map=0x7f03003a;
+        public static final int ggc_d_building_map=0x7f03003b;
+        public static final int ggc_f_building_map=0x7f03003c;
+        public static final int ggc_l_building_map=0x7f03003d;
+        public static final int ggc_student_center_map=0x7f03003e;
+        public static final int imez=0x7f03003f;
+        public static final int list_row=0x7f030040;
+        public static final int main_screen_social_view=0x7f030041;
+        public static final int main_screen_view=0x7f030042;
+        public static final int main_screen_view_one=0x7f030043;
+        public static final int main_screen_view_three=0x7f030044;
+        public static final int main_screen_view_two=0x7f030045;
+        public static final int meeting_detail=0x7f030046;
+        public static final int meeting_preview=0x7f030047;
+        public static final int news=0x7f030048;
+        public static final int rounded_corner=0x7f030049;
+        public static final int rss_list=0x7f03004a;
+        public static final int rss_list_row=0x7f03004b;
+        public static final int rss_view_pager=0x7f03004c;
+        public static final int schedule_list_header=0x7f03004d;
+        public static final int schedule_list_item=0x7f03004e;
+        public static final int schedule_preference=0x7f03004f;
+        public static final int section_preview=0x7f030050;
+        public static final int widget_item=0x7f030051;
+        public static final int widget_layout=0x7f030052;
     }
     public static final class menu {
-        public static final int about_main=0x7f0c0000;
-        public static final int activity_calendar_gym=0x7f0c0001;
-        public static final int activity_direction=0x7f0c0002;
-        public static final int activity_groups=0x7f0c0003;
-        public static final int activity_gym_main=0x7f0c0004;
-        public static final int activity_gym_schedule=0x7f0c0005;
-        public static final int activity_magazine=0x7f0c0006;
-        public static final int activity_magazine_web_view=0x7f0c0007;
-        public static final int activity_main=0x7f0c0008;
-        public static final int activity_saved_search_database=0x7f0c0009;
-        public static final int activity_schedule=0x7f0c000a;
-        public static final int class_search_menu=0x7f0c000b;
-        public static final int create_reminder=0x7f0c000c;
-        public static final int ggcfun_facts=0x7f0c000d;
-        public static final int ggcgeography=0x7f0c000e;
-        public static final int ggcsong=0x7f0c000f;
-        public static final int gpacalc=0x7f0c0010;
-        public static final int gpacalc_semester=0x7f0c0011;
-        public static final int history_button=0x7f0c0012;
-        public static final int reminders=0x7f0c0013;
-        public static final int weather=0x7f0c0014;
+        public static final int about_main=0x7f0d0000;
+        public static final int activity_calendar_gym=0x7f0d0001;
+        public static final int activity_direction=0x7f0d0002;
+        public static final int activity_groups=0x7f0d0003;
+        public static final int activity_gym_main=0x7f0d0004;
+        public static final int activity_gym_schedule=0x7f0d0005;
+        public static final int activity_magazine=0x7f0d0006;
+        public static final int activity_magazine_web_view=0x7f0d0007;
+        public static final int activity_main=0x7f0d0008;
+        public static final int activity_saved_search_database=0x7f0d0009;
+        public static final int activity_schedule=0x7f0d000a;
+        public static final int class_search_menu=0x7f0d000b;
+        public static final int create_reminder=0x7f0d000c;
+        public static final int ggcfun_facts=0x7f0d000d;
+        public static final int ggcgeography=0x7f0d000e;
+        public static final int ggcsong=0x7f0d000f;
+        public static final int gpacalc=0x7f0d0010;
+        public static final int gpacalc_semester=0x7f0d0011;
+        public static final int history_button=0x7f0d0012;
+        public static final int menu_parking=0x7f0d0013;
+        public static final int menu_parking_map=0x7f0d0014;
+        public static final int reminders=0x7f0d0015;
+        public static final int weather=0x7f0d0016;
     }
     public static final class raw {
         public static final int ggc_alma_mater=0x7f060000;
+        public static final int gtm_analytics=0x7f060001;
     }
     public static final class string {
-        public static final int action_settings=0x7f0a0000;
-        public static final int activity_reminder_lower_text=0x7f0a0001;
-        public static final int activity_reminder_upper_text=0x7f0a0002;
-        public static final int add_schedule_button_text=0x7f0a0003;
-        public static final int app_name=0x7f0a0004;
-        public static final int btn_schedule_update_cancel=0x7f0a0005;
-        public static final int btn_schedule_update_end_time=0x7f0a0006;
-        public static final int btn_schedule_update_start_time=0x7f0a0007;
-        public static final int button_FindaPlace=0x7f0a0008;
-        public static final int chk_schedule_update_friday=0x7f0a0009;
-        public static final int chk_schedule_update_monday=0x7f0a000a;
-        public static final int chk_schedule_update_saturday=0x7f0a000b;
-        public static final int chk_schedule_update_thursday=0x7f0a000c;
-        public static final int chk_schedule_update_tuesday=0x7f0a000d;
-        public static final int chk_schedule_update_wednesday=0x7f0a000e;
-        public static final int credits=0x7f0a000f;
-        public static final int cs_actual_label=0x7f0a0010;
-        public static final int cs_capacity_label=0x7f0a0011;
-        public static final int cs_course_number_label=0x7f0a0012;
-        public static final int cs_course_title_label=0x7f0a0013;
-        public static final int cs_credits_label=0x7f0a0014;
-        public static final int cs_date_label=0x7f0a0015;
-        public static final int cs_days_label=0x7f0a0016;
-        public static final int cs_end_time_label=0x7f0a0017;
-        public static final int cs_enrollment_label=0x7f0a0018;
-        public static final int cs_friday_label=0x7f0a0019;
-        public static final int cs_instructor_label=0x7f0a001a;
-        public static final int cs_loading_error=0x7f0a001b;
-        public static final int cs_location_label=0x7f0a001c;
-        public static final int cs_main_label=0x7f0a001d;
-        public static final int cs_monday_label=0x7f0a001e;
-        public static final int cs_remaining_label=0x7f0a001f;
-        public static final int cs_saturday_label=0x7f0a0020;
-        public static final int cs_search_label=0x7f0a0021;
-        public static final int cs_start_time_label=0x7f0a0022;
-        public static final int cs_subject_label=0x7f0a0023;
-        public static final int cs_term_label=0x7f0a0024;
-        public static final int cs_thursday_label=0x7f0a0025;
-        public static final int cs_time_label=0x7f0a0026;
-        public static final int cs_tuesday_label=0x7f0a0027;
-        public static final int cs_wednesday_label=0x7f0a0028;
-        public static final int dating_label=0x7f0a0029;
-        public static final int direction_label=0x7f0a002a;
-        public static final int directory_label=0x7f0a002b;
-        public static final int ds_add_class_label=0x7f0a002c;
-        public static final int ds_bday_label=0x7f0a002d;
-        public static final int ds_course_label=0x7f0a002e;
-        public static final int ds_done_label=0x7f0a002f;
-        public static final int ds_gender_label=0x7f0a0030;
-        public static final int ds_name_label=0x7f0a0031;
-        public static final int ds_next_label=0x7f0a0032;
-        public static final int ds_search_by_label=0x7f0a0033;
-        public static final int ds_section_label=0x7f0a0034;
-        public static final int ds_subject_label=0x7f0a0035;
-        public static final int example_reminder=0x7f0a0036;
-        public static final int feedback=0x7f0a0037;
-        public static final int gym_label=0x7f0a0038;
-        public static final int hello_world=0x7f0a0039;
-        public static final int instruction=0x7f0a003a;
-        public static final int links=0x7f0a003b;
-        public static final int main_facebook_desc=0x7f0a003c;
-        public static final int main_rss_desc=0x7f0a003d;
-        public static final int main_title=0x7f0a003e;
-        public static final int main_twitter_desc=0x7f0a003f;
-        public static final int main_youtube_desc=0x7f0a0040;
-        public static final int map_label=0x7f0a0041;
-        public static final int menu_settings=0x7f0a0042;
-        public static final int myinfo=0x7f0a0043;
-        public static final int parse_app_id=0x7f0a0044;
-        public static final int parse_client_key=0x7f0a0045;
-        public static final int reminder_button_text=0x7f0a0046;
-        public static final int reminder_date_label=0x7f0a0047;
-        public static final int reminder_label=0x7f0a0048;
-        public static final int reminder_result_example=0x7f0a0049;
-        public static final int reminders=0x7f0a004a;
-        public static final int schedule_add_class=0x7f0a004b;
-        public static final int schedule_add_name_hint=0x7f0a004c;
-        public static final int schedule_edit_class=0x7f0a004d;
-        public static final int schedule_label=0x7f0a004e;
-        public static final int schedule_menu_clear_schedule=0x7f0a004f;
-        public static final int schedule_menu_settings=0x7f0a0050;
-        public static final int schedule_no_classes_popup=0x7f0a0051;
-        public static final int schedule_pref_chk_notify_txt=0x7f0a0052;
-        public static final int schedule_pref_notify_desc=0x7f0a0053;
-        public static final int schedule_pref_reminder_txt=0x7f0a0054;
-        public static final int schedule_remove_class=0x7f0a0055;
-        public static final int schedule_update_building_spinner_prompt=0x7f0a0056;
-        public static final int schedule_update_name_label=0x7f0a0057;
-        public static final int schedule_update_section=0x7f0a0058;
-        public static final int social=0x7f0a0059;
-        public static final int spinner_schedule_update_prompt=0x7f0a005a;
-        public static final int text_FindaPlace=0x7f0a005b;
-        public static final int textview_schedule_update_building_location=0x7f0a005c;
-        public static final int textview_schedule_update_days=0x7f0a005d;
-        public static final int textview_schedule_update_end_time=0x7f0a005e;
-        public static final int textview_schedule_update_room_location=0x7f0a005f;
-        public static final int textview_schedule_update_start_time=0x7f0a0060;
-        public static final int thai_ggc_map=0x7f0a0061;
-        public static final int title_activity_about_main=0x7f0a0062;
-        public static final int title_activity_banner_web=0x7f0a0063;
-        public static final int title_activity_banner_web_login=0x7f0a0064;
-        public static final int title_activity_biology=0x7f0a0065;
-        public static final int title_activity_business=0x7f0a0066;
-        public static final int title_activity_calendar=0x7f0a0067;
-        public static final int title_activity_create_reminder=0x7f0a0068;
-        public static final int title_activity_criminal_justice=0x7f0a0069;
-        public static final int title_activity_d2_lweb=0x7f0a006a;
-        public static final int title_activity_d2_lweb_login=0x7f0a006b;
-        public static final int title_activity_degrees_main=0x7f0a006c;
-        public static final int title_activity_departmenthours=0x7f0a006d;
-        public static final int title_activity_direction=0x7f0a006e;
-        public static final int title_activity_directory=0x7f0a006f;
-        public static final int title_activity_directory_search_web_view=0x7f0a0070;
-        public static final int title_activity_education=0x7f0a0071;
-        public static final int title_activity_ggcfun_facts=0x7f0a0072;
-        public static final int title_activity_ggcgeography=0x7f0a0073;
-        public static final int title_activity_ggcsong=0x7f0a0074;
-        public static final int title_activity_gpacalc=0x7f0a0075;
-        public static final int title_activity_gpacalc_semester=0x7f0a0076;
-        public static final int title_activity_health_science=0x7f0a0077;
-        public static final int title_activity_history_button=0x7f0a0078;
-        public static final int title_activity_information_technology=0x7f0a0079;
-        public static final int title_activity_liberal_arts=0x7f0a007a;
-        public static final int title_activity_liberal_arts_english=0x7f0a007b;
-        public static final int title_activity_liberal_arts_history=0x7f0a007c;
-        public static final int title_activity_liberal_arts_political_science=0x7f0a007d;
-        public static final int title_activity_library=0x7f0a007e;
-        public static final int title_activity_mathematics=0x7f0a007f;
-        public static final int title_activity_reminders=0x7f0a0080;
-        public static final int title_activity_saved_search_database=0x7f0a0081;
-        public static final int title_activity_schedule=0x7f0a0082;
-        public static final int title_activity_schedule_update_class=0x7f0a0083;
-        public static final int title_activity_schools=0x7f0a0084;
-        public static final int title_activity_science_technology=0x7f0a0085;
-        public static final int to_do=0x7f0a0086;
-        public static final int welcome=0x7f0a0087;
+        public static final int action_settings=0x7f0b0000;
+        public static final int activity_reminder_lower_text=0x7f0b0001;
+        public static final int activity_reminder_upper_text=0x7f0b0002;
+        public static final int add_schedule_button_text=0x7f0b0003;
+        public static final int app_name=0x7f0b0004;
+        public static final int btn_schedule_update_cancel=0x7f0b0005;
+        public static final int btn_schedule_update_end_time=0x7f0b0006;
+        public static final int btn_schedule_update_start_time=0x7f0b0007;
+        public static final int button_FindaPlace=0x7f0b0008;
+        public static final int chk_schedule_update_friday=0x7f0b0009;
+        public static final int chk_schedule_update_monday=0x7f0b000a;
+        public static final int chk_schedule_update_saturday=0x7f0b000b;
+        public static final int chk_schedule_update_thursday=0x7f0b000c;
+        public static final int chk_schedule_update_tuesday=0x7f0b000d;
+        public static final int chk_schedule_update_wednesday=0x7f0b000e;
+        public static final int common_android_wear_notification_needs_update_text=0x7f0b000f;
+        public static final int common_android_wear_update_text=0x7f0b0010;
+        public static final int common_android_wear_update_title=0x7f0b0011;
+        public static final int common_google_play_services_enable_button=0x7f0b0012;
+        public static final int common_google_play_services_enable_text=0x7f0b0013;
+        public static final int common_google_play_services_enable_title=0x7f0b0014;
+        public static final int common_google_play_services_error_notification_requested_by_msg=0x7f0b0015;
+        public static final int common_google_play_services_install_button=0x7f0b0016;
+        public static final int common_google_play_services_install_text_phone=0x7f0b0017;
+        public static final int common_google_play_services_install_text_tablet=0x7f0b0018;
+        public static final int common_google_play_services_install_title=0x7f0b0019;
+        public static final int common_google_play_services_invalid_account_text=0x7f0b001a;
+        public static final int common_google_play_services_invalid_account_title=0x7f0b001b;
+        public static final int common_google_play_services_needs_enabling_title=0x7f0b001c;
+        public static final int common_google_play_services_network_error_text=0x7f0b001d;
+        public static final int common_google_play_services_network_error_title=0x7f0b001e;
+        public static final int common_google_play_services_notification_needs_installation_title=0x7f0b001f;
+        public static final int common_google_play_services_notification_needs_update_title=0x7f0b0020;
+        public static final int common_google_play_services_notification_ticker=0x7f0b0021;
+        public static final int common_google_play_services_unknown_issue=0x7f0b0022;
+        public static final int common_google_play_services_unsupported_text=0x7f0b0023;
+        public static final int common_google_play_services_unsupported_title=0x7f0b0024;
+        public static final int common_google_play_services_update_button=0x7f0b0025;
+        public static final int common_google_play_services_update_text=0x7f0b0026;
+        public static final int common_google_play_services_update_title=0x7f0b0027;
+        public static final int common_open_on_phone=0x7f0b0028;
+        public static final int common_signin_button_text=0x7f0b0029;
+        public static final int common_signin_button_text_long=0x7f0b002a;
+        public static final int credits=0x7f0b002b;
+        public static final int cs_actual_label=0x7f0b002c;
+        public static final int cs_capacity_label=0x7f0b002d;
+        public static final int cs_course_number_label=0x7f0b002e;
+        public static final int cs_course_title_label=0x7f0b002f;
+        public static final int cs_credits_label=0x7f0b0030;
+        public static final int cs_date_label=0x7f0b0031;
+        public static final int cs_days_label=0x7f0b0032;
+        public static final int cs_end_time_label=0x7f0b0033;
+        public static final int cs_enrollment_label=0x7f0b0034;
+        public static final int cs_friday_label=0x7f0b0035;
+        public static final int cs_instructor_label=0x7f0b0036;
+        public static final int cs_loading_error=0x7f0b0037;
+        public static final int cs_location_label=0x7f0b0038;
+        public static final int cs_main_label=0x7f0b0039;
+        public static final int cs_monday_label=0x7f0b003a;
+        public static final int cs_remaining_label=0x7f0b003b;
+        public static final int cs_saturday_label=0x7f0b003c;
+        public static final int cs_search_label=0x7f0b003d;
+        public static final int cs_start_time_label=0x7f0b003e;
+        public static final int cs_subject_label=0x7f0b003f;
+        public static final int cs_term_label=0x7f0b0040;
+        public static final int cs_thursday_label=0x7f0b0041;
+        public static final int cs_time_label=0x7f0b0042;
+        public static final int cs_tuesday_label=0x7f0b0043;
+        public static final int cs_wednesday_label=0x7f0b0044;
+        public static final int dating_label=0x7f0b0045;
+        public static final int direction_label=0x7f0b0046;
+        public static final int directory_label=0x7f0b0047;
+        public static final int ds_add_class_label=0x7f0b0048;
+        public static final int ds_bday_label=0x7f0b0049;
+        public static final int ds_course_label=0x7f0b004a;
+        public static final int ds_done_label=0x7f0b004b;
+        public static final int ds_gender_label=0x7f0b004c;
+        public static final int ds_name_label=0x7f0b004d;
+        public static final int ds_next_label=0x7f0b004e;
+        public static final int ds_search_by_label=0x7f0b004f;
+        public static final int ds_section_label=0x7f0b0050;
+        public static final int ds_subject_label=0x7f0b0051;
+        public static final int example_reminder=0x7f0b0052;
+        public static final int feedback=0x7f0b0053;
+        public static final int gym_label=0x7f0b0054;
+        public static final int hello_world=0x7f0b0055;
+        public static final int instruction=0x7f0b0056;
+        public static final int links=0x7f0b0057;
+        public static final int main_facebook_desc=0x7f0b0058;
+        public static final int main_rss_desc=0x7f0b0059;
+        public static final int main_title=0x7f0b005a;
+        public static final int main_twitter_desc=0x7f0b005b;
+        public static final int main_youtube_desc=0x7f0b005c;
+        public static final int map_label=0x7f0b005d;
+        public static final int menu_settings=0x7f0b005e;
+        public static final int myinfo=0x7f0b005f;
+        public static final int parse_app_id=0x7f0b0060;
+        public static final int parse_client_key=0x7f0b0061;
+        public static final int reminder_button_text=0x7f0b0062;
+        public static final int reminder_date_label=0x7f0b0063;
+        public static final int reminder_label=0x7f0b0064;
+        public static final int reminder_result_example=0x7f0b0065;
+        public static final int reminders=0x7f0b0066;
+        public static final int schedule_add_class=0x7f0b0067;
+        public static final int schedule_add_name_hint=0x7f0b0068;
+        public static final int schedule_edit_class=0x7f0b0069;
+        public static final int schedule_label=0x7f0b006a;
+        public static final int schedule_menu_clear_schedule=0x7f0b006b;
+        public static final int schedule_menu_settings=0x7f0b006c;
+        public static final int schedule_no_classes_popup=0x7f0b006d;
+        public static final int schedule_pref_chk_notify_txt=0x7f0b006e;
+        public static final int schedule_pref_notify_desc=0x7f0b006f;
+        public static final int schedule_pref_reminder_txt=0x7f0b0070;
+        public static final int schedule_remove_class=0x7f0b0071;
+        public static final int schedule_update_building_spinner_prompt=0x7f0b0072;
+        public static final int schedule_update_name_label=0x7f0b0073;
+        public static final int schedule_update_section=0x7f0b0074;
+        public static final int social=0x7f0b0075;
+        public static final int spinner_schedule_update_prompt=0x7f0b0076;
+        public static final int text_FindaPlace=0x7f0b0077;
+        public static final int textview_schedule_update_building_location=0x7f0b0078;
+        public static final int textview_schedule_update_days=0x7f0b0079;
+        public static final int textview_schedule_update_end_time=0x7f0b007a;
+        public static final int textview_schedule_update_room_location=0x7f0b007b;
+        public static final int textview_schedule_update_start_time=0x7f0b007c;
+        public static final int thai_ggc_map=0x7f0b007d;
+        public static final int title_activity_about_main=0x7f0b007e;
+        public static final int title_activity_banner_web=0x7f0b007f;
+        public static final int title_activity_banner_web_login=0x7f0b0080;
+        public static final int title_activity_biology=0x7f0b0081;
+        public static final int title_activity_business=0x7f0b0082;
+        public static final int title_activity_calendar=0x7f0b0083;
+        public static final int title_activity_create_reminder=0x7f0b0084;
+        public static final int title_activity_criminal_justice=0x7f0b0085;
+        public static final int title_activity_d2_lweb=0x7f0b0086;
+        public static final int title_activity_d2_lweb_login=0x7f0b0087;
+        public static final int title_activity_degrees_main=0x7f0b0088;
+        public static final int title_activity_departmenthours=0x7f0b0089;
+        public static final int title_activity_direction=0x7f0b008a;
+        public static final int title_activity_directory=0x7f0b008b;
+        public static final int title_activity_directory_search_web_view=0x7f0b008c;
+        public static final int title_activity_education=0x7f0b008d;
+        public static final int title_activity_ggcfun_facts=0x7f0b008e;
+        public static final int title_activity_ggcgeography=0x7f0b008f;
+        public static final int title_activity_ggcsong=0x7f0b0090;
+        public static final int title_activity_gpacalc=0x7f0b0091;
+        public static final int title_activity_gpacalc_semester=0x7f0b0092;
+        public static final int title_activity_health_science=0x7f0b0093;
+        public static final int title_activity_history_button=0x7f0b0094;
+        public static final int title_activity_information_technology=0x7f0b0095;
+        public static final int title_activity_liberal_arts=0x7f0b0096;
+        public static final int title_activity_liberal_arts_english=0x7f0b0097;
+        public static final int title_activity_liberal_arts_history=0x7f0b0098;
+        public static final int title_activity_liberal_arts_political_science=0x7f0b0099;
+        public static final int title_activity_library=0x7f0b009a;
+        public static final int title_activity_mathematics=0x7f0b009b;
+        public static final int title_activity_parking=0x7f0b009c;
+        public static final int title_activity_parking_map=0x7f0b009d;
+        public static final int title_activity_reminders=0x7f0b009e;
+        public static final int title_activity_saved_search_database=0x7f0b009f;
+        public static final int title_activity_schedule=0x7f0b00a0;
+        public static final int title_activity_schedule_update_class=0x7f0b00a1;
+        public static final int title_activity_schools=0x7f0b00a2;
+        public static final int title_activity_science_technology=0x7f0b00a3;
+        public static final int to_do=0x7f0b00a4;
+        public static final int welcome=0x7f0b00a5;
     }
     public static final class style {
         /** 
@@ -830,13 +1079,354 @@ public final class R {
             backward-compatibility can go here.
         
          */
-        public static final int AppBaseTheme=0x7f0b0000;
+        public static final int AppBaseTheme=0x7f0c0000;
         /**  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f0b0001;
+        public static final int AppTheme=0x7f0c0001;
     }
     public static final class xml {
         public static final int departments=0x7f050000;
         public static final int widget_info=0x7f050001;
     }
+    public static final class styleable {
+        /** Attributes that can be used with a LoadingImageView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #LoadingImageView_circleCrop edu.ggc.it:circleCrop}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_imageAspectRatio edu.ggc.it:imageAspectRatio}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust edu.ggc.it:imageAspectRatioAdjust}</code></td><td></td></tr>
+           </table>
+           @see #LoadingImageView_circleCrop
+           @see #LoadingImageView_imageAspectRatio
+           @see #LoadingImageView_imageAspectRatioAdjust
+         */
+        public static final int[] LoadingImageView = {
+            0x7f010000, 0x7f010001, 0x7f010002
+        };
+        /**
+          <p>This symbol is the offset where the {@link edu.ggc.it.R.attr#circleCrop}
+          attribute's value can be found in the {@link #LoadingImageView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name edu.ggc.it:circleCrop
+        */
+        public static final int LoadingImageView_circleCrop = 2;
+        /**
+          <p>This symbol is the offset where the {@link edu.ggc.it.R.attr#imageAspectRatio}
+          attribute's value can be found in the {@link #LoadingImageView} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name edu.ggc.it:imageAspectRatio
+        */
+        public static final int LoadingImageView_imageAspectRatio = 1;
+        /**
+          <p>This symbol is the offset where the {@link edu.ggc.it.R.attr#imageAspectRatioAdjust}
+          attribute's value can be found in the {@link #LoadingImageView} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>adjust_width</code></td><td>1</td><td></td></tr>
+<tr><td><code>adjust_height</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name edu.ggc.it:imageAspectRatioAdjust
+        */
+        public static final int LoadingImageView_imageAspectRatioAdjust = 0;
+        /** Attributes that can be used with a MapAttrs.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #MapAttrs_cameraBearing edu.ggc.it:cameraBearing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTargetLat edu.ggc.it:cameraTargetLat}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTargetLng edu.ggc.it:cameraTargetLng}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTilt edu.ggc.it:cameraTilt}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraZoom edu.ggc.it:cameraZoom}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_liteMode edu.ggc.it:liteMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_mapType edu.ggc.it:mapType}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiCompass edu.ggc.it:uiCompass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiMapToolbar edu.ggc.it:uiMapToolbar}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiRotateGestures edu.ggc.it:uiRotateGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiScrollGestures edu.ggc.it:uiScrollGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiTiltGestures edu.ggc.it:uiTiltGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiZoomControls edu.ggc.it:uiZoomControls}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiZoomGestures edu.ggc.it:uiZoomGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_useViewLifecycle edu.ggc.it:useViewLifecycle}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_zOrderOnTop edu.ggc.it:zOrderOnTop}</code></td><td></td></tr>
+           </table>
+           @see #MapAttrs_cameraBearing
+           @see #MapAttrs_cameraTargetLat
+           @see #MapAttrs_cameraTargetLng
+           @see #MapAttrs_cameraTilt
+           @see #MapAttrs_cameraZoom
+           @see #MapAttrs_liteMode
+           @see #MapAttrs_mapType
+           @see #MapAttrs_uiCompass
+           @see #MapAttrs_uiMapToolbar
+           @see #MapAttrs_uiRotateGestures
+           @see #MapAttrs_uiScrollGestures
+           @see #MapAttrs_uiTiltGestures
+           @see #MapAttrs_uiZoomControls
+           @see #MapAttrs_uiZoomGestures
+           @see #MapAttrs_useViewLifecycle
+           @see #MapAttrs_zOrderOnTop
+         */
+        public static final int[] MapAttrs = {
+            0x7f010003, 0x7f010004, 0x7f010005, 0x7f010006,
+            0x7f010007, 0x7f010008, 0x7f010009, 0x7f01000a,
+            0x7f01000b, 0x7f01000c, 0x7f01000d, 0x7f01000e,
+            0x7f01000f, 0x7f010010, 0x7f010011, 0x7f010012
+        };
+        /**
+          <p>This symbol is the offset where the {@link edu.ggc.it.R.attr#cameraBearing}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name edu.ggc.it:cameraBearing
+        */
+        public static final int MapAttrs_cameraBearing = 1;
+        /**
+          <p>This symbol is the offset where the {@link edu.ggc.it.R.attr#cameraTargetLat}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name edu.ggc.it:cameraTargetLat
+        */
+        public static final int MapAttrs_cameraTargetLat = 2;
+        /**
+          <p>This symbol is the offset where the {@link edu.ggc.it.R.attr#cameraTargetLng}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name edu.ggc.it:cameraTargetLng
+        */
+        public static final int MapAttrs_cameraTargetLng = 3;
+        /**
+          <p>This symbol is the offset where the {@link edu.ggc.it.R.attr#cameraTilt}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name edu.ggc.it:cameraTilt
+        */
+        public static final int MapAttrs_cameraTilt = 4;
+        /**
+          <p>This symbol is the offset where the {@link edu.ggc.it.R.attr#cameraZoom}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name edu.ggc.it:cameraZoom
+        */
+        public static final int MapAttrs_cameraZoom = 5;
+        /**
+          <p>This symbol is the offset where the {@link edu.ggc.it.R.attr#liteMode}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name edu.ggc.it:liteMode
+        */
+        public static final int MapAttrs_liteMode = 6;
+        /**
+          <p>This symbol is the offset where the {@link edu.ggc.it.R.attr#mapType}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>normal</code></td><td>1</td><td></td></tr>
+<tr><td><code>satellite</code></td><td>2</td><td></td></tr>
+<tr><td><code>terrain</code></td><td>3</td><td></td></tr>
+<tr><td><code>hybrid</code></td><td>4</td><td></td></tr>
+</table>
+          @attr name edu.ggc.it:mapType
+        */
+        public static final int MapAttrs_mapType = 0;
+        /**
+          <p>This symbol is the offset where the {@link edu.ggc.it.R.attr#uiCompass}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name edu.ggc.it:uiCompass
+        */
+        public static final int MapAttrs_uiCompass = 7;
+        /**
+          <p>This symbol is the offset where the {@link edu.ggc.it.R.attr#uiMapToolbar}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name edu.ggc.it:uiMapToolbar
+        */
+        public static final int MapAttrs_uiMapToolbar = 15;
+        /**
+          <p>This symbol is the offset where the {@link edu.ggc.it.R.attr#uiRotateGestures}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name edu.ggc.it:uiRotateGestures
+        */
+        public static final int MapAttrs_uiRotateGestures = 8;
+        /**
+          <p>This symbol is the offset where the {@link edu.ggc.it.R.attr#uiScrollGestures}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name edu.ggc.it:uiScrollGestures
+        */
+        public static final int MapAttrs_uiScrollGestures = 9;
+        /**
+          <p>This symbol is the offset where the {@link edu.ggc.it.R.attr#uiTiltGestures}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name edu.ggc.it:uiTiltGestures
+        */
+        public static final int MapAttrs_uiTiltGestures = 10;
+        /**
+          <p>This symbol is the offset where the {@link edu.ggc.it.R.attr#uiZoomControls}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name edu.ggc.it:uiZoomControls
+        */
+        public static final int MapAttrs_uiZoomControls = 11;
+        /**
+          <p>This symbol is the offset where the {@link edu.ggc.it.R.attr#uiZoomGestures}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name edu.ggc.it:uiZoomGestures
+        */
+        public static final int MapAttrs_uiZoomGestures = 12;
+        /**
+          <p>This symbol is the offset where the {@link edu.ggc.it.R.attr#useViewLifecycle}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name edu.ggc.it:useViewLifecycle
+        */
+        public static final int MapAttrs_useViewLifecycle = 13;
+        /**
+          <p>This symbol is the offset where the {@link edu.ggc.it.R.attr#zOrderOnTop}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name edu.ggc.it:zOrderOnTop
+        */
+        public static final int MapAttrs_zOrderOnTop = 14;
+    };
 }

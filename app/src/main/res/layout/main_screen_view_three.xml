@@ -33,7 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/view_three_dummy_btn5"
         android:layout_alignRight="@+id/socialLinearLayout"
-        android:layout_below="@+id/view_three_dummy_btn4"
+        android:layout_below="@+id/view_three_parking_button"
         android:layout_marginLeft="37dp"
         android:background="@drawable/main_button_directory" />
 
@@ -87,7 +87,7 @@
         android:textColor="@color/main_button_text" />
 
     <Button
-        android:id="@+id/view_three_dummy_btn4"
+        android:id="@+id/view_three_parking_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/view_three_dummy_btn3"
@@ -96,13 +96,13 @@
         android:background="@drawable/main_button_directory" />
 
     <TextView
-        android:id="@+id/view_three_textview4"
+        android:id="@+id/view_three_textView_parkingmap"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/view_three_dummy_btn4"
-        android:layout_below="@+id/view_three_dummy_btn4"
+        android:layout_alignLeft="@+id/view_three_parking_button"
+        android:layout_below="@+id/view_three_parking_button"
         android:layout_marginLeft="-15dp"
-        android:text="dummy textview4"
+        android:text="Parking Map"
         android:textColor="@color/main_button_text" />
 
     <Button

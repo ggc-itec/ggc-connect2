@@ -1,4 +1,8 @@
-C:\Users\tim\AndroidstudioProjects\ggc-connect\app\build\intermediates\classes\debug
-C:\Users\tim\AndroidstudioProjects\ggc-connect\app\build\intermediates\pre-dexed\debug\jsoup-1.7.3-00be1a6008512d7826bd056a78006539fe5f0461.jar
-C:\Users\tim\AndroidstudioProjects\ggc-connect\app\build\intermediates\pre-dexed\debug\Parse-1.2.2-a4e9df3bc456bcb9f3ece1015bd106d4e73ddd21.jar
-C:\Users\tim\AndroidstudioProjects\ggc-connect\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-0bb90093a02635ddf56648eea679d03945d3e401.jar
+C:\Users\Matt\AndroidStudioProjects\ggc-connect2\app\build\intermediates\classes\debug
+C:\Users\Matt\AndroidStudioProjects\ggc-connect2\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.0-2c64865d1be16a52be420a957894a5a6a77f316f.jar
+C:\Users\Matt\AndroidStudioProjects\ggc-connect2\app\build\intermediates\pre-dexed\debug\classes-f277561cbed93dd6cebb6bb7d9e57cd83e6e52ca.jar
+C:\Users\Matt\AndroidStudioProjects\ggc-connect2\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-7c8b832759e90aef118f36106366bdfdeaab71c9.jar
+C:\Users\Matt\AndroidStudioProjects\ggc-connect2\app\build\intermediates\pre-dexed\debug\jsoup-1.7.3-d7e031dd910f0d1ff2c6a6afa47e743f75905b4d.jar
+C:\Users\Matt\AndroidStudioProjects\ggc-connect2\app\build\intermediates\pre-dexed\debug\Parse-1.2.2-d6d550b81f71f3967bc163f7db131613bbf3b12e.jar
+C:\Users\Matt\AndroidStudioProjects\ggc-connect2\app\build\intermediates\pre-dexed\debug\classes-77f7a0eee2b9e90156bfb40f480357a3633f5b29.jar
+C:\Users\Matt\AndroidStudioProjects\ggc-connect2\app\build\intermediates\pre-dexed\debug\classes-4ac4d3adeaa4e860a06d6db72c211c58269dfb9a.jar
