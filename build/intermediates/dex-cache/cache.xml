@@ -1,21 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2">
+<items version="2" >
 
-    <item jar="C:\Users\tim\AndroidstudioProjects\ggc-connect\app\libs\Parse-1.2.2.jar"
-        jumboMode="false" revision="21.1.2" sha1="507264e0ffaa17b19b0e0d534d2da650f520a74a">
-        <dex
-            dex="C:\Users\tim\AndroidstudioProjects\ggc-connect\app\build\intermediates\pre-dexed\debug\Parse-1.2.2-a4e9df3bc456bcb9f3ece1015bd106d4e73ddd21.jar" />
+    <item
+        jar="C:\Users\Matt\AndroidStudioProjects\ggc-connect2\app\libs\jsoup-1.7.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ab1f22cadc2f8b514e55ba368f5128056fe304da">
+        <dex dex="C:\Users\Matt\AndroidStudioProjects\ggc-connect2\app\build\intermediates\pre-dexed\debug\jsoup-1.7.3-d7e031dd910f0d1ff2c6a6afa47e743f75905b4d.jar" />
     </item>
     <item
-        jar="C:\Users\tim\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
-        jumboMode="false" revision="21.1.2" sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
-        <dex
-            dex="C:\Users\tim\AndroidstudioProjects\ggc-connect\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-0bb90093a02635ddf56648eea679d03945d3e401.jar" />
+        jar="C:\Users\Matt\AndroidStudioProjects\ggc-connect2\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\libs\internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="C:\Users\Matt\AndroidStudioProjects\ggc-connect2\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-7c8b832759e90aef118f36106366bdfdeaab71c9.jar" />
     </item>
-    <item jar="C:\Users\tim\AndroidstudioProjects\ggc-connect\app\libs\jsoup-1.7.3.jar"
-        jumboMode="false" revision="21.1.2" sha1="ab1f22cadc2f8b514e55ba368f5128056fe304da">
-        <dex
-            dex="C:\Users\tim\AndroidstudioProjects\ggc-connect\app\build\intermediates\pre-dexed\debug\jsoup-1.7.3-00be1a6008512d7826bd056a78006539fe5f0461.jar" />
+    <item
+        jar="C:\Users\Matt\AndroidStudioProjects\ggc-connect2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\6.5.87\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="95482e7c792a7c0d5a9d5461e97726bd54fe9549">
+        <dex dex="C:\Users\Matt\AndroidStudioProjects\ggc-connect2\app\build\intermediates\pre-dexed\debug\classes-4ac4d3adeaa4e860a06d6db72c211c58269dfb9a.jar" />
+    </item>
+    <item
+        jar="C:\android-sdk-win\extras\android\m2repository\com\android\support\support-annotations\21.0.0\support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="C:\Users\Matt\AndroidStudioProjects\ggc-connect2\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.0-2c64865d1be16a52be420a957894a5a6a77f316f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Matt\AndroidStudioProjects\ggc-connect2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\6.5.87\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a75b29dc51b364df032af8bcfcad7e54ccfda28d">
+        <dex dex="C:\Users\Matt\AndroidStudioProjects\ggc-connect2\app\build\intermediates\pre-dexed\debug\classes-f277561cbed93dd6cebb6bb7d9e57cd83e6e52ca.jar" />
+    </item>
+    <item
+        jar="C:\Users\Matt\AndroidStudioProjects\ggc-connect2\app\libs\Parse-1.2.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="507264e0ffaa17b19b0e0d534d2da650f520a74a">
+        <dex dex="C:\Users\Matt\AndroidStudioProjects\ggc-connect2\app\build\intermediates\pre-dexed\debug\Parse-1.2.2-d6d550b81f71f3967bc163f7db131613bbf3b12e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Matt\AndroidStudioProjects\ggc-connect2\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="C:\Users\Matt\AndroidStudioProjects\ggc-connect2\app\build\intermediates\pre-dexed\debug\classes-77f7a0eee2b9e90156bfb40f480357a3633f5b29.jar" />
     </item>
 
 </items>
