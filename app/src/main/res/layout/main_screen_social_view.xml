@@ -5,43 +5,4 @@
     android:layout_height="wrap_content"
     android:orientation="horizontal">
 
-    <ImageButton
-        android:id="@+id/facebook_page"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@null"
-        android:contentDescription="@string/main_facebook_desc"
-        android:paddingLeft="10dip"
-        android:paddingRight="10dip"
-        android:src="@drawable/icon_facebook" />
-
-    <ImageButton
-        android:id="@+id/twitter_page"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@null"
-        android:contentDescription="@string/main_twitter_desc"
-        android:paddingLeft="10dip"
-        android:paddingRight="10dip"
-        android:src="@drawable/icon_twitter" />
-
-    <ImageButton
-        android:id="@+id/youtube_page"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@null"
-        android:contentDescription="@string/main_youtube_desc"
-        android:paddingLeft="10dip"
-        android:paddingRight="10dip"
-        android:src="@drawable/icon_youtube" />
-
-    <ImageButton
-        android:id="@+id/rss_feed"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@null"
-        android:contentDescription="@string/main_rss_desc"
-        android:paddingLeft="10dip"
-        android:paddingRight="10dip"
-        android:src="@drawable/icon_rss" />
 </LinearLayout>

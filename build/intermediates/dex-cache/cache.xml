@@ -2,39 +2,49 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Owner\ggc-connect2\app\libs\jsoup-1.7.3.jar"
+        is-multidex="true"
+        jar="C:\Users\Ethan\ggc-connect2\app\libs\Parse-1.2.2.jar"
         jumboMode="true"
-        revision="21.1.2"
-        sha1="ab1f22cadc2f8b514e55ba368f5128056fe304da">
-        <dex dex="C:\Users\Owner\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\2\jsoup-1.7.3_83c49c487855c7fc7d6294e78d96b1d5be11d8b4\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Owner\ggc-connect2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        revision="21.1.2"
-        sha1="a28c41e24f9535c0b4ce66915d63a2c4d8362b10">
-        <dex dex="C:\Users\Owner\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_49535337c76a8e6c5b9ea3d386b12c1c976ac69c\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Owner\ggc-connect2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="21.1.2"
-        sha1="873f361895ebc1dfb575df7277bb6eeb210b5b01">
-        <dex dex="C:\Users\Owner\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_589fd91a508c6e4bce7d7567556eca22449a5065\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Owner\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
-        jumboMode="true"
-        revision="21.1.2"
-        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
-        <dex dex="C:\Users\Owner\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-18.0.0_6b174dfc9d44a35442170d97289a0fb32fada827\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Owner\ggc-connect2\app\libs\Parse-1.2.2.jar"
-        jumboMode="true"
+        optimize="true"
         revision="21.1.2"
         sha1="507264e0ffaa17b19b0e0d534d2da650f520a74a">
-        <dex dex="C:\Users\Owner\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\2\Parse-1.2.2_3dcbedc8fc4a8707a1857b5ec0e097349ab75c81\classes.dex" />
+        <dex dex="C:\Users\Ethan\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\2\Parse-1.2.2_2c359047f14576cdca7bc2a69434953ed95d27c0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ethan\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\Ethan\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-18.0.0_62d1c0c1a09ee721152967b06a2255e434ad74f6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ethan\ggc-connect2\app\libs\jsoup-1.7.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="ab1f22cadc2f8b514e55ba368f5128056fe304da">
+        <dex dex="C:\Users\Ethan\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\2\jsoup-1.7.3_c4bda7124a65d9ec2f80949643b96414155decb8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ethan\ggc-connect2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="93323978efa2b6be3689fae0d5e761577f955428">
+        <dex dex="C:\Users\Ethan\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_a2098f39cf6fb8f693f5188856511a17a2cf06fb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ethan\ggc-connect2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="76389dff345c710e3b41f5a3c844f3501e46bcc8">
+        <dex dex="C:\Users\Ethan\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_0b8a05276d955039ff163c37597243a821118bb0\classes.dex" />
     </item>
 
 </items>
