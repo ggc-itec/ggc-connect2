@@ -1,12 +1,5 @@
 package edu.ggc.it.gym;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.Collections;
-
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -18,7 +11,13 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Collections;
 
 import edu.ggc.it.R;
 
@@ -37,6 +36,8 @@ public class GymMainActivity extends Activity {
 
         context = this;
 
+        Button wellness = (Button) findViewById(R.id.wellness);
+        wellness.setOnClickListener(new ButtonListener());
         Button schedule = (Button) findViewById(R.id.gymSchedule);
         schedule.setOnClickListener(new ButtonListener());
         Button groups = (Button) findViewById(R.id.Group);
@@ -74,7 +75,12 @@ public class GymMainActivity extends Activity {
      */
     public class ButtonListener implements OnClickListener {
         public void onClick(View view) {
-            if (view.getId() == R.id.gymSchedule) {
+            if (view.getId() == R.id.wellness) {
+                String url = "http://www.ggc.edu/student-life/student-services/wellness-and-recreation/";
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                startActivity(browserIntent);
+            }
+            else if (view.getId() == R.id.gymSchedule) {
                 startActivity(new Intent(context, GymScheduleActivity.class));
             } else if (view.getId() == R.id.Group) {
                 startActivity(new Intent(context, GroupsActivity.class));

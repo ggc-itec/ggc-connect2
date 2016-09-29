@@ -34,7 +34,7 @@
         jumboMode="true"
         optimize="true"
         revision="21.1.2"
-        sha1="93323978efa2b6be3689fae0d5e761577f955428">
+        sha1="a9a01b143fe27eb7cb086e28eb3c33f2470598db">
         <dex dex="C:\Users\Ethan\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_a2098f39cf6fb8f693f5188856511a17a2cf06fb\classes.dex" />
     </item>
     <item
@@ -43,7 +43,7 @@
         jumboMode="true"
         optimize="true"
         revision="21.1.2"
-        sha1="76389dff345c710e3b41f5a3c844f3501e46bcc8">
+        sha1="287b93e0e255f44b4004e64156e4e840e8a7c568">
         <dex dex="C:\Users\Ethan\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_0b8a05276d955039ff163c37597243a821118bb0\classes.dex" />
     </item>
 
