@@ -81,7 +81,9 @@ public class GymMainActivity extends Activity {
                 startActivity(browserIntent);
             }
             else if (view.getId() == R.id.gymSchedule) {
-                startActivity(new Intent(context, GymScheduleActivity.class));
+                String url = "http://www.ggc.edu/student-life/student-services/wellness-and-recreation/wellness-and-recreation-center/";
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                startActivity(browserIntent);
             } else if (view.getId() == R.id.Group) {
                 startActivity(new Intent(context, GroupsActivity.class));
             } else if (view.getId() == R.id.healthMagazine) {
