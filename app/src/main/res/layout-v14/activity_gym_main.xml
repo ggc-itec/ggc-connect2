@@ -23,35 +23,39 @@
             android:id="@+id/wellness"
             android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
 
-        <Button
-            android:id="@+id/gymSchedule"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Gym Schedule"
-            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
-
-        <Button
-            android:id="@+id/Group"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Group Fitness"
-            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
-
-        <Button
-            android:id="@+id/healthMagazine"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Health Magazine"
-            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
     </LinearLayout>
 
     <TextView
         android:id="@+id/quoteTextView"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large.Inverse"
         android:text="&quot;Strength is the product of struggle, you must do what others don't to achieve what others won't&quot; - Henry Rollins"
-        android:layout_alignRight="@+id/linearLayout1"
-        android:layout_alignLeft="@+id/linearLayout1" />
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:layout_marginTop="55dp"
+        android:layout_alignRight="@+id/linearLayout1" />
+
+    <Button
+        android:id="@+id/gymSchedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gym Schedule"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginTop="29dp"
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:layout_alignRight="@+id/linearLayout1" />
+
+    <Button
+        android:id="@+id/healthMagazine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Health Magazine"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:layout_alignTop="@+id/gymSchedule"
+        android:layout_marginTop="71dp"
+        android:layout_alignLeft="@+id/gymSchedule"
+        android:layout_alignRight="@+id/gymSchedule" />
 
 </RelativeLayout>
