@@ -22,4 +22,5 @@ dependencies {
     compile 'com.android.support:support-v4:18.0.0'
     compile files('libs/jsoup-1.7.3.jar')
     compile files('libs/Parse-1.2.2.jar')
+    compile 'com.google.android.gms:play-services-maps:9.6.1'
 }

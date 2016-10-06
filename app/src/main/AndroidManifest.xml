@@ -82,10 +82,6 @@
             android:name="edu.ggc.it.gym.GymScheduleActivity"
             android:label="@string/gym_label"
             android:screenOrientation="portrait"></activity>
-        <activity
-            android:name="edu.ggc.it.gym.GroupsActivity"
-            android:label="@string/gym_label"
-            android:screenOrientation="portrait"></activity>
         <activity android:name="edu.ggc.it.map.ImageTouchABuildingActivity"></activity>
         <activity android:name="edu.ggc.it.map.ImageTouchBBuildingActivity"></activity>
         <activity android:name="edu.ggc.it.map.ImageTouchCBuildingActivity"></activity>

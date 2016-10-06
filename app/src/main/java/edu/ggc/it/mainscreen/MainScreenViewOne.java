@@ -2,6 +2,7 @@ package edu.ggc.it.mainscreen;
 
 import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,7 +11,6 @@ import android.widget.RelativeLayout;
 
 import edu.ggc.it.R;
 import edu.ggc.it.catalog.ClassSearchActivity;
-import edu.ggc.it.direction.DirectionActivity;
 import edu.ggc.it.directory.DirectoryActivity;
 import edu.ggc.it.gym.GymMainActivity;
 import edu.ggc.it.map.MapActivity;
@@ -19,6 +19,7 @@ import edu.ggc.it.schedule.ScheduleActivity;
 /**
  * Created by gregwesterfield on 10/13/13.
  */
+
 public class MainScreenViewOne extends RelativeLayout implements View.OnClickListener {
     private Context context;
 
@@ -59,7 +60,9 @@ public class MainScreenViewOne extends RelativeLayout implements View.OnClickLis
         } else if (view.getId() == R.id.map_button) {
             context.startActivity(new Intent(context, MapActivity.class));
         } else if (view.getId() == R.id.direction_button) {
-            context.startActivity(new Intent(context, DirectionActivity.class));
+            String url = "http://www.ggc.edu/admissions/visit-ggc/maps-and-directions/";
+            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+//            startActivity(browserIntent);
         } else if (view.getId() == R.id.gym_button) {
             context.startActivity(new Intent(context, GymMainActivity.class));
         } else if (view.getId() == R.id.schedule_button) {

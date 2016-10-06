@@ -63,10 +63,7 @@ public class MainScreenViewThree extends RelativeLayout implements View.OnClickL
 
         Button buttonBannerWebLogin = getListenedButton(R.id.button_banner_web);
         Button buttonD2LWebLogin = getListenedButton(R.id.button_d2l_web);
-        Button buttonThree = getListenedButton(R.id.view_three_dummy_btn3);
-        Button buttonFour = getListenedButton(R.id.view_three_dummy_btn4);
-        Button buttonFive = getListenedButton(R.id.view_three_dummy_btn5);
-        Button buttonSix = getListenedButton(R.id.view_three_dummy_btn6);
+
     }
 
     private Button getListenedButton(final int resource) {
@@ -81,14 +78,6 @@ public class MainScreenViewThree extends RelativeLayout implements View.OnClickL
             context.startActivity(new Intent(context, BannerWebLoginActivity.class));
         } else if (view.getId() == R.id.button_d2l_web) {
             context.startActivity(new Intent(context, D2LWebLoginActivity.class));
-        } else if (view.getId() == R.id.view_three_dummy_btn3) {
-            //context.startActivity(new Intent(context, YourActivity.class));
-        } else if (view.getId() == R.id.view_three_dummy_btn4) {
-            //context.startActivity(new Intent(context, YourActivity.class));
-        } else if (view.getId() == R.id.view_three_dummy_btn5) {
-            //context.startActivity(new Intent(context, YourActivity.class));
-        } else if (view.getId() == R.id.view_three_dummy_btn6) {
-            //context.startActivity(new Intent(context, YourActivity.class));
         }
     }
 }
