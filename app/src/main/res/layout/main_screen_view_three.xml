@@ -4,9 +4,9 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="@android:color/darker_gray"
-    android:gravity="center_horizontal"
     android:orientation="vertical"
-    android:padding="30dip">
+    android:padding="30dip"
+    android:gravity="center_horizontal">
 
     <TextView
         android:id="@+id/textview_banner_web"

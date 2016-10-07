@@ -52,7 +52,7 @@
         jumboMode="true"
         optimize="true"
         revision="21.1.2"
-        sha1="2bae911df7da0aad7588562a5972e508040719fa">
+        sha1="eaabec15350163268bec7a729783cd1e00fae61c">
         <dex dex="C:\Users\Ethan\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_a2098f39cf6fb8f693f5188856511a17a2cf06fb\classes.dex" />
     </item>
     <item
@@ -61,17 +61,8 @@
         jumboMode="true"
         optimize="true"
         revision="21.1.2"
-        sha1="6e9ac5624143e1c7a01e2dd022c3428f02a306c9">
+        sha1="b7eb258d79f20b30ecb74cbb353163844ae8863a">
         <dex dex="C:\Users\Ethan\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_0b8a05276d955039ff163c37597243a821118bb0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Ethan\ggc-connect2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.6.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="21.1.2"
-        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
-        <dex dex="C:\Users\Ethan\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.6.1_21325601a6d6d890bf1edb22b691b4be1e70be2e\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -81,6 +72,15 @@
         revision="21.1.2"
         sha1="507264e0ffaa17b19b0e0d534d2da650f520a74a">
         <dex dex="C:\Users\Ethan\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\2\Parse-1.2.2_2c359047f14576cdca7bc2a69434953ed95d27c0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ethan\ggc-connect2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
+        <dex dex="C:\Users\Ethan\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.6.1_21325601a6d6d890bf1edb22b691b4be1e70be2e\classes.dex" />
     </item>
     <item
         is-multidex="true"
