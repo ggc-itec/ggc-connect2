@@ -31,22 +31,18 @@
         android:id="@+id/search_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/schedule_button"
-        android:layout_alignRight="@+id/socialLinearLayout"
-        android:layout_below="@+id/gym_button"
-        android:layout_marginLeft="37dp"
-        android:background="@drawable/main_button_class_search" />
+        android:background="@drawable/main_button_class_search"
+        android:layout_alignTop="@+id/schedule_button"
+        android:layout_toLeftOf="@+id/schedule_button" />
 
     <TextView
         android:id="@+id/main_textview_class_search"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/search_button"
+        android:text="PhoneBook"
+        android:textColor="@color/main_button_text"
         android:layout_below="@+id/search_button"
-        android:layout_marginLeft="2dp"
-        android:layout_marginTop="40dp"
-        android:text="@string/cs_main_label"
-        android:textColor="@color/main_button_text" />
+        android:layout_alignRight="@+id/search_button" />
 
     <Button
         android:id="@+id/direction_button"
