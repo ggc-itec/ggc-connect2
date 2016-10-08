@@ -48,8 +48,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 /**
- * This activity allows the user to specify the criteria for classes to search for.
- * Rhis is changed to a phone book
+ * Going to turn this into a phonebook keep name the same for reference purposes 
  * @author Jacob
  */
 public class ClassSearchActivity extends Activity {
