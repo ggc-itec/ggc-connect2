@@ -12,6 +12,7 @@
 *.class
 
 # generated files
+build/
 bin/
 gen/
 gradle.
