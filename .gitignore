@@ -12,9 +12,10 @@
 *.class
 
 # generated files
+build/
 bin/
 gen/
-gradle.
+.gradle/
 # Local configuration file (sdk path, etc)
 local.properties
 
