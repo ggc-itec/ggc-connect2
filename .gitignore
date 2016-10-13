@@ -4,6 +4,8 @@
 *.apk
 *.ap_
 *.gradle
+*.bin 
+*.lock
 
 # files for the dex VM
 *.dex
@@ -15,7 +17,7 @@
 build/
 bin/
 gen/
-.gradle/
+gradle/
 # Local configuration file (sdk path, etc)
 local.properties
 
