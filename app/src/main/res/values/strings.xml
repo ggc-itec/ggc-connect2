@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <string name="PhoneBook">ListDisplay</string>
     <string name="app_name">GGC Connect</string>
     <string name="welcome">Welcome</string>
     <string name="credits">Credits</string>
@@ -34,7 +35,14 @@
     <string name="main_twitter_desc">GGC Twitter feed</string>
     <string name="main_youtube_desc">GGC YouTube channel</string>
     <string name="main_rss_desc">GGC News and Events RSS Feed</string>
-
+    <string-array name="phonenumbs">
+        <item>Admissions</item>
+        <item>Business</item>
+        <item>Education</item>
+        <item>Health Sciences</item>
+        <item>Liberal Arts</item>
+        <item>Science and Technology</item>
+    </string-array>
     <string-array name="parent_directories">
         <item>Admissions</item>
         <item>Business</item>

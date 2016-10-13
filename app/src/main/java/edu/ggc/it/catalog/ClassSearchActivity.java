@@ -1,57 +1,92 @@
 package edu.ggc.it.catalog;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Locale;
-import java.util.Map;
-import java.util.Set;
-
-import edu.ggc.it.banner.Banner;
-import edu.ggc.it.banner.Course;
-import edu.ggc.it.banner.CourseDataSource;
-import edu.ggc.it.banner.CourseSearchBuilder;
-import edu.ggc.it.banner.Instructor;
-import edu.ggc.it.banner.Section;
-
 import android.app.Activity;
-import android.app.AlertDialog;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.res.Resources;
-import android.os.AsyncTask;
+import android.content.res.AssetManager;
+import android.net.Uri;
 import android.os.Bundle;
-import android.util.Log;
-import android.util.SparseBooleanArray;
 import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.view.ViewGroup;
-import android.view.inputmethod.InputMethodManager;
-import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemClickListener;
-import android.widget.AdapterView.OnItemSelectedListener;
-import android.widget.ArrayAdapter;
-import android.widget.AutoCompleteTextView;
 import android.widget.Button;
-import android.widget.CheckedTextView;
-import android.widget.EditText;
-import android.widget.ListView;
-import android.widget.Spinner;
-import android.widget.TableRow;
 import android.widget.TextView;
-import android.widget.Toast;
 
-/**
- * Going to turn this into a phonebook keep name the same for reference purposes 
- * @author Jacob
- */
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Collections;
+
+import edu.ggc.it.R;
+
 public class ClassSearchActivity extends Activity {
+    public final static String EXTRA_MESSAGE = "edu.ggc.it.directory.MESSAGE";
+    private Context context;
+
+    /**
+     * This method creates all of the buttons according to their names and
+     * locations of the button
+     */
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_gym_main);
+
+        context = this;
+
+        Button wellness = (Button) findViewById(R.id.wellness);
+        wellness.setOnClickListener(new ButtonListener());
+        Button schedule = (Button) findViewById(R.id.gymSchedule);
+        schedule.setOnClickListener(new ButtonListener());
+        Button magazine = (Button) findViewById(R.id.healthMagazine);
+        magazine.setOnClickListener(new ButtonListener());
+        TextView quote = (TextView) findViewById(R.id.quoteTextView);
+
+        try {
+            AssetManager am = context.getAssets();
+            InputStream in = am.open("quotes.txt");
+            BufferedReader reader = new BufferedReader(new InputStreamReader(in));
+            String str;
+            ArrayList<String> quotes = new ArrayList<String>();
+            while ((str = reader.readLine()) != null) {
+                quotes.add(str);
+                Collections.shuffle(quotes);
+            }
+            in.close();
+            quote.setText(quotes.get(0).toString());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.activity_gym_main, menu);
+        return true;
+    }
+
+    /**
+     * Creates the listeners for all of the buttons individually
+     */
+    public class ButtonListener implements OnClickListener {
+        public void onClick(View view) {
+            if (view.getId() == R.id.wellness) {
+                String url = "http://www.ggc.edu/about-ggc/departments/";
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                startActivity(browserIntent);
+            }
+            else if (view.getId() == R.id.gymSchedule) {
+                String url = "http://www.ggc.edu/student-life/student-services/wellness-and-recreation/wellness-and-recreation-center/";
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                startActivity(browserIntent);
+            } else if (view.getId() == R.id.healthMagazine) {
+                String url = "http://readsh101.com/ggc.html";
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                startActivity(browserIntent);
+            }
+        }
+    }
 }
-
-
