@@ -9,122 +9,111 @@
     android:orientation="vertical"
     android:padding="30dip">
 
-    <Button
-        android:id="@+id/directory_button"
+    <TextView
+        android:id="@+id/main_textview_maps"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/direction_button"
-        android:layout_below="@+id/direction_button"
-        android:layout_marginTop="40dp"
-        android:background="@drawable/main_button_directory" />
+        android:text="@string/map_label"
+        android:layout_below="@+id/map_button"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle" />
 
     <TextView
-        android:id="@+id/main_textview_directory"
+        android:id="@+id/main_textview_directions"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/directory_button"
-        android:layout_below="@+id/directory_button"
-        android:layout_marginLeft="15dp"
-        android:text="@string/directory_label"
-        android:textColor="@color/main_button_text" />
+        android:text="@string/direction_label"
+        android:layout_below="@+id/direction_button"
+        android:layout_alignParentRight="true"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle" />
+
+    <Button
+        android:id="@+id/direction_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_button_directions"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="36dp" />
+
+    <Button
+        android:id="@+id/map_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_button_maps"
+        android:layout_marginLeft="26dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/gym_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_button_gym"
+        android:layout_below="@+id/main_textview_directions"
+        android:layout_alignLeft="@+id/direction_button"
+        android:layout_marginTop="33dp" />
+
+    <TextView
+        android:id="@+id/main_textview_schedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/schedule_label"
+        android:layout_below="@+id/schedule_button"
+        android:layout_alignParentLeft="true"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle" />
 
     <Button
         android:id="@+id/search_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/main_button_class_search"
-        android:layout_alignTop="@+id/schedule_button"
-        android:layout_toLeftOf="@+id/schedule_button" />
+        android:layout_alignBaseline="@+id/schedule_button"
+        android:layout_alignBottom="@+id/schedule_button"
+        android:layout_alignLeft="@+id/gym_button" />
 
     <TextView
         android:id="@+id/main_textview_class_search"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="PhoneBook"
-        android:textColor="@color/main_button_text"
-        android:layout_below="@+id/search_button"
-        android:layout_alignRight="@+id/search_button" />
-
-    <Button
-        android:id="@+id/direction_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/socialLinearLayout"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="42dp"
-        android:background="@drawable/main_button_directions" />
-
-    <TextView
-        android:id="@+id/main_textview_directions"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/direction_button"
-        android:layout_below="@+id/direction_button"
-        android:layout_marginLeft="-10dp"
-        android:text="@string/direction_label"
-        android:textColor="@color/main_button_text" />
-
-    <Button
-        android:id="@+id/map_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/direction_button"
-        android:layout_alignBottom="@+id/direction_button"
-        android:layout_alignRight="@+id/socialLinearLayout"
-        android:background="@drawable/main_button_maps" />
-
-    <TextView
-        android:id="@+id/main_textview_maps"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/map_button"
-        android:layout_below="@+id/map_button"
-        android:text="@string/map_label"
-        android:textColor="@color/main_button_text" />
-
-    <Button
-        android:id="@+id/gym_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/directory_button"
-        android:layout_alignBottom="@+id/directory_button"
-        android:layout_alignRight="@+id/map_button"
-        android:background="@drawable/main_button_gym" />
-
-    <TextView
-        android:id="@+id/main_textview_gym"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/gym_button"
-        android:layout_below="@+id/gym_button"
-        android:layout_marginLeft="15dp"
-        android:text="@string/gym_label"
-        android:textColor="@color/main_button_text" />
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle"
+        android:layout_alignTop="@+id/main_textview_schedule"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="23dp" />
 
     <Button
         android:id="@+id/schedule_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/directory_button"
-        android:layout_below="@+id/directory_button"
-        android:layout_marginTop="40dp"
-        android:background="@drawable/main_button_schedule" />
+        android:background="@drawable/main_button_schedule"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/main_textview_directory"
+        android:layout_alignLeft="@+id/map_button" />
+
+    <Button
+        android:id="@+id/directory_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_button_directory"
+        android:layout_alignBaseline="@+id/gym_button"
+        android:layout_alignBottom="@+id/gym_button"
+        android:layout_alignLeft="@+id/map_button" />
 
     <TextView
-        android:id="@+id/main_textview_schedule"
-        android:layout_width="wrap_content"
+        android:id="@+id/main_textview_directory"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/schedule_button"
-        android:layout_below="@+id/schedule_button"
-        android:layout_marginLeft="3dp"
-        android:text="@string/schedule_label"
-        android:textColor="@color/main_button_text" />
+        android:text="@string/directory_label"
+        android:layout_width="wrap_content"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle"
+        android:layout_below="@+id/directory_button"
+        android:layout_alignRight="@+id/directory_button" />
 
-    <edu.ggc.it.mainscreen.MainScreenSocialView
-        android:id="@+id/socialLinearLayout"
+    <TextView
+        android:id="@+id/main_textview_gym"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:orientation="horizontal" />
+        android:text="@string/gym_label"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle"
+        android:layout_below="@+id/gym_button"
+        android:layout_alignLeft="@+id/gym_button" />
 </RelativeLayout>
