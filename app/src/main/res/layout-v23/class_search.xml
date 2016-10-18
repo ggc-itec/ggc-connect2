@@ -12,7 +12,6 @@
         android:layout_alignParentTop="true"
         android:choiceMode="multipleChoice"
         tools:listitem="@android:layout/simple_list_item_2"
-        android:clickable="true"
-        android:contextClickable="true" />
+        android:clickable="true" />
 
 </RelativeLayout>
