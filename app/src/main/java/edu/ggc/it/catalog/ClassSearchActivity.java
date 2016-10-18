@@ -1,92 +1,52 @@
 package edu.ggc.it.catalog;
 
 import android.app.Activity;
-import android.content.Context;
-import android.content.Intent;
-import android.content.res.AssetManager;
-import android.net.Uri;
+import android.net.http.SslError;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.widget.Button;
-import android.widget.TextView;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.Collections;
+import android.webkit.SslErrorHandler;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 
 import edu.ggc.it.R;
 
 public class ClassSearchActivity extends Activity {
-    public final static String EXTRA_MESSAGE = "edu.ggc.it.directory.MESSAGE";
-    private Context context;
+    public static final String GGC_GIL_LIBRARY_URL = "http://www.ggc.edu/about-ggc/departments/";
+    private WebView webView;
 
-    /**
-     * This method creates all of the buttons according to their names and
-     * locations of the button
-     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_gym_main);
-
-        context = this;
-
-        Button wellness = (Button) findViewById(R.id.wellness);
-        wellness.setOnClickListener(new ButtonListener());
-        Button schedule = (Button) findViewById(R.id.gymSchedule);
-        schedule.setOnClickListener(new ButtonListener());
-        Button magazine = (Button) findViewById(R.id.healthMagazine);
-        magazine.setOnClickListener(new ButtonListener());
-        TextView quote = (TextView) findViewById(R.id.quoteTextView);
-
-        try {
-            AssetManager am = context.getAssets();
-            InputStream in = am.open("quotes.txt");
-            BufferedReader reader = new BufferedReader(new InputStreamReader(in));
-            String str;
-            ArrayList<String> quotes = new ArrayList<String>();
-            while ((str = reader.readLine()) != null) {
-                quotes.add(str);
-                Collections.shuffle(quotes);
-            }
-            in.close();
-            quote.setText(quotes.get(0).toString());
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
+        setContentView(R.layout.activity_calendar);
+        webView = (WebView) findViewById(R.id.calendar_webview);
+        webView.getSettings().setSupportZoom(true);
+        webView.setWebViewClient(new LibraryWebViewClient());
+        webView.loadUrl(GGC_GIL_LIBRARY_URL);
     }
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.activity_gym_main, menu);
-        return true;
+    public void onBackPressed() {
+        if (webView.canGoBack()) {
+            webView.goBack();
+            return;
+        } else {
+            super.onBackPressed();
+        }
     }
 
     /**
-     * Creates the listeners for all of the buttons individually
+     * WebViewClient that ignores SSL errors (for some reason the GIL website returns an invalid certificate)
      */
-    public class ButtonListener implements OnClickListener {
-        public void onClick(View view) {
-            if (view.getId() == R.id.wellness) {
-                String url = "http://www.ggc.edu/about-ggc/departments/";
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-                startActivity(browserIntent);
-            }
-            else if (view.getId() == R.id.gymSchedule) {
-                String url = "http://www.ggc.edu/student-life/student-services/wellness-and-recreation/wellness-and-recreation-center/";
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-                startActivity(browserIntent);
-            } else if (view.getId() == R.id.healthMagazine) {
-                String url = "http://readsh101.com/ggc.html";
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-                startActivity(browserIntent);
-            }
+    private class LibraryWebViewClient extends WebViewClient {
+
+        @Override
+        public boolean shouldOverrideUrlLoading(WebView view, String url) {
+            return false;
+        }
+
+        @Override
+        public void onReceivedSslError(WebView view, SslErrorHandler handler, SslError error) {
+            handler.proceed();
         }
     }
+
 }
