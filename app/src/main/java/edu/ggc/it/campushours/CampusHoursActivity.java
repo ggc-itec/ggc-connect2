@@ -1,4 +1,5 @@
-package edu.ggc.it.catalog;
+package edu.ggc.it.campushours;
+
 
 import android.app.Activity;
 import android.net.http.SslError;
@@ -9,8 +10,15 @@ import android.webkit.WebViewClient;
 
 import edu.ggc.it.R;
 
-public class ClassSearchActivity extends Activity {
-    public static final String GGC_GIL_LIBRARY_URL = "http://www.ggc.edu/about-ggc/departments/";
+/**
+ * Class: DeptHoursMainActivity
+ * <p/>
+ * This class is a list activity that lists the hours of operation of GGC's
+ * departments, links to their webpages, and states if the department is
+ * currently open or closed.
+ */
+public class CampusHoursActivity extends Activity {
+    public static final String GGC_CAMPUS_HOURS_URL = "http://www.ggc.edu/about-ggc/hours.html";
     private WebView webView;
 
     @Override
@@ -19,8 +27,8 @@ public class ClassSearchActivity extends Activity {
         setContentView(R.layout.activity_calendar);
         webView = (WebView) findViewById(R.id.calendar_webview);
         webView.getSettings().setSupportZoom(true);
-        webView.setWebViewClient(new LibraryWebViewClient());
-        webView.loadUrl(GGC_GIL_LIBRARY_URL);
+        webView.setWebViewClient(new CampusHoursWebViewClient());
+        webView.loadUrl(GGC_CAMPUS_HOURS_URL);
     }
 
     @Override
@@ -36,7 +44,7 @@ public class ClassSearchActivity extends Activity {
     /**
      * WebViewClient that ignores SSL errors (for some reason the GIL website returns an invalid certificate)
      */
-    private class LibraryWebViewClient extends WebViewClient {
+    private class CampusHoursWebViewClient extends WebViewClient {
 
         @Override
         public boolean shouldOverrideUrlLoading(WebView view, String url) {

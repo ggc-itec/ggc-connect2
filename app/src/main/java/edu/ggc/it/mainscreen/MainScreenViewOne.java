@@ -10,7 +10,7 @@ import android.widget.Button;
 import android.widget.RelativeLayout;
 
 import edu.ggc.it.R;
-import edu.ggc.it.catalog.ClassSearchActivity;
+import edu.ggc.it.Phonebook.Phonebook;
 import edu.ggc.it.directory.DirectoryActivity;
 import edu.ggc.it.gym.GymMainActivity;
 import edu.ggc.it.map.MapActivity;
@@ -68,7 +68,7 @@ public class MainScreenViewOne extends RelativeLayout implements View.OnClickLis
         } else if (view.getId() == R.id.schedule_button) {
             context.startActivity(new Intent(context, ScheduleActivity.class));
         } else if (view.getId() == R.id.search_button) {
-            context.startActivity(new Intent(context, ClassSearchActivity.class));
+            context.startActivity(new Intent(context, Phonebook.class));
         }
     }
 }

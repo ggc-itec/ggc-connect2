@@ -1,4 +1,4 @@
-package edu.ggc.it.departmenthours;
+package edu.ggc.it.campushours;
 
 /**
  * Class: HoursForDayOfWeek

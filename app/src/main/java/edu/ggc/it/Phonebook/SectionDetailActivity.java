@@ -1,4 +1,4 @@
-package edu.ggc.it.catalog;
+package edu.ggc.it.Phonebook;
 
 import java.text.SimpleDateFormat;
 import java.util.List;

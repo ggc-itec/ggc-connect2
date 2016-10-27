@@ -24,7 +24,7 @@ import android.widget.SimpleAdapter;
 import android.widget.Toast;
 
 import edu.ggc.it.R;
-import edu.ggc.it.catalog.ClassSearchActivity;
+import edu.ggc.it.Phonebook.Phonebook;
 import edu.ggc.it.schedule.helper.SeparatedListAdapter;
 
 /**
@@ -304,7 +304,7 @@ public class ScheduleActivity extends Activity {
                                 if (which == 0) {
                                     startActivity(new Intent(scheduleContext, ScheduleUpdateActivity.class));
                                 } else if (which == 1) {
-                                    startActivity(new Intent(scheduleContext, ClassSearchActivity.class));
+                                    startActivity(new Intent(scheduleContext, Phonebook.class));
                                 }
                             }
                         }).show();

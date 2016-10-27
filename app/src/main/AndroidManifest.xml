@@ -101,14 +101,14 @@
             android:name="edu.ggc.it.directory.SavedSearchUpdateActivity"
             android:label="Saved Search"></activity>
         <activity
-            android:name="edu.ggc.it.catalog.ClassSearchActivity"
+            android:name="edu.ggc.it.Phonebook.Phonebook"
             android:screenOrientation="portrait"></activity>
         <activity
             android:name="edu.ggc.it.social.SocialListActivity"
             android:label="Social"></activity>
         <activity android:name="edu.ggc.it.social.SocialUpdateActivity"></activity>
-        <activity android:name="edu.ggc.it.catalog.SearchResultsActivity"></activity>
-        <activity android:name="edu.ggc.it.catalog.SectionDetailActivity"></activity>
+        <activity android:name="edu.ggc.it.Phonebook.SearchResultsActivity"></activity>
+        <activity android:name="edu.ggc.it.Phonebook.SectionDetailActivity"></activity>
         <activity android:name="edu.ggc.it.myinfo.MyInfoActivity"></activity>
         <activity
             android:name="edu.ggc.it.reminders.RemindersActivity"
@@ -157,7 +157,7 @@
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/title_activity_gpacalc_semester"></activity>
         <activity
-            android:name="edu.ggc.it.departmenthours.DepartmentHoursActivity"
+            android:name="edu.ggc.it.campushours.CampusHoursActivity"
             android:label="@string/title_activity_departmenthours">
             <intent-filter>
                 <action android:name="edu.ggc.it.departmenthours" />

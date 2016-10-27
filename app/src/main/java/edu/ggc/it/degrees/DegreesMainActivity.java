@@ -10,40 +10,53 @@
 
 package edu.ggc.it.degrees;
 
+import android.app.Activity;
+import android.net.http.SslError;
+import android.os.Bundle;
+import android.webkit.SslErrorHandler;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
+
 import edu.ggc.it.R;
 
-import android.app.Activity;
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.Gravity;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.widget.Button;
-import android.widget.Toast;
-
 public class DegreesMainActivity extends Activity {
+    public static final String GGC_CAMPUS_HOURS_URL = "http://www.ggc.edu/academics/degrees-and-programs/";
+    private WebView webView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_degrees_main);
-
-        // Button that starts the application and lets the user choose their school
-
-        Button start = (Button) findViewById(R.id.start_button);
-        start.setOnClickListener(new OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(DegreesMainActivity.this, Schools.class);
-                DegreesMainActivity.this.startActivity(intent);
-
-                Toast toast = Toast.makeText(getApplicationContext(),
-                        "Choose your desired school...", Toast.LENGTH_LONG);
-                toast.setGravity(Gravity.CENTER_HORIZONTAL, 10, 20);
-                toast.show();
-            }
-
-        });
+        setContentView(R.layout.activity_calendar);
+        webView = (WebView) findViewById(R.id.calendar_webview);
+        webView.getSettings().setSupportZoom(true);
+        webView.setWebViewClient(new DegreesWebViewClient());
+        webView.loadUrl(GGC_CAMPUS_HOURS_URL);
     }
+
+    @Override
+    public void onBackPressed() {
+        if (webView.canGoBack()) {
+            webView.goBack();
+            return;
+        } else {
+            super.onBackPressed();
+        }
+    }
+
+    /**
+     * WebViewClient that ignores SSL errors (for some reason the GIL website returns an invalid certificate)
+     */
+    private class DegreesWebViewClient extends WebViewClient {
+
+        @Override
+        public boolean shouldOverrideUrlLoading(WebView view, String url) {
+            return false;
+        }
+
+        @Override
+        public void onReceivedSslError(WebView view, SslErrorHandler handler, SslError error) {
+            handler.proceed();
+        }
+    }
+
 }

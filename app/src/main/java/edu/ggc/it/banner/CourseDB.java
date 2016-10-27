@@ -39,7 +39,7 @@ class CourseDB extends SQLiteOpenHelper {
 
     // inner classes for creating individual tables
     static class Catalog {
-        public static final String TABLE = "catalog";
+        public static final String TABLE = "Phonebook";
         public static final String COL_ID = "_id";
         public static final String COL_SUBJ = "subj";
         public static final String COL_CODE = "code";
@@ -65,7 +65,7 @@ class CourseDB extends SQLiteOpenHelper {
         }
 
         public static void onUpgrade(SQLiteDatabase db) {
-            db.execSQL("DROP TABLE IF EXISTS catalog");
+            db.execSQL("DROP TABLE IF EXISTS Phonebook");
             onCreate(db);
         }
     }

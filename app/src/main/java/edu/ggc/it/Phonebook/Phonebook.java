@@ -1,4 +1,4 @@
-package edu.ggc.it.calendar;
+package edu.ggc.it.Phonebook;
 
 import android.app.Activity;
 import android.net.http.SslError;
@@ -9,19 +9,8 @@ import android.webkit.WebViewClient;
 
 import edu.ggc.it.R;
 
-
-/*
- * Shows GGC's academic calendar on a WebView
- * 
- * This is more of an example of using Jsoup to download the contents of a URL and 
- * display it with some embellishment :)
- * 
- * 
- * TODO: please somebody redesign the icon for this activity, IMOH, it could look better
- * 
- */
-public class CalendarActivity extends Activity {
-    public static final String GGC_CALENDAR_URL = "http://www.ggc.edu/academics/calendar/";
+public class Phonebook extends Activity {
+    public static final String GGC_GIL_LIBRARY_URL = "http://www.ggc.edu/about-ggc/departments/";
     private WebView webView;
 
     @Override
@@ -30,8 +19,8 @@ public class CalendarActivity extends Activity {
         setContentView(R.layout.activity_calendar);
         webView = (WebView) findViewById(R.id.calendar_webview);
         webView.getSettings().setSupportZoom(true);
-        webView.setWebViewClient(new CalendarWebViewClient());
-        webView.loadUrl(GGC_CALENDAR_URL);
+        webView.setWebViewClient(new LibraryWebViewClient());
+        webView.loadUrl(GGC_GIL_LIBRARY_URL);
     }
 
     @Override
@@ -47,7 +36,7 @@ public class CalendarActivity extends Activity {
     /**
      * WebViewClient that ignores SSL errors (for some reason the GIL website returns an invalid certificate)
      */
-    private class CalendarWebViewClient extends WebViewClient {
+    private class LibraryWebViewClient extends WebViewClient {
 
         @Override
         public boolean shouldOverrideUrlLoading(WebView view, String url) {

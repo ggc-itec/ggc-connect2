@@ -79,7 +79,7 @@ public class CourseSearchBuilder implements Serializable {
         SQLiteDatabase db = CourseDB.getInstance(context).getReadableDatabase();
 
         cachedInstructors.clear();
-        // query catalog first
+        // query Phonebook first
         String selection = "";
         for (String subject : subjects)
             selection += ", '" + subject + "'";

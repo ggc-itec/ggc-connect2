@@ -1,4 +1,4 @@
-package edu.ggc.it.departmenthours;
+package edu.ggc.it.campushours;
 
 import java.util.Calendar;
 import java.util.List;
