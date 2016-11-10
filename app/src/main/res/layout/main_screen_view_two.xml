@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@drawable/california"
+    android:background="@drawable/ggcbuild"
     android:gravity="center_horizontal"
     android:orientation="vertical"
     android:padding="30dip"
-    tools:background="@drawable/california">
+    tools:background="@drawable/ggcbuild">
 
     <Button
         android:id="@+id/gpa_calc_button"

@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@drawable/california"
+    android:background="@drawable/ggcbuild"
     android:orientation="vertical"
     android:padding="30dip"
     android:gravity="center_horizontal"
-    tools:background="@drawable/california">
+    tools:background="@drawable/ggcbuild">
 
     <Button
         android:id="@+id/button_banner_web"
