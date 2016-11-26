@@ -1,3 +1,4 @@
+/*
 package edu.ggc.it.directory;
 
 import edu.ggc.it.R;
@@ -9,12 +10,14 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+*/
 /**
  * Activity to either update/delete items from the Saved Search Database
  *
  * @author crystalist
  * @modified Jesse Perkins
- */
+ *//*
+
 public class SavedSearchUpdateActivity extends Activity {
     public static final String SAVE_ROW = "saverow";
     private SavedSearchDatabase database;
@@ -109,3 +112,4 @@ public class SavedSearchUpdateActivity extends Activity {
         outState.putLong(SAVE_ROW, rowID);
     }
 }
+*/

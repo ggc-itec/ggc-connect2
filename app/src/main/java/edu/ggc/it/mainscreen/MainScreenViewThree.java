@@ -9,8 +9,8 @@ import android.widget.Button;
 import android.widget.RelativeLayout;
 
 import edu.ggc.it.R;
-import edu.ggc.it.banner_web.BannerWebLoginActivity;
-import edu.ggc.it.d2l_web.D2LWebLoginActivity;
+import edu.ggc.it.banner_web.BannerWebActivity;
+import edu.ggc.it.d2l_web.D2LWebActivity;
 
 /**
  * INSTRUCTIONS FOR ADDING YOUR FEATURE TO THE MAIN SCREEN
@@ -75,9 +75,9 @@ public class MainScreenViewThree extends RelativeLayout implements View.OnClickL
     @Override
     public void onClick(View view) {
         if (view.getId() == R.id.button_banner_web) {
-            context.startActivity(new Intent(context, BannerWebLoginActivity.class));
+            context.startActivity(new Intent(context, BannerWebActivity.class));
         } else if (view.getId() == R.id.button_d2l_web) {
-            context.startActivity(new Intent(context, D2LWebLoginActivity.class));
+            context.startActivity(new Intent(context, D2LWebActivity.class));
         }
     }
 }

@@ -25,7 +25,7 @@
     <string name="main_title">GGC Connect</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
-    <string name="title_activity_direction">DirectionActivity</string>
+    <string name="title_activity_admissions">DirectionActivity</string>
     <string name="title_activity_schedule">My Schedule</string>
     <string name="add_schedule_button_text">Add class</string>
     <string name="dating_label">Social</string>
@@ -376,5 +376,11 @@
     <string name="title_activity_d2_lweb">Desire2Learn Web</string>
     <string name="title_activity_d2_lweb_login">Desire2Learn Login</string>
     <string name="title_activity_library">LibraryActivity</string>
+    <string name="about_wellness_and_recreation">About Wellness and Recreation</string>
+    <string name="gym_schedule">Gym Schedule</string>
+    <string name="health_magazine">Health Magazine</string>
+    <string name="georgia_gwinnett_college_map">Georgia Gwinnett College Map</string>
+    <string name="link_will_show_up_here_in_place_of_this_text_it_is_coded_in_ggcgeographyactivity_java">link will show up here in place of this text -- It is coded in GGCGeographyActivity.java</string>
+    <string name="go_back">Go Back</string>
 
 </resources>

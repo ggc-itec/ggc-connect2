@@ -16,7 +16,7 @@ public class LibraryActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_calendar);
+        setContentView(R.layout.activity_web);
         webView = (WebView) findViewById(R.id.calendar_webview);
         webView.getSettings().setSupportZoom(true);
         webView.setWebViewClient(new LibraryWebViewClient());

@@ -66,11 +66,11 @@ public class MainScreenViewTwo extends RelativeLayout implements View.OnClickLis
         inflater.inflate(R.layout.main_screen_view_two, this, true);
 
         Button aboutGGCButton = getListenedButton(R.id.view_two_about_ggc_btn);
-        Button buttonTwo = getListenedButton(R.id.view_two_department_hours_btn);
+        Button departmentButton = getListenedButton(R.id.view_two_department_hours_btn);
         Button gpaCalcButton = getListenedButton(R.id.gpa_calc_button);
         Button calendarButton = getListenedButton(R.id.calendar_btn);
         Button degreesButton = getListenedButton(R.id.degrees_button);
-        Button buttonSix = getListenedButton(R.id.library_button);
+        Button libraryButton = getListenedButton(R.id.library_button);
     }
 
     private Button getListenedButton(final int resource) {

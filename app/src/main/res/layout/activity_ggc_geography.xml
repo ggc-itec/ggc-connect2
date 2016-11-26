@@ -8,32 +8,37 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".GGCGeographyActivity"
-    android:background="#7800704a">
+    android:background="@drawable/signlogo">
 
     <!-- GGC B Building Image -->
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="wrap_content"
-        android:layout_height="100dp"
-        android:src="@drawable/ggc_b_building" />
 
     <!-- Link Title -->
     <TextView
         android:id="@+id/geographyLinkTitle"
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="5dp"
+        android:padding="7dp"
         android:textSize="25sp"
-        android:text="Links" />
+        android:text="@string/georgia_gwinnett_college_map"
+        android:accessibilityLiveRegion="assertive"
+        android:autoText="false"
+        android:textColor="@color/thai_black_color"
+        android:visibility="visible"
+        android:textStyle="normal|bold"
+        android:layout_width="362dp"
+        android:maxLines="1"
+        android:textAlignment="center"
+        tools:ignore="TextViewEdits" />
 
     <!-- Link URL -->
     <TextView
         android:id="@+id/geographyLink"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="5dp"
-        android:textSize="18sp"
-        android:textColorLink="#64E6F5"
-        android:text="link will show up here in place of this text -- It is coded in GGCGeographyActivity.java" />
+        android:padding="10dp"
+        android:textSize="23sp"
+        android:textColorLink="@color/thai_spinner_color"
+        android:text="@string/link_will_show_up_here_in_place_of_this_text_it_is_coded_in_ggcgeographyactivity_java"
+        android:textStyle="normal|bold"
+        android:textAlignment="center" />
 
 </LinearLayout>

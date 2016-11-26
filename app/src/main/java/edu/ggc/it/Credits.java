@@ -18,7 +18,10 @@ public class Credits extends Activity {
         webView = (WebView) findViewById(R.id.creditsWebView);
         webView.getSettings().setJavaScriptEnabled(false);
         webView.setBackgroundColor(Color.BLACK);
-        webView.loadData("<font color='green'><center> <p>Leo Hernandez" +
+        webView.loadData("<" +
+                "font color='green'>" +
+                    "<b>" + "<center>" +
+                "       <p>Leo Hernandez" +
                         "<p>Andrew Lynch" +
                         "<p>Jared Marquez" +
                         "<p>Jesse Perkins" +
@@ -26,7 +29,11 @@ public class Credits extends Activity {
                         "<p>Rajesh Ramsaroop" +
                         "<p>Jacob Smallwood" +
                         "<p>Felegh Solomon" +
-                        "</center></font>",
+                        "<p>Ethan Patterson" +
+                        "<p>Demetri Clark" +
+                        "<p>LaDonte Groce" +
+                    "<b>" + "</center>" +
+                "</font>",
                 "text/html",
                 "UTF-8");
     }

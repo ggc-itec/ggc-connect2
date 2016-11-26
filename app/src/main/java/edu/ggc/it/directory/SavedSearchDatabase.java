@@ -1,3 +1,4 @@
+/*
 package edu.ggc.it.directory;
 
 import android.content.ContentValues;
@@ -125,3 +126,4 @@ public class SavedSearchDatabase {
         }
     }
 }
+*/

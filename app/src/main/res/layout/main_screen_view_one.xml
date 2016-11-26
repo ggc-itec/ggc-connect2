@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@drawable/ggcbuild"
+    android:background="@drawable/building_b_logo"
     android:gravity="center_horizontal"
     android:orientation="vertical"
     android:padding="30dip"
@@ -12,62 +12,58 @@
 
 
     <Button
-        android:id="@+id/directory_button"
-        android:layout_width="wrap_content"
+        android:id="@+id/admissions_button"
         android:layout_height="wrap_content"
-        android:background="@drawable/teacher"
-        android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/direction_button"
-        android:layout_above="@+id/direction_button"
-        android:layout_alignRight="@+id/schedule_button" />
+        android:background="@drawable/admissionslogo"
 
-    <Button
-        android:id="@+id/direction_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/navigation"
-
-        android:layout_below="@+id/gym_button"
-        android:layout_marginTop="15dp" />
-
-    <Button
-        android:id="@+id/search_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/main_button_class_search"
-        tools:background="@drawable/p"
-        android:textSize="8sp"
-        android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/directory_button"
-        android:layout_above="@+id/direction_button" />
-
-    <Button
-        android:id="@+id/schedule_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/cal"
-        android:layout_alignWithParentIfMissing="false"
-        android:layout_alignBaseline="@+id/direction_button"
-        android:layout_alignBottom="@+id/direction_button"
-        android:layout_toRightOf="@+id/direction_button" />
-
-    <Button
-        android:id="@+id/gym_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/gg"
-
-        android:layout_alignBottom="@+id/map_button"
-        android:layout_marginRight="31dp"
-        android:layout_marginBottom="43dp" />
+        android:layout_width="100dip"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
 
     <Button
         android:id="@+id/map_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/main_button_maps"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:background="@drawable/maplogo"
 
-        android:layout_centerVertical="false"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="13dp" />
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/directory_button"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:background="@drawable/directoryicon"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true" />
+
+    <Button
+        android:id="@+id/gym_button"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:background="@drawable/gymlogo"
+
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true" />
+
+    <Button
+        android:id="@+id/schedule_button"
+        android:layout_width="100dip"
+        android:background="@drawable/scheduleicon"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_height="100dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/department_button"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:background="@drawable/departmentnumbersicon"
+        tools:background="@drawable/departmentnumbersicon"
+        android:textSize="8sp"
+        android:visibility="visible"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        tools:ignore="SmallSp" />
 </RelativeLayout>

@@ -2,7 +2,6 @@ package edu.ggc.it.mainscreen;
 
 import android.content.Context;
 import android.content.Intent;
-import android.net.Uri;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,7 +9,8 @@ import android.widget.Button;
 import android.widget.RelativeLayout;
 
 import edu.ggc.it.R;
-import edu.ggc.it.Phonebook.Phonebook;
+import edu.ggc.it.admissions.AdmissionsActivity;
+import edu.ggc.it.department_numbers.DepartmentNumbersActivity;
 import edu.ggc.it.directory.DirectoryActivity;
 import edu.ggc.it.gym.GymMainActivity;
 import edu.ggc.it.map.MapActivity;
@@ -40,11 +40,11 @@ public class MainScreenViewOne extends RelativeLayout implements View.OnClickLis
         inflater.inflate(R.layout.main_screen_view_one, this, true);
 
         Button directoryButton = getListenedButton(R.id.directory_button);
-        Button directionButton = getListenedButton(R.id.direction_button);
+        Button directionButton = getListenedButton(R.id.admissions_button);
         Button mapButton = getListenedButton(R.id.map_button);
         Button gymButton = getListenedButton(R.id.gym_button);
         Button scheduleButton = getListenedButton(R.id.schedule_button);
-        Button classSearchButton = getListenedButton(R.id.search_button);
+        Button departmentNumberButton = getListenedButton(R.id.department_button);
     }
 
     private Button getListenedButton(final int resource) {
@@ -59,16 +59,14 @@ public class MainScreenViewOne extends RelativeLayout implements View.OnClickLis
             context.startActivity(new Intent(context, DirectoryActivity.class));
         } else if (view.getId() == R.id.map_button) {
             context.startActivity(new Intent(context, MapActivity.class));
-        } else if (view.getId() == R.id.direction_button) {
-            String url = "http://www.ggc.edu/admissions/visit-ggc/maps-and-directions/";
-            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-//            startActivity(browserIntent);
+        } else if (view.getId() == R.id.admissions_button) {
+            context.startActivity(new Intent(context, AdmissionsActivity.class));
         } else if (view.getId() == R.id.gym_button) {
             context.startActivity(new Intent(context, GymMainActivity.class));
         } else if (view.getId() == R.id.schedule_button) {
             context.startActivity(new Intent(context, ScheduleActivity.class));
-        } else if (view.getId() == R.id.search_button) {
-            context.startActivity(new Intent(context, Phonebook.class));
+        } else if (view.getId() == R.id.department_button) {
+            context.startActivity(new Intent(context, DepartmentNumbersActivity.class));
         }
     }
 }

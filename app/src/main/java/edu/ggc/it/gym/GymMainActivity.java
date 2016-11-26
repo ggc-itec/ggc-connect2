@@ -1,29 +1,18 @@
 package edu.ggc.it.gym;
 
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
-import android.content.res.AssetManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
-import android.widget.TextView;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.Collections;
 
 import edu.ggc.it.R;
 
 public class GymMainActivity extends Activity {
-    public final static String EXTRA_MESSAGE = "edu.ggc.it.directory.MESSAGE";
-    private Context context;
+
 
     /**
      * This method creates all of the buttons according to their names and
@@ -34,7 +23,6 @@ public class GymMainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gym_main);
 
-        context = this;
 
         Button wellness = (Button) findViewById(R.id.wellness);
         wellness.setOnClickListener(new ButtonListener());
@@ -42,23 +30,6 @@ public class GymMainActivity extends Activity {
         schedule.setOnClickListener(new ButtonListener());
         Button magazine = (Button) findViewById(R.id.healthMagazine);
         magazine.setOnClickListener(new ButtonListener());
-        TextView quote = (TextView) findViewById(R.id.quoteTextView);
-
-        try {
-            AssetManager am = context.getAssets();
-            InputStream in = am.open("quotes.txt");
-            BufferedReader reader = new BufferedReader(new InputStreamReader(in));
-            String str;
-            ArrayList<String> quotes = new ArrayList<String>();
-            while ((str = reader.readLine()) != null) {
-                quotes.add(str);
-                Collections.shuffle(quotes);
-            }
-            in.close();
-            quote.setText(quotes.get(0).toString());
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
 
     }
 

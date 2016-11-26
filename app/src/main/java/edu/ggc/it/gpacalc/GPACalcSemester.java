@@ -1,3 +1,4 @@
+/*
 package edu.ggc.it.gpacalc;
 
 import java.text.DecimalFormat;
@@ -18,6 +19,7 @@ import android.widget.TextView;
 
 import edu.ggc.it.R;
 
+*/
 /**
  * @author Kyle Dornblaser
  * @author Jordan Smith
@@ -25,7 +27,8 @@ import edu.ggc.it.R;
  *         <p/>
  *         This activity gets the user's current course credit hours and the estimated grade for the
  *         current semester and displays the GPA in a dialog.
- */
+ *//*
+
 
 public class GPACalcSemester extends Activity {
     //Holds the creditHours spinners
@@ -91,9 +94,11 @@ public class GPACalcSemester extends Activity {
         });
     }
 
-    /**
+    */
+/**
      * Adds a course to the screen
-     */
+     *//*
+
     private void addCourse() {
         //Adds a new LinearLayout to the ArrayList to be used by each course. This puts each course on its own line.
         childLayoutList.add(new LinearLayout(this));
@@ -113,9 +118,11 @@ public class GPACalcSemester extends Activity {
         semester_layout.addView(childLayoutList.get(childLayoutList.size() - 1));
     }
 
-    /**
+    */
+/**
      * Removes the most recent course added to the screen
-     */
+     *//*
+
     private void removeCourse() {
         //Remove the spinners from the related ArrayLists
         creditHoursList.remove(creditHoursList.size() - 1);
@@ -126,12 +133,14 @@ public class GPACalcSemester extends Activity {
         childLayoutList.remove(childLayoutList.size() - 1);
     }
 
-    /**
+    */
+/**
      * Returns a TextView that contains the passed through string.
      *
      * @param text will display in the TextView
      * @return a TextView with the passed through string
-     */
+     *//*
+
     private TextView createTextView(String text) {
         TextView creditHoursTextView = new TextView(this);
         creditHoursTextView.setText(text + ": ");
@@ -139,11 +148,13 @@ public class GPACalcSemester extends Activity {
         return creditHoursTextView;
     }
 
-    /**
+    */
+/**
      * Returns a Spinner that contains the choices A, B, C, D, and F
      *
      * @return the created grade spinner
-     */
+     *//*
+
     private Spinner createGradeSpinner() {
         //Create the grade spinner
         Spinner gradeSpinner = new Spinner(this);
@@ -166,11 +177,13 @@ public class GPACalcSemester extends Activity {
         return gradeSpinner;
     }
 
-    /**
+    */
+/**
      * Returns a Spinner that contains the choices 1, 2, 3, 4
      *
      * @return the created credit hours spinner
-     */
+     *//*
+
     private Spinner createCreditHoursSpinner() {
         //Create the credit hours spinner
         Spinner creditHoursSpinner = new Spinner(this);
@@ -192,21 +205,25 @@ public class GPACalcSemester extends Activity {
         return creditHoursSpinner;
     }
 
-    /**
+    */
+/**
      * Retrieve the intent from the previous activity
-     */
+     *//*
+
     private void processIntent() {
         Intent receivedIntent = getIntent();
         previousGPA = receivedIntent.getFloatExtra("gpa", 0);
         previousHours = receivedIntent.getIntExtra("hours", 0);
     }
 
-    /**
+    */
+/**
      * Converts the passed through String letter grade into a float number on the 4.0 GPA scale
      *
      * @param letter the grade letter which is being converted
      * @return the grade as a float on 4.0 GPA scale
-     */
+     *//*
+
     private float convertGradeLetter(String letter) {
         if (letter.equals("A"))
             return 4.0f;
@@ -220,9 +237,11 @@ public class GPACalcSemester extends Activity {
             return 0.0f;
     }
 
-    /**
+    */
+/**
      * Build an AlertDialog box and display the calculated GPA in it
-     */
+     *//*
+
     private void displayGPA() {
         AlertDialog.Builder alert = new AlertDialog.Builder(this);
         alert.setTitle("Calculated GPA");
@@ -237,14 +256,16 @@ public class GPACalcSemester extends Activity {
         alert.show();
     }
 
-    /**
+    */
+/**
      * Takes all the inputed values from the spinners and
      * the previous GPA and hours and uses them to calculate the new GPA. Note:
      * this is basically the end of the program. Called when the submitButton is
      * pressed.
      *
      * @return the new GPA
-     */
+     *//*
+
     private float calculateGPA() {
         //Initialize the totals and input the previous GPA and hours to them
         float totalPoints = previousGPA * previousHours;
@@ -269,4 +290,4 @@ public class GPACalcSemester extends Activity {
         //Return the GPA using totalPoints and totalHours
         return totalPoints / totalHours;
     }
-}
+}*/

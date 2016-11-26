@@ -1,3 +1,4 @@
+/*
 package edu.ggc.it.map;
 
 import java.util.HashMap;
@@ -38,7 +39,8 @@ public class MapView extends View {
     private boolean firstRun = true;
 
 
-    /**
+    */
+/**
      * MapView extends View and is a class that is intend to show a map background then when provided with GPS data, in
      * the from of meters off set from thecenter of the map, show the current location of the device. MapView also has
      * custom buttons and is able to be scaled and scrolled with out changing the relative position of all of
@@ -49,7 +51,8 @@ public class MapView extends View {
      *
      * @param context
      * @author Andrew F. Lynch
-     */
+     *//*
+
     public MapView(Context context) {
         super(context);
         this.context = context;
@@ -75,21 +78,25 @@ public class MapView extends View {
         setCanvasXY(0, 0);
     }
 
-    /**
+    */
+/**
      * The setCanvasXY and getCanvasX/getCanvasY where made to help keep track of where
      * start of background image is.     *
-     */
+     *//*
+
     private void setCanvasXY(float x, float y) {
         canvasX = x;
         canvasY = y;
     }
 
-    /**
+    */
+/**
      * This method changes the relative position of the redDot also the first this method is run it initializes redDot.
      *
      * @param metersLongOffSet
      * @param metersLatiOffSet
-     */
+     *//*
+
     public void setRedDotXY(float metersLongOffSet, float metersLatiOffSet) {
         redDot = null;
         redDot = BitmapFactory.decodeResource(getResources(), R.drawable.red_dot);
@@ -175,7 +182,7 @@ public class MapView extends View {
         if (touchX >= aBuildingXMin && touchX <= aBuildingXMax) {
             if (touchY >= aBuildingYMin && touchY <= aBuildingYMax) {
                 Context context = getContext();
-                Intent i = new Intent(context, ImageTouchABuildingActivity.class);
+                Intent i = new Intent(context, BuildingA.class);
                 context.startActivity(i);
             }
         }
@@ -189,7 +196,7 @@ public class MapView extends View {
         if (touchX >= bBuildingXMin && touchX <= bBuildingXMax) {
             if (touchY >= bBuildingYMin && touchY <= bBuildingYMax) {
                 Context context = getContext();
-                Intent i = new Intent(context, ImageTouchBBuildingActivity.class);
+                Intent i = new Intent(context, BuildingB.class);
                 context.startActivity(i);
             }
         }
@@ -203,7 +210,7 @@ public class MapView extends View {
         if (touchX >= cBuildingXMin && touchX <= cBuildingXMax) {
             if (touchY >= cBuildingYMin && touchY <= cBuildingYMax) {
                 Context context = getContext();
-                Intent i = new Intent(context, ImageTouchCBuildingActivity.class);
+                Intent i = new Intent(context, BuildingC.class);
                 context.startActivity(i);
             }
         }
@@ -217,7 +224,7 @@ public class MapView extends View {
         if (touchX >= dBuildingXMin && touchX <= dBuildingXMax) {
             if (touchY >= dBuildingYMin && touchY <= dBuildingYMax) {
                 Context context = getContext();
-                Intent i = new Intent(context, ImageTouchDBuildingActivity.class);
+                Intent i = new Intent(context, BuildingD.class);
                 context.startActivity(i);
             }
         }
@@ -231,7 +238,7 @@ public class MapView extends View {
         if (touchX >= fBuildingXMin && touchX <= fBuildingXMax) {
             if (touchY >= fBuildingYMin && touchY <= fBuildingYMax) {
                 Context context = getContext();
-                Intent i = new Intent(context, ImageTouchFBuildingActivity.class);
+                Intent i = new Intent(context, BuildingE.class);
                 context.startActivity(i);
             }
         }
@@ -245,7 +252,7 @@ public class MapView extends View {
         if (touchX >= lBuildingXMin && touchX <= lBuildingXMax) {
             if (touchY >= lBuildingYMin && touchY <= lBuildingYMax) {
                 Context context = getContext();
-                Intent i = new Intent(context, ImageTouchLBuildingActivity.class);
+                Intent i = new Intent(context, BuildingF.class);
                 context.startActivity(i);
             }
         }
@@ -259,7 +266,7 @@ public class MapView extends View {
         if (touchX >= eBuildingXMin && touchX <= eBuildingXMax) {
             if (touchY >= eBuildingYMin && touchY <= eBuildingYMax) {
                 Context context = getContext();
-                Intent i = new Intent(context, ImageTouchStudentCenterActivity.class);
+                Intent i = new Intent(context, BuildingH.class);
                 context.startActivity(i);
             }
         }
@@ -320,3 +327,4 @@ public class MapView extends View {
         }
     }
 }
+*/

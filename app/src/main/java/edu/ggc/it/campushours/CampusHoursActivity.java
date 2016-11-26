@@ -1,6 +1,5 @@
 package edu.ggc.it.campushours;
 
-
 import android.app.Activity;
 import android.net.http.SslError;
 import android.os.Bundle;
@@ -24,7 +23,7 @@ public class CampusHoursActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_calendar);
+        setContentView(R.layout.activity_web);
         webView = (WebView) findViewById(R.id.calendar_webview);
         webView.getSettings().setSupportZoom(true);
         webView.setWebViewClient(new CampusHoursWebViewClient());

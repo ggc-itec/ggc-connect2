@@ -20,17 +20,17 @@ import android.webkit.WebViewClient;
 import edu.ggc.it.R;
 
 public class DegreesMainActivity extends Activity {
-    public static final String GGC_CAMPUS_HOURS_URL = "http://www.ggc.edu/academics/degrees-and-programs/";
+    public static final String GGC_DEGREES_URL = "http://www.ggc.edu/academics/degrees-and-programs/";
     private WebView webView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_calendar);
+        setContentView(R.layout.activity_web);
         webView = (WebView) findViewById(R.id.calendar_webview);
         webView.getSettings().setSupportZoom(true);
         webView.setWebViewClient(new DegreesWebViewClient());
-        webView.loadUrl(GGC_CAMPUS_HOURS_URL);
+        webView.loadUrl(GGC_DEGREES_URL);
     }
 
     @Override

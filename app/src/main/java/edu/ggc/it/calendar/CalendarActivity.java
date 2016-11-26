@@ -16,9 +16,6 @@ import edu.ggc.it.R;
  * This is more of an example of using Jsoup to download the contents of a URL and 
  * display it with some embellishment :)
  * 
- * 
- * TODO: please somebody redesign the icon for this activity, IMOH, it could look better
- * 
  */
 public class CalendarActivity extends Activity {
     public static final String GGC_CALENDAR_URL = "http://www.ggc.edu/academics/calendar/";
@@ -27,7 +24,7 @@ public class CalendarActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_calendar);
+        setContentView(R.layout.activity_web);
         webView = (WebView) findViewById(R.id.calendar_webview);
         webView.getSettings().setSupportZoom(true);
         webView.setWebViewClient(new CalendarWebViewClient());

@@ -1,3 +1,4 @@
+/*
 package edu.ggc.it.d2l_web;
 
 import edu.ggc.it.R;
@@ -13,9 +14,11 @@ import android.widget.CompoundButton;
 import android.widget.EditText;
 
 
+*/
 /*
  *   Login form for D2L    
- */
+ *//*
+
 public class D2LWebLoginActivity extends Activity {
 
     private Button loginButton;
@@ -78,3 +81,4 @@ public class D2LWebLoginActivity extends Activity {
     }
 
 }
+*/

@@ -1,3 +1,4 @@
+/*
 package edu.ggc.it.schedule;
 
 import edu.ggc.it.R;
@@ -41,3 +42,4 @@ public class SchedulePreferenceActivity extends Activity {
         editor.commit();
     }
 }
+*/

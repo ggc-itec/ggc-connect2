@@ -2,22 +2,32 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/starwarsbackground"
+    android:weightSum="1">
 
     <TextView
         android:id="@+id/creditsTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="249dp"
+        android:layout_height="57dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
         android:text="Developers"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+        android:background="@drawable/clear"
+        android:textAlignment="center"
+        android:paddingLeft="40dip" />
 
     <WebView
         android:id="@+id/creditsWebView"
-        android:layout_width="280dp"
-        android:layout_height="345dp"
+        android:layout_width="284dp"
+        android:layout_height="353dp"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp" />
+        android:layout_marginTop="20dp"
+        android:background="@drawable/starwarsbackground"
+        android:layout_weight="0.25" />
 
 </LinearLayout>

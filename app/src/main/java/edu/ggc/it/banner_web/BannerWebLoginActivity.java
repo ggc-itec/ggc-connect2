@@ -1,3 +1,4 @@
+/*
 package edu.ggc.it.banner_web;
 
 import edu.ggc.it.R;
@@ -12,11 +13,13 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 
+*/
 /*
  *   Login form for Banner
  *
  *
- */
+ *//*
+
 public class BannerWebLoginActivity extends Activity {
 
     private Button loginButton;
@@ -78,4 +81,4 @@ public class BannerWebLoginActivity extends Activity {
 
     }
 
-}
+}*/

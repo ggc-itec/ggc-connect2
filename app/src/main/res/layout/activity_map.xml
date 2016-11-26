@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ggcbackgroundlogo"
+    android:padding="35dip">
+
+    <Button
+        android:text="Building A PDF"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/buildingA"
+        android:textStyle="normal|bold"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:layout_weight="1"
+        android:layout_marginLeft="40dip"
+        android:layout_marginRight="40dip" />
+
+    <Button
+        android:text="Building B PDF"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/buildingB"
+        android:textStyle="normal|bold"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:layout_weight="1"
+        android:layout_marginLeft="40dip"
+        android:layout_marginRight="40dip" />
+
+    <Button
+        android:text="Building C PDF"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/buildingC"
+        android:textStyle="normal|bold"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:layout_weight="1"
+        android:layout_marginLeft="40dip"
+        android:layout_marginRight="40dip" />
+
+    <Button
+        android:text="Building D PDF"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/buildingD"
+        android:textStyle="normal|bold"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:layout_weight="1"
+        android:layout_marginLeft="40dip"
+        android:layout_marginRight="40dip" />
+
+    <Button
+        android:text="Building E PDF"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/buildingE"
+        android:textStyle="normal|bold"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:layout_weight="1"
+        android:layout_marginLeft="40dip"
+        android:layout_marginRight="40dip" />
+
+    <Button
+        android:text="Building F PDF"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/buildingF"
+        android:textStyle="normal|bold"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:layout_weight="1"
+        android:layout_marginLeft="40dip"
+        android:layout_marginRight="40dip" />
+
+    <Button
+        android:text="Building H PDF"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/buildingH"
+        android:textStyle="normal|bold"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:layout_weight="1"
+        android:layout_marginLeft="40dip"
+        android:layout_marginRight="40dip" />
+
+    <Button
+        android:text="Building I PDF"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/buildingI"
+        android:textStyle="normal|bold"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:layout_weight="1"
+        android:layout_marginLeft="40dip"
+        android:layout_marginRight="40dip" />
+
+    <Button
+        android:text="Building L PDF"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/buildingL"
+        android:textStyle="normal|bold"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:layout_weight="1"
+        android:layout_marginLeft="40dip"
+        android:layout_marginRight="40dip" />
+</LinearLayout>
+

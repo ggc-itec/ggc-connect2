@@ -4,50 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@drawable/ggcbuild"
+    android:background="@drawable/libraryinsidelogo"
     android:orientation="vertical"
     android:padding="30dip"
-    android:gravity="center_horizontal"
-    tools:background="@drawable/ggcbuild">
-
-    <Button
-        android:id="@+id/button_banner_web"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="19dp"
-        android:background="@drawable/main_button_banner_web"
-        android:layout_marginRight="31dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true" />
-
-    <TextView
-        android:id="@+id/textview_d2l_web"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="11dp"
-        android:text="Desire2Learn"
-        android:textAppearance="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle"
-        android:layout_below="@+id/button_d2l_web"
-        android:layout_alignParentLeft="true" />
-
-    <TextView
-        android:id="@+id/textview_banner_web"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Banner"
-        android:textAppearance="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle"
-        android:layout_below="@+id/button_banner_web"
-        android:layout_alignLeft="@+id/button_banner_web"
-        android:layout_marginLeft="11dp" />
+    android:gravity="center_horizontal">
 
     <Button
         android:id="@+id/button_d2l_web"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/main_button_d2l_web"
-        android:layout_marginLeft="16dp"
-        android:layout_alignBaseline="@+id/button_banner_web"
-        android:layout_alignBottom="@+id/button_banner_web"
-        android:layout_alignLeft="@+id/textview_d2l_web" />
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:background="@drawable/d2llogo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button_banner_web"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:background="@drawable/bannerlogo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>

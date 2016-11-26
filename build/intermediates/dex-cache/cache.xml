@@ -3,84 +3,120 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Ethan\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
+        jar="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="21.1.2"
-        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
-        <dex dex="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.0.0_12817d88ca877ff8766546510a774d4f855266bc\classes.dex" />
+        revision="23.0.1"
+        sha1="cf60a8cd2f896314e40b2f1a9788e91e228c3671">
+        <dex dex="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-10.0.0_7a8778a72d41e55145e44df27bb3c28e960868d0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_7ccd02e047f9a36df2eb0e4be4fb96d951b6f8e5\classes.dex" />
     </item>
     <item
         is-multidex="true"
         jar="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
-        revision="21.1.2"
-        sha1="6c2b37cfcb592ca3078ad441797e6c5491c88312">
+        revision="23.0.1"
+        sha1="14a40f1dd1548020ef2c279fb397059991aa3ea1">
         <dex dex="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_91e106b17a966d6070a042d8e3cc77fe0589d9b7\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.6.1\jars\classes.jar"
+        jar="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="21.1.2"
-        sha1="4a36600281a648769411ef642c331851732bf29e">
-        <dex dex="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.6.1_09ebe98414262e2d585e63af46bcbe3466f38c29\classes.dex" />
+        revision="23.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.1_0d96e12b00a39107ca11e7e3ce67804245ae6fe9\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\libs\Parse-1.2.2.jar"
+        jar="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="21.1.2"
-        sha1="507264e0ffaa17b19b0e0d534d2da650f520a74a">
-        <dex dex="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\2\Parse-1.2.2_d3f19b1b0e6ff1cefcd9d0ea34ea95326f683f98\classes.dex" />
+        revision="23.0.1"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.0.1_5eaf4c60a11e3a16ea88f2c15b4dddec58b64f8e\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jar="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="21.1.2"
-        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
-        <dex dex="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_5ebc3a4cd01365dfe10bee9906fb546638536c34\classes.dex" />
+        revision="23.0.1"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.0.1_560aa61f55e94b5e30dafde481991e515cbd19bf\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jar="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="21.1.2"
-        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
-        <dex dex="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.0.0_c254029bf382cb80a0ebacc4d3f3c55d5ec304fe\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.6.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="21.1.2"
-        sha1="62ff84124b89177abc0c27f3e38c9732f2d41617">
-        <dex dex="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-9.6.1_ad7a130ecbbe0df967177ee734ceba04ab3b22cf\classes.dex" />
+        revision="23.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.1_e6d7a526e5c23c1acc0bde8331479c9e2efb3eb9\classes.dex" />
     </item>
     <item
         is-multidex="true"
         jar="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
-        revision="21.1.2"
-        sha1="ae3363626638172d0736e9dfcdceaa81207eeecb">
+        revision="23.0.1"
+        sha1="34fd56745bf6cc2f30ad57b8ea3fdd766be41eba">
         <dex dex="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_63a6cd045b2009bc64266be74426f65933388276\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.6.1\jars\classes.jar"
+        jar="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
         jumboMode="true"
         optimize="true"
-        revision="21.1.2"
-        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
-        <dex dex="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.6.1_2e9695f78fd6e59bbe3cf390085d381951a5ed76\classes.dex" />
+        revision="23.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_42cf8a14ece888f789a7e4c0f8d62ea21684a0f2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_ea8f44d2143023c2ca3cb896fc564f6f9c1471d3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_33b4f10bc41db385e47524367e892586876e4ecc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.1_506f5993870a38b065b788f026a485e56aacde70\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3347c3e7056fabc88bdbd8fdae65ddf2b674d977">
+        <dex dex="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-10.0.0_25981a56109d548feb74f59a29bc7eea476dcb63\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -93,12 +129,201 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.6.1\jars\classes.jar"
+        jar="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.1_dd6cff700846fb1cca21eb63d81f87627d67a78f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="985be85104f6d0c5c5e51e7b7e60d8883a98ac64">
+        <dex dex="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-10.0.0_44947907774835f4ab2ad1db1e2fd5c0d5eeaa74\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.1_1c4c85fc3866caea21c5ccdc08e87eff3714bb7d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.1_a4dc0453fccda04da8be1261f1e16d37e9385384\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="21.1.2"
-        sha1="af7582c6b327449c6d32518e6a10307860b7b5d6">
-        <dex dex="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.6.1_f9e57bb935c30df0c010ae5b4155eb124bc75138\classes.dex" />
+        sha1="be671df7e62038548fcb19d88a5747190c66aede">
+        <dex dex="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_91e106b17a966d6070a042d8e3cc77fe0589d9b7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.0.1_a2dcc5e7f53aaad7b6ba52cdd972610bab6c3bad\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\libs\Parse-1.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="507264e0ffaa17b19b0e0d534d2da650f520a74a">
+        <dex dex="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\2\Parse-1.2.2_d3f19b1b0e6ff1cefcd9d0ea34ea95326f683f98\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.1_28651b113edb7005c102bb7454940b40c51b74c7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fb0229499e600b485a276d4e31161a3ae31c144c">
+        <dex dex="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-clearcut-10.0.0_cb8cd27d8983cd7461d89abdde58475978fdf63c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="7cfefb013f723253db24baba04fa1cb126daa868">
+        <dex dex="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_63a6cd045b2009bc64266be74426f65933388276\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\libs\Parse-1.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="507264e0ffaa17b19b0e0d534d2da650f520a74a">
+        <dex dex="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\2\Parse-1.2.2_d3f19b1b0e6ff1cefcd9d0ea34ea95326f683f98\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.1_53e42d39ff7771350a901e6bbd2341cf5d1a698b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="73fe8ab7f76e41d0cabbc4fa3399557de52efb2d">
+        <dex dex="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-10.0.0_82e35df146d1e846c1abb6005dfe0a2690e2e4e3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ethan\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_d118182f5a7495cbb835462ca5d443d0a40dd026\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="75dbc3537bc912d077b3db2f5ac72d5b43644b2c">
+        <dex dex="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-10.0.0_dec077bb3bcc3bfe75905b8a49834fcc22caef99\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.1_3c9e39ceb3befcf3aafa63cf6c0b8e582c0e916f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4700f436ede140fb804204f806c9cc3f08e386f4">
+        <dex dex="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-gridlayout-v7-25.0.1_0e5e83cf259cf1cef56b437e525325e23f74adb2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_df6622a3c1350e72c1978f246335d361bcbf8185\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ae809d521d9f7da5337a82edd64eea23a76e788d">
+        <dex dex="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gass-10.0.0_d2da89f37c8deca3b474cf9ef3346310a44d190c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\10.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="849da156edbc1201f5cd6e237524187442a62af3">
+        <dex dex="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-10.0.0_f560e431a2b3920368dc9a70f7a3b801394c0839\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
+        <dex dex="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-25.0.1_24cd25b3a2e1ddf3a366e01791dfeaa6040068c8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\libs\jsoup-1.7.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ab1f22cadc2f8b514e55ba368f5128056fe304da">
+        <dex dex="C:\Users\Ethan\Desktop\GGC_Connect\ggc-connect2\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\2\jsoup-1.7.3_dc5b990cb84ba5ffbbfa8fb528fffbca83b4ae35\classes.dex" />
     </item>
 
 </items>

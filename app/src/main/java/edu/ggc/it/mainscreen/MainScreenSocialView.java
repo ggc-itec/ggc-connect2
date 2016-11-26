@@ -1,3 +1,4 @@
+/*
 package edu.ggc.it.mainscreen;
 
 import android.app.AlertDialog;
@@ -15,9 +16,11 @@ import edu.ggc.it.R;
 import edu.ggc.it.rss.RSSActivity;
 import edu.ggc.it.rss.RSSFeed;
 
+*/
 /**
  * Created by gregwesterfield on 10/21/13.
- */
+ *//*
+
 public class MainScreenSocialView extends LinearLayout {
     private Context context;
 
@@ -84,3 +87,4 @@ public class MainScreenSocialView extends LinearLayout {
 //        }
 //    }
 }
+*/

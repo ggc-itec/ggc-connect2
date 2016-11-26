@@ -1,18 +1,16 @@
 package edu.ggc.it.gym;
 
-import edu.ggc.it.R;
-
-import android.net.Uri;
-import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
-
-import edu.ggc.it.map.ImageTouchFBuildingActivity;
-
+import android.net.Uri;
+import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.TextView;
+
+import edu.ggc.it.R;
+import edu.ggc.it.map.BuildingE;
 
 
 public class GymScheduleActivity extends Activity {
@@ -53,7 +51,7 @@ public class GymScheduleActivity extends Activity {
 
             @Override
             public void onClick(View v) {
-                Intent buildingFIntent = new Intent(GymScheduleActivity.this, ImageTouchFBuildingActivity.class);
+                Intent buildingFIntent = new Intent(GymScheduleActivity.this, BuildingE.class);
                 startActivity(buildingFIntent);
             }
         });

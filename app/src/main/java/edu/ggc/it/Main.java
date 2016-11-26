@@ -11,18 +11,13 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-import edu.ggc.it.myinfo.MyInfoActivity;
-import edu.ggc.it.social.SocialListActivity;
-import edu.ggc.it.todo.ToDoListActivity;
-import edu.ggc.it.reminders.RemindersActivity;
-
-/*  
- * ggc-connect is an app designed for the GGC community 
+/*
+ * ggc-connect is an app designed for the GGC community
  * @author ggc-itec
- * 
+ *
  */
 public class Main extends Activity {
-    private Context myContext;
+    public Context myContext;
 
     /**
      * Called when the activity is first created.
@@ -44,6 +39,7 @@ public class Main extends Activity {
         return true;
     }
 
+
     /**
      * Called when an option from the menu is selected.
      *
@@ -58,7 +54,7 @@ public class Main extends Activity {
                 new AlertDialog.Builder(this)
                         .setTitle("Welcome")
                         .setMessage(
-                                "ggc-connect is an app for the Georgia Gwinnett College community")
+                                "GGC Link is an app for the Georgia Gwinnett College community")
                         .setNeutralButton("Close",
                                 new DialogInterface.OnClickListener() {
                                     @Override
@@ -74,24 +70,13 @@ public class Main extends Activity {
             case R.id.links:
                 startActivity(new Intent(Main.this, News.class));
                 return true;
-            case R.id.myinfo:
-                startActivity(new Intent(Main.this, MyInfoActivity.class));
-                return true;
-            case R.id.todo:
-                startActivity(new Intent(Main.this, ToDoListActivity.class));
-                return true;
-            case R.id.social:
-                startActivity(new Intent(Main.this, SocialListActivity.class));
-                return true;
             case R.id.feedback:
                 String feedbackURL = "https://docs.google.com/forms/d/1_6-2W088X8q2RNziskqiGIRYGelE-d0YvLYpd7hcNI0/viewform";
                 startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(feedbackURL)));
-                return true;
-            case R.id.reminders:
-                startActivity(new Intent(Main.this, RemindersActivity.class));
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
     }
+
 }

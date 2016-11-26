@@ -12,7 +12,7 @@ PLEASE READ ME FIRST BEFORE EDITING THIS FILE.
 		 Friday = 6
 		 Saturday = 7
  * 
- 	For example: I want to change the Admissions for Tuesday and change the opening time to 6:30 AM and have it close at 9:45PM.
+ 	For example: I want to change the AdmissionsActivity for Tuesday and change the opening time to 6:30 AM and have it close at 9:45PM.
  *
  * 1) Navigate to the appropriate department node.
  * 2) In the nested hoursfordayofweek node, look for the appropriate day of the week. I want to change the hours for Tuesday. Tuesday = 2.

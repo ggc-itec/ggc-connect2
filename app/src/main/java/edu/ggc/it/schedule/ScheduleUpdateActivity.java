@@ -1,3 +1,4 @@
+/*
 package edu.ggc.it.schedule;
 
 import android.app.Activity;
@@ -22,13 +23,15 @@ import edu.ggc.it.R;
 import edu.ggc.it.schedule.helper.ClassItem;
 import edu.ggc.it.schedule.helper.TimePickerFragment;
 
+*/
 /**
  * The update class handles processing of the add/edit form. This class handles
  * adding classes as well as editing the individual course item. This is because
  * the add/edit form is the same layout.
  *
  * @author Raj Ramsaroop
- */
+ *//*
+
 public class ScheduleUpdateActivity extends Activity implements
         TimePickerFragment.OnTimeSetListener {
 
@@ -37,14 +40,18 @@ public class ScheduleUpdateActivity extends Activity implements
 
     private Context scheduleContext;
 
-    /**
+    */
+/**
      * Cancel button
-     */
+     *//*
+
     private Button btnCancel;
 
-    /**
+    */
+/**
      * Update button. Either says "edit" or "add" depending on action.
-     */
+     *//*
+
     private Button btnUpdateClass;
 
     private EditText txtClass;
@@ -147,12 +154,14 @@ public class ScheduleUpdateActivity extends Activity implements
         }
     }
 
-    /**
+    */
+/**
      * Gets the class data based on rowID and fills the form with the
      * information from the database
      *
      * @param rowID
-     */
+     *//*
+
     private void fillFormFromDatabase(long rowID) {
 
         Cursor cursor = database.query(rowID);
@@ -218,11 +227,13 @@ public class ScheduleUpdateActivity extends Activity implements
 
     }
 
-    /**
+    */
+/**
      * Listener inner class for the add/update class activity.
      *
      * @author Raj Ramsaroop
-     */
+     *//*
+
     public class ScheduleUpdateListener implements OnClickListener {
 
         @Override
@@ -239,10 +250,12 @@ public class ScheduleUpdateActivity extends Activity implements
         }
     }
 
-    /**
+    */
+/**
      * This method processes the form contents and once validated, adds or
      * updates the record in the database
-     */
+     *//*
+
     private void updateClass() {
 
         // Reset form processing flag
@@ -323,14 +336,16 @@ public class ScheduleUpdateActivity extends Activity implements
         }
     }
 
-    /**
+    */
+/**
      * This is to show a simple message dialog with an OK button. This is to be
      * used when something stronger than a Toast is needed to get the user's
      * attention.
      *
      * @param message The message to display to the user.
      * @param title   The title of the pop up.
-     */
+     *//*
+
     private void showMessageDialog(String message, String title) {
         new AlertDialog.Builder(this).setTitle(title).setMessage(message)
                 .setPositiveButton("OK", new DialogInterface.OnClickListener() {
@@ -366,9 +381,11 @@ public class ScheduleUpdateActivity extends Activity implements
         t.show(getFragmentManager(), "timePicker");
     }
 
-    /**
+    */
+/**
      * This is called when the user picks a time through the time picker pop up.
-     */
+     *//*
+
     @Override
     public void onTimeSet(int buttonSource, int hour, int minute) {
         String time = getFormattedTimeString(hour, minute);
@@ -415,3 +432,4 @@ public class ScheduleUpdateActivity extends Activity implements
     }
 
 }
+*/

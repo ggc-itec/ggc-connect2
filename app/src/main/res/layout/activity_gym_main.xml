@@ -2,56 +2,50 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/ggc_green"
+    android:background="@drawable/librarygallery_computers"
     android:gravity="center"
     tools:context=".GymMainActivity">
+
+    <ImageView
+        android:src="@drawable/gym"
+        android:id="@+id/imageView3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="200dip"
+        android:contentDescription=""
+        tools:ignore="ContentDescription" />
 
     <LinearLayout
         android:id="@+id/linearLayout1"
         android:layout_width="match_parent"
+        android:orientation="vertical"
         android:layout_height="wrap_content"
+        android:padding="50dip"
+        android:layout_below="@+id/imageView3"
         android:layout_alignParentLeft="true"
-        android:layout_centerVertical="true"
-        android:layout_marginLeft="29dp"
-        android:layout_marginRight="29dp"
-        android:orientation="vertical">
+        tools:ignore="RtlHardcoded">
 
         <Button
-            android:text="About Wellness and Recreation"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:text="@string/about_wellness_and_recreation"
             android:id="@+id/wellness"
-            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+            android:layout_height="70dip"
+            android:layout_width="300dip" />
 
         <Button
             android:id="@+id/gymSchedule"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Gym Schedule"
-            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
-
-        <Button
-            android:id="@+id/Group"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Group Fitness"
+            android:layout_width="300dip"
+            android:layout_height="70dip"
+            android:text="@string/gym_schedule"
             android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
 
         <Button
             android:id="@+id/healthMagazine"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Health Magazine"
+            android:layout_width="300dip"
+            android:layout_height="70dip"
+            android:text="@string/health_magazine"
             android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
     </LinearLayout>
-
-    <TextView
-        android:id="@+id/quoteTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large.Inverse"
-        android:text="&quot;Strength is the product of struggle, you must do what others don't to achieve what others won't&quot; - Henry Rollins"
-        android:layout_alignRight="@+id/linearLayout1"
-        android:layout_alignLeft="@+id/linearLayout1" />
 
 </RelativeLayout>
