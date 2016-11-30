@@ -3,6 +3,7 @@ package edu.ggc.it.d2l_web;
 import android.app.Activity;
 import android.net.http.SslError;
 import android.os.Bundle;
+import android.view.View;
 import android.webkit.SslErrorHandler;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
@@ -36,6 +37,16 @@ public class D2LWebActivity extends Activity {
             super.onBackPressed();
         }
     }
+
+    public void onBackClicked(View view) {
+        if (webView.canGoBack()) {
+            webView.goBack();
+            return;
+        } else {
+            super.onBackPressed();
+        }
+    }
+
     /**
      * WebViewClient that ignores SSL errors (for some reason the GIL website returns an invalid certificate)
      */

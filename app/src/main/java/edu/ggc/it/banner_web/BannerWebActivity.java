@@ -3,6 +3,7 @@ package edu.ggc.it.banner_web;
 import android.app.Activity;
 import android.net.http.SslError;
 import android.os.Bundle;
+import android.view.View;
 import android.webkit.SslErrorHandler;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
@@ -30,6 +31,15 @@ public class BannerWebActivity extends Activity {
 
     @Override
     public void onBackPressed() {
+        if (webView.canGoBack()) {
+            webView.goBack();
+            return;
+        } else {
+            super.onBackPressed();
+        }
+    }
+
+    public void onBackClicked(View view) {
         if (webView.canGoBack()) {
             webView.goBack();
             return;
