@@ -64,10 +64,10 @@ public class MainScreenSocialView extends LinearLayout {
 //        } else if (view.getId() == R.id.twitter_page) {
 //            try {
 //                context.getPackageManager().getPackageInfo(
-//                        "com.twitter.android", 0);
+//                        "com.Twitter.android", 0);
 //                context.startActivity(new Intent(
 //                        Intent.ACTION_VIEW,
-//                        Uri.parse("twitter://user?screen_name=georgiagwinnett")));
+//                        Uri.parse("Twitter://user?screen_name=georgiagwinnett")));
 //            } catch (Exception e) {
 //                context.startActivity(new Intent(Intent.ACTION_VIEW,
 //                        Uri.parse("https://twitter.com/georgiagwinnett")));

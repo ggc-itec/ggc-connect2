@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="edu.ggc.it"
-    android:versionCode="23"
-    android:versionName="1.5">
+    android:versionCode="25"
+    android:versionName="1.4.1">
 
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
@@ -123,6 +123,22 @@
             android:name="edu.ggc.it.library.LibraryActivity"
             android:label="GGC Galileo"
             android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name="edu.ggc.it.social_media.Facebook"
+            android:label="GGC Facebook">
+        </activity>
+        <activity
+            android:name="edu.ggc.it.social_media.Instagram"
+            android:label="GGC Instagram">
+        </activity>
+        <activity
+            android:name="edu.ggc.it.social_media.Twitter"
+            android:label="GGC Twitter">
+        </activity>
+        <activity
+            android:name="edu.ggc.it.athletics.Athletics"
+            android:label="GGC Athletics">
         </activity>
     </application>
 

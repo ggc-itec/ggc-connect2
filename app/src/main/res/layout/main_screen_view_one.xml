@@ -1,69 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@drawable/building_b_logo"
-    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="30dip"
-    android:splitMotionEvents="false">
+    android:background="@drawable/building_b_logo">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:orientation="horizontal"
+        android:layout_weight="1" >
 
-    <Button
-        android:id="@+id/admissions_button"
-        android:layout_height="wrap_content"
-        android:background="@drawable/admissionslogo"
+        <Button
+            android:id="@+id/admissions_button"
+            android:background="@drawable/admission"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="50dip"
+            tools:ignore="ButtonStyle,NestedWeights" />
 
-        android:layout_width="100dip"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true" />
+        <Button
+            android:id="@+id/map_button"
+            android:background="@drawable/mapbutton1"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="50dip"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
 
-    <Button
-        android:id="@+id/map_button"
-        android:layout_width="100dip"
-        android:layout_height="100dip"
-        android:background="@drawable/maplogo"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:orientation="horizontal"
+        android:layout_weight="1" >
 
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true" />
+        <Button
+            android:id="@+id/department_button"
+            android:background="@drawable/department"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="50dip"
+            tools:ignore="ButtonStyle,NestedWeights" />
 
-    <Button
-        android:id="@+id/directory_button"
-        android:layout_width="100dip"
-        android:layout_height="100dip"
-        android:background="@drawable/directoryicon"
-        android:layout_alignParentStart="true"
-        android:layout_centerVertical="true" />
+        <Button
+            android:id="@+id/gym_button"
+            android:background="@drawable/gymbutton"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="50dip"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
 
-    <Button
-        android:id="@+id/gym_button"
-        android:layout_width="100dip"
-        android:layout_height="100dip"
-        android:background="@drawable/gymlogo"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:orientation="horizontal"
+        android:layout_weight="1" >
 
-        android:layout_alignParentEnd="true"
-        android:layout_centerVertical="true" />
+        <Button
+            android:id="@+id/schedule_button"
+            android:background="@drawable/checklist"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="50dip"
+            tools:ignore="ButtonStyle,NestedWeights" />
 
-    <Button
-        android:id="@+id/schedule_button"
-        android:layout_width="100dip"
-        android:background="@drawable/scheduleicon"
-        android:layout_alignWithParentIfMissing="false"
-        android:layout_height="100dip"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true" />
-
-    <Button
-        android:id="@+id/department_button"
-        android:layout_width="100dip"
-        android:layout_height="100dip"
-        android:background="@drawable/departmentnumbersicon"
-        tools:background="@drawable/departmentnumbersicon"
-        android:textSize="8sp"
-        android:visibility="visible"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        tools:ignore="SmallSp" />
-</RelativeLayout>
+        <Button
+            android:id="@+id/directory_button"
+            android:background="@drawable/directory1"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="50dip"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

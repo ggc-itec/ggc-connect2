@@ -1,28 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@drawable/libraryinsidelogo"
-    android:orientation="vertical"
-    android:padding="30dip"
-    android:gravity="center_horizontal">
+    android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+    android:background="@drawable/libraryinsidelogo">
 
-    <Button
-        android:id="@+id/button_d2l_web"
-        android:layout_width="100dip"
-        android:layout_height="100dip"
-        android:background="@drawable/d2llogo"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dip"
+    android:orientation="horizontal"
+    android:layout_weight="1" >
 
     <Button
         android:id="@+id/button_banner_web"
-        android:layout_width="100dip"
-        android:layout_height="100dip"
-        android:background="@drawable/bannerlogo"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true" />
+        android:background="@drawable/bannerbutton1"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="50dip"
+        tools:ignore="ButtonStyle,NestedWeights" />
 
-</RelativeLayout>
+    <Button
+        android:id="@+id/button_d2l_web"
+        android:background="@drawable/d2lbutton1"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="50dip"
+        tools:ignore="ButtonStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dip"
+    android:orientation="horizontal"
+    android:layout_weight="1" >
+
+    <Button
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="50dip"
+        android:id="@+id/facebook_button"
+        android:background="@drawable/fb1"
+        tools:ignore="ButtonStyle,NestedWeights" />
+
+    <Button
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="50dip"
+        android:id="@+id/instagram_button"
+        android:background="@drawable/instgrambutton"
+        tools:ignore="ButtonStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dip"
+    android:orientation="horizontal"
+    android:layout_weight="1" >
+
+    <Button
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="50dip"
+        android:id="@+id/twitter_button"
+        android:background="@drawable/twitter"
+        tools:ignore="ButtonStyle,NestedWeights" />
+
+    <Button
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="50dip"
+        android:background="@drawable/asf"
+        android:id="@+id/athletics_button"
+        tools:ignore="ButtonStyle" />
+    </LinearLayout>
+</LinearLayout>
