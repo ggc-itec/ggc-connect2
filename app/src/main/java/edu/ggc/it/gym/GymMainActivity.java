@@ -30,6 +30,8 @@ public class GymMainActivity extends Activity {
         schedule.setOnClickListener(new ButtonListener());
         Button magazine = (Button) findViewById(R.id.healthMagazine);
         magazine.setOnClickListener(new ButtonListener());
+        Button backButton = (Button) findViewById(R.id.back_button);
+        backButton.setOnClickListener(new ButtonListener());
 
     }
 
@@ -57,6 +59,8 @@ public class GymMainActivity extends Activity {
                 String url = "http://readsh101.com/ggc.html";
                 Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
                 startActivity(browserIntent);
+            } else if (view.getId() == R.id.back_button) {
+                finish();
             }
         }
     }

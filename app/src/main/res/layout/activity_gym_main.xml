@@ -6,46 +6,62 @@
     android:gravity="center"
     tools:context=".GymMainActivity">
 
+    <Button
+        android:text="@string/go_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/back_button"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:drawable/btn_default" />
+
     <ImageView
         android:src="@drawable/gym"
         android:id="@+id/imageView3"
-        android:layout_alignParentTop="true"
+        android:layout_below="@+id/back_button"
         android:layout_centerHorizontal="true"
-        android:layout_width="match_parent"
-        android:layout_height="200dip"
-        android:contentDescription=""
-        tools:ignore="ContentDescription" />
+        android:layout_marginBottom="20dp"
+        android:layout_width="200dp"
+        android:layout_height="150dp" />
 
     <LinearLayout
-        android:id="@+id/linearLayout1"
-        android:layout_width="match_parent"
         android:orientation="vertical"
-        android:layout_height="wrap_content"
-        android:padding="50dip"
-        android:layout_below="@+id/imageView3"
-        android:layout_alignParentLeft="true"
-        tools:ignore="RtlHardcoded">
-
-        <Button
-            android:text="@string/about_wellness_and_recreation"
-            android:id="@+id/wellness"
-            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
-            android:layout_height="70dip"
-            android:layout_width="300dip" />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imageView3">
 
         <Button
             android:id="@+id/gymSchedule"
-            android:layout_width="300dip"
-            android:layout_height="70dip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="@string/gym_schedule"
-            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
+            android:textSize="18sp"
+            android:layout_marginBottom="20dp"
+            android:background="@android:drawable/btn_default" />
 
         <Button
             android:id="@+id/healthMagazine"
-            android:layout_width="300dip"
-            android:layout_height="70dip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="@string/health_magazine"
-            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
+            android:textSize="18sp"
+            android:layout_marginBottom="20dp"
+            android:background="@android:drawable/btn_default" />
+
+        <Button
+            android:id="@+id/wellness"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/about_wellness_and_recreation"
+            android:textSize="18sp"
+            android:layout_marginBottom="20dp"
+            android:background="@android:drawable/btn_default" />
     </LinearLayout>
 
 </RelativeLayout>
