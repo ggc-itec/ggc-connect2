@@ -20,7 +20,7 @@ import edu.ggc.it.R;
  */
 
 public class MapActivity extends Activity {
-
+    public Activity backView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,7 +46,10 @@ public class MapActivity extends Activity {
         buildingI.setOnClickListener(new ButtonListener());
         Button buildingL = (Button) findViewById(R.id.buildingL);
         buildingL.setOnClickListener(new ButtonListener());
+        Button backButton = (Button) findViewById(R.id.back_button);
+        backButton.setOnClickListener(new ButtonListener());
     }
+
 
     /**
      * Creates the listeners for all of the buttons individually
@@ -93,6 +96,8 @@ public class MapActivity extends Activity {
                 String url = "https://drive.google.com/viewerng/viewer?embedded=true&url=http://www.ggc.edu/admissions/visit-ggc/maps-and-directions/docs/library-map.pdf";
                 Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
                 startActivity(browserIntent);
+            } else if (view.getId() == R.id.back_button) {
+                finish();
             }
         }
     }

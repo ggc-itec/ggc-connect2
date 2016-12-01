@@ -6,6 +6,17 @@
     android:background="@drawable/starwarsbackground"
     android:weightSum="1">
 
+    <Button
+        android:text="@string/go_back"
+        android:layout_width="wrap_content"
+        android:id="@+id/back_button"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:onClick="onBackClicked"
+        android:background="@android:drawable/btn_default"
+        android:layout_height="wrap_content"
+        android:textColorHighlight="@color/ggc_green" />
+
     <TextView
         android:id="@+id/creditsTextView"
         android:layout_width="249dp"

@@ -3,6 +3,7 @@ package edu.ggc.it;
 import android.app.Activity;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.view.View;
 import android.webkit.WebView;
 
 public class Credits extends Activity {
@@ -38,4 +39,11 @@ public class Credits extends Activity {
                 "UTF-8");
     }
 
+    public void onBackClicked(View view) {
+        if (webView.canGoBack()) {
+            webView.goBack();
+        } else {
+            super.onBackPressed();
+        }
+    }
 }

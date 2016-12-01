@@ -6,58 +6,74 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@drawable/ggc_b_building"
+    android:background="@drawable/aboutbackground1"
     tools:context=".AboutMainActivity">
 
     <Button
-        android:id="@+id/button_History"
+        android:text="@string/go_back"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/back_button"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:layout_marginEnd="200dip"
+        android:onClick="onBackClicked"
+        android:background="@drawable/about_ggc_general_btn"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/button_History"
+        android:layout_width="wrap_content"
         android:layout_height="45dp"
         android:layout_below="@+id/imageView_GGCLogo"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="24dip"
         android:text="History"
         android:textColor="#ffffffff"
         android:background="@drawable/about_ggc_general_btn" />
 
-    <Button
-        android:id="@+id/button_Geography"
-        android:layout_width="match_parent"
-        android:layout_height="45dp"
-        android:layout_below="@id/button_History"
-        android:layout_marginTop="15dp"
-        android:background="@drawable/about_ggc_general_btn"
-        android:textColor="#ffffffff"
-        android:text="Geography" />
+    <ImageView
+        android:id="@+id/imageView_GGCLogo"
+        android:src="@drawable/ggc_logo"
+        android:contentDescription=""
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/back_button"
+        android:layout_centerHorizontal="true"
+        android:layout_width="140dip"
+        android:layout_height="140dip" />
 
     <Button
         android:id="@+id/button_GGCSong"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="45dp"
-        android:layout_below="@id/button_Geography"
         android:layout_marginTop="15dp"
         android:background="@drawable/about_ggc_general_btn"
         android:textColor="#ffffffff"
-        android:text="GGC Song" />
+        android:text="GGC Song"
+        android:layout_below="@+id/button_Geography"
+        android:layout_alignStart="@+id/button_Geography" />
+
+    <Button
+        android:id="@+id/button_Geography"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginTop="24dip"
+        android:background="@drawable/about_ggc_general_btn"
+        android:textColor="#ffffffff"
+        android:text="Geography"
+        android:layout_below="@+id/button_History"
+        android:layout_alignStart="@+id/button_History" />
 
     <Button
         android:id="@+id/button_FunFacts"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="45dp"
-        android:layout_below="@id/button_GGCSong"
-        android:layout_marginTop="15dp"
         android:background="@drawable/about_ggc_general_btn"
         android:textColor="#ffffffff"
-        android:text="GGC Fun Facts" />
-
-    <ImageView
-        android:id="@+id/imageView_GGCLogo"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/ggc_logo"
-        android:contentDescription="" />
+        android:text="GGC Fun Facts"
+        android:layout_below="@+id/button_GGCSong"
+        android:layout_alignStart="@+id/button_GGCSong"
+        android:layout_marginTop="11dp" />
 
 
 </RelativeLayout>

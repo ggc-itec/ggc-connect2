@@ -5,14 +5,14 @@
     android:orientation="vertical">
 
     <Button
-        android:text="@string/go_back"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/back_button"
-        android:textStyle="normal|bold"
-        android:textSize="18sp"
-        android:layout_marginEnd="200dip"
-        android:onClick="onBackClicked"/>
+    android:text="@string/go_back"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/back_button"
+    android:textStyle="normal|bold"
+    android:textSize="18sp"
+    android:layout_marginEnd="200dip"
+    android:onClick="onBackClicked"/>
 
     <WebView
         android:id="@+id/calendar_webview"

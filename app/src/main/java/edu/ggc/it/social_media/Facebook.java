@@ -15,7 +15,7 @@ import edu.ggc.it.R;
  */
 
 public class Facebook extends Activity {
-    public static final String GGC_FACEBOOK_URL = "https://www.Facebook.com/georgiagwinnett/";
+    public static final String GGC_FACEBOOK_URL = "https://m.facebook.com/georgiagwinnett/";
     private WebView webView;
 
     @Override

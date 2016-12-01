@@ -1,6 +1,7 @@
 package edu.ggc.it.mainscreen;
 
 import android.content.Context;
+import android.support.v4.content.ContextCompat;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
@@ -41,7 +42,7 @@ public class MainScreenViewFlipper extends LinearLayout implements View.OnTouchL
      * @param context
      */
     public void init(Context context) {
-        setBackgroundColor(0xffbfbfbf);
+        ContextCompat.getDrawable(context, R.drawable.widget_view_flipper_background);
 
         // Layout inflation
         LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);

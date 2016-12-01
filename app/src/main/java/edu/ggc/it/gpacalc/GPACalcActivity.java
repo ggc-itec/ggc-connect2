@@ -18,7 +18,7 @@ import edu.ggc.it.R;
  *         This activity gets the user's current GPA and total credit hours before the current semester.
  */
 public class GPACalcActivity extends Activity {
-    public static final String GGC_GPA_URL = "http://gpacalculator.net/college-gpa-calculator/";
+    public static final String GGC_GPA_URL = "http://www.collegesimply.com/colleges/alabama/university-of-mobile/gpa-calculator/";
     private WebView webView;
 
 

@@ -8,6 +8,16 @@
     android:padding="35dip">
 
     <Button
+        android:text="@string/go_back"
+        android:layout_width="125dp"
+        android:id="@+id/back_button"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:background="@android:drawable/btn_default"
+        android:layout_height="wrap_content"
+        android:textColorHighlight="@color/ggc_green" />
+
+    <Button
         android:text="Building A PDF"
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -18,7 +28,8 @@
         android:textColor="@android:color/black"
         android:layout_weight="1"
         android:layout_marginLeft="40dip"
-        android:layout_marginRight="40dip" />
+        android:layout_marginRight="40dip"
+        android:background="@android:drawable/btn_default" />
 
     <Button
         android:text="Building B PDF"
@@ -31,7 +42,8 @@
         android:textColor="@android:color/black"
         android:layout_weight="1"
         android:layout_marginLeft="40dip"
-        android:layout_marginRight="40dip" />
+        android:layout_marginRight="40dip"
+        android:background="@android:drawable/btn_default" />
 
     <Button
         android:text="Building C PDF"
@@ -44,7 +56,8 @@
         android:textColor="@android:color/black"
         android:layout_weight="1"
         android:layout_marginLeft="40dip"
-        android:layout_marginRight="40dip" />
+        android:layout_marginRight="40dip"
+        android:background="@android:drawable/btn_default" />
 
     <Button
         android:text="Building D PDF"
@@ -57,7 +70,8 @@
         android:textColor="@android:color/black"
         android:layout_weight="1"
         android:layout_marginLeft="40dip"
-        android:layout_marginRight="40dip" />
+        android:layout_marginRight="40dip"
+        android:background="@android:drawable/btn_default" />
 
     <Button
         android:text="Building E PDF"
@@ -70,7 +84,8 @@
         android:textColor="@android:color/black"
         android:layout_weight="1"
         android:layout_marginLeft="40dip"
-        android:layout_marginRight="40dip" />
+        android:layout_marginRight="40dip"
+        android:background="@android:drawable/btn_default" />
 
     <Button
         android:text="Building F PDF"
@@ -83,7 +98,8 @@
         android:textColor="@android:color/black"
         android:layout_weight="1"
         android:layout_marginLeft="40dip"
-        android:layout_marginRight="40dip" />
+        android:layout_marginRight="40dip"
+        android:background="@android:drawable/btn_default" />
 
     <Button
         android:text="Building H PDF"
@@ -96,7 +112,8 @@
         android:textColor="@android:color/black"
         android:layout_weight="1"
         android:layout_marginLeft="40dip"
-        android:layout_marginRight="40dip" />
+        android:layout_marginRight="40dip"
+        android:background="@android:drawable/btn_default" />
 
     <Button
         android:text="Building I PDF"
@@ -109,7 +126,8 @@
         android:textColor="@android:color/black"
         android:layout_weight="1"
         android:layout_marginLeft="40dip"
-        android:layout_marginRight="40dip" />
+        android:layout_marginRight="40dip"
+        android:background="@android:drawable/btn_default" />
 
     <Button
         android:text="Building L PDF"
@@ -122,6 +140,7 @@
         android:textColor="@android:color/black"
         android:layout_weight="1"
         android:layout_marginLeft="40dip"
-        android:layout_marginRight="40dip" />
+        android:layout_marginRight="40dip"
+        android:background="@android:drawable/btn_default" />
 </LinearLayout>
 
