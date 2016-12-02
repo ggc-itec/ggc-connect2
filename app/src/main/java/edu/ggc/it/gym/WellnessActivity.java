@@ -1,10 +1,8 @@
 package edu.ggc.it.gym;
 
 import android.app.Activity;
-import android.net.http.SslError;
 import android.os.Bundle;
 import android.view.View;
-import android.webkit.SslErrorHandler;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
@@ -62,9 +60,5 @@ public class WellnessActivity extends Activity {
             return false;
         }
 
-        @Override
-        public void onReceivedSslError(WebView view, SslErrorHandler handler, SslError error) {
-            handler.proceed();
-        }
     }
 }
