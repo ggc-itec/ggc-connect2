@@ -17,7 +17,6 @@
         android:textStyle="normal|bold"
         android:textSize="18sp"
         android:layout_marginEnd="200dip"
-        android:onClick="onBackClicked"
         android:background="@drawable/about_ggc_general_btn"
         android:textColor="@android:color/white" />
 

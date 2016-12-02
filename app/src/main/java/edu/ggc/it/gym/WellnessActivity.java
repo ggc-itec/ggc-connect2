@@ -1,4 +1,4 @@
-package edu.ggc.it.gpacalc;
+package edu.ggc.it.gym;
 
 import android.app.Activity;
 import android.net.http.SslError;
@@ -11,14 +11,12 @@ import android.webkit.WebViewClient;
 import edu.ggc.it.R;
 
 /**
- * @author Jordan Smith
- * @author Kyle Dornblaser
- * @author Timothy McCravy
+ * This class is an activity class
  *
- *         This activity gets the user's current GPA and total credit hours before the current semester.
+ * @author
  */
-public class GPACalcActivity extends Activity {
-    public static final String GGC_GPA_URL = "http://www.collegesimply.com/colleges/alabama/university-of-mobile/gpa-calculator/";
+public class WellnessActivity extends Activity {
+    public static final String GGC_WELLNESS_URL = "http://www.ggc.edu/student-life/student-services/wellness-and-recreation/";
     private WebView webView;
 
 
@@ -32,8 +30,8 @@ public class GPACalcActivity extends Activity {
         setContentView(R.layout.activity_web);
         webView = (WebView) findViewById(R.id.webview);
         webView.getSettings().setSupportZoom(true);
-        webView.setWebViewClient(new GPAWebViewClient());
-        webView.loadUrl(GGC_GPA_URL);
+        webView.setWebViewClient(new WellnessWebViewClient());
+        webView.loadUrl(GGC_WELLNESS_URL);
     }
     @Override
     public void onBackPressed() {
@@ -57,7 +55,7 @@ public class GPACalcActivity extends Activity {
     /**
      * WebViewClient that ignores SSL errors (for some reason the GIL website returns an invalid certificate)
      */
-    private class GPAWebViewClient extends WebViewClient {
+    private class WellnessWebViewClient extends WebViewClient {
 
         @Override
         public boolean shouldOverrideUrlLoading(WebView view, String url) {

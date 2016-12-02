@@ -30,7 +30,7 @@ public class ScheduleActivity extends Activity {
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_web);
-        webView = (WebView) findViewById(R.id.calendar_webview);
+        webView = (WebView) findViewById(R.id.webview);
         webView.getSettings().setSupportZoom(true);
         webView.setWebViewClient(new ScheduleWebViewClient());
         webView.loadUrl(GGC_Schedule_URL);

@@ -1,66 +1,70 @@
 package edu.ggc.it.gym;
 
 import android.app.Activity;
-import android.content.Intent;
-import android.net.Uri;
+import android.net.http.SslError;
 import android.os.Bundle;
-import android.view.Menu;
 import android.view.View;
-import android.view.View.OnClickListener;
-import android.widget.TextView;
+import android.webkit.SslErrorHandler;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 
 import edu.ggc.it.R;
-import edu.ggc.it.map.BuildingE;
 
-
+/**
+ * This class is an activity class
+ *
+ * @author
+ */
 public class GymScheduleActivity extends Activity {
-    /**
-     * This method creates all of the Text Views in the activity
+    public static final String GGC_GYM_SCHEDULE_URL = "http://www.ggc.edu/student-life/student-services/wellness-and-recreation/wellness-and-recreation-center/";
+    private WebView webView;
+
+
+    /* (non-Javadoc)
+     * @see android.app.Activity#onCreate(android.os.Bundle)
      */
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_gym_schedule);
-
-        TextView Phone = (TextView) findViewById(R.id.gym_phone);
-        Phone.setOnClickListener(new OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                Intent ii = new Intent(Intent.ACTION_DIAL);
-                ii.setData(Uri.parse("tel:6784075970"));
-                startActivity(ii);
-            }
-        });
-
-        TextView email = (TextView) findViewById(R.id.gym_email);
-        email.setOnClickListener(new OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_SEND);
-                intent.setType("message/rfc822");
-                intent.putExtra(android.content.Intent.EXTRA_EMAIL, new String[]{"wellnessrec@ggc.edu"});
-                intent.putExtra(Intent.EXTRA_TEXT, "\n\n\nSent from GGC Connect");
-                startActivity(intent);
-            }
-        });
-
-        TextView buildingF = (TextView) findViewById(R.id.gymfbuilding);
-        buildingF.setOnClickListener(new OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                Intent buildingFIntent = new Intent(GymScheduleActivity.this, BuildingE.class);
-                startActivity(buildingFIntent);
-            }
-        });
-
+        setContentView(R.layout.activity_web);
+        webView = (WebView) findViewById(R.id.webview);
+        webView.getSettings().setSupportZoom(true);
+        webView.setWebViewClient(new GymScheduleWebViewClient());
+        webView.loadUrl(GGC_GYM_SCHEDULE_URL);
+    }
+    @Override
+    public void onBackPressed() {
+        if (webView.canGoBack()) {
+            webView.goBack();
+            return;
+        } else {
+            super.onBackPressed();
+        }
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.activity_gym_schedule, menu);
-        return true;
+    public void onBackClicked(View view) {
+        if (webView.canGoBack()) {
+            webView.goBack();
+            return;
+        } else {
+            super.onBackPressed();
+        }
+    }
+
+    /**
+     * WebViewClient that ignores SSL errors (for some reason the GIL website returns an invalid certificate)
+     */
+    private class GymScheduleWebViewClient extends WebViewClient {
+
+        @Override
+        public boolean shouldOverrideUrlLoading(WebView view, String url) {
+            return false;
+        }
+
+        @Override
+        public void onReceivedSslError(WebView view, SslErrorHandler handler, SslError error) {
+            handler.proceed();
+        }
     }
 }

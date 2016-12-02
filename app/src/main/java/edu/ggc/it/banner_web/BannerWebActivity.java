@@ -23,7 +23,7 @@ public class BannerWebActivity extends Activity {
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_web);
-        webView = (WebView) findViewById(R.id.calendar_webview);
+        webView = (WebView) findViewById(R.id.webview);
         webView.getSettings().setSupportZoom(true);
         webView.setWebViewClient(new BannerWebViewClient());
         webView.loadUrl(GGC_BANNER_URL);

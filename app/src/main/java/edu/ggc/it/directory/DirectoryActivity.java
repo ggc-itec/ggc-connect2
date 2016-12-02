@@ -23,7 +23,7 @@ public class DirectoryActivity extends Activity {
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_web);
-        webView = (WebView) findViewById(R.id.calendar_webview);
+        webView = (WebView) findViewById(R.id.webview);
         webView.getSettings().setSupportZoom(true);
         webView.setWebViewClient(new DirectoryWebViewClient());
         webView.loadUrl(GGC_DIRECTORY_URL);

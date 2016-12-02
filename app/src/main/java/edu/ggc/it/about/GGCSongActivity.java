@@ -1,19 +1,19 @@
 package edu.ggc.it.about;
 
-import java.io.IOException;
-
-import edu.ggc.it.R;
-
+import android.app.Activity;
+import android.content.res.AssetFileDescriptor;
 import android.media.MediaPlayer;
 import android.media.MediaPlayer.OnCompletionListener;
 import android.os.Bundle;
 import android.os.Handler;
-import android.app.Activity;
-import android.content.res.AssetFileDescriptor;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.SeekBar;
 import android.widget.TextView;
+
+import java.io.IOException;
+
+import edu.ggc.it.R;
 
 /**
  * Class GGCSongActivity
@@ -27,8 +27,6 @@ import android.widget.TextView;
  */
 public class GGCSongActivity extends Activity implements OnCompletionListener, SeekBar.OnSeekBarChangeListener {
     private ImageButton btnPlay;
-    private ImageButton btnForward;
-    private ImageButton btnBackward;
     private SeekBar songProgressBar;
     private TextView songCurrentDurationLabel;
     private TextView songTotalDurationLabel;
@@ -44,8 +42,8 @@ public class GGCSongActivity extends Activity implements OnCompletionListener, S
         setContentView(R.layout.activity_ggcsong);
 
         btnPlay = (ImageButton) findViewById(R.id.btnPlay);
-        btnForward = (ImageButton) findViewById(R.id.btnForward);
-        btnBackward = (ImageButton) findViewById(R.id.btnBackward);
+        ImageButton btnForward = (ImageButton) findViewById(R.id.btnForward);
+        ImageButton btnBackward = (ImageButton) findViewById(R.id.btnBackward);
         songProgressBar = (SeekBar) findViewById(R.id.songProgressBar);
         songCurrentDurationLabel = (TextView) findViewById(R.id.songCurrentDurationLabel);
         songTotalDurationLabel = (TextView) findViewById(R.id.songTotalDurationLabel);

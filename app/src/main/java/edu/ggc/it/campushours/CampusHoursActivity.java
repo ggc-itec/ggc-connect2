@@ -25,7 +25,7 @@ public class CampusHoursActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_web);
-        webView = (WebView) findViewById(R.id.calendar_webview);
+        webView = (WebView) findViewById(R.id.webview);
         webView.getSettings().setSupportZoom(true);
         webView.setWebViewClient(new CampusHoursWebViewClient());
         webView.loadUrl(GGC_CAMPUS_HOURS_URL);

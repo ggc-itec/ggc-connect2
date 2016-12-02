@@ -1,12 +1,14 @@
 package edu.ggc.it.about;
 
-import edu.ggc.it.R;
-
-import android.os.Bundle;
 import android.app.Activity;
+import android.os.Bundle;
 import android.text.Html;
 import android.text.method.LinkMovementMethod;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
+
+import edu.ggc.it.R;
 
 /**
  * Class: GGCFunFactsActivity
@@ -14,6 +16,7 @@ import android.widget.TextView;
  * Provides some interesting information about GGC.
  */
 public class GGCFunFactsActivity extends Activity {
+    private Button backButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,5 +31,17 @@ public class GGCFunFactsActivity extends Activity {
         String text = "�	<a href='http://www.flickr.com/photos/georgiagwinnett/7290433094/'> GGC Flickr Photos </a>";
         flickrLink.setText(Html.fromHtml(text));
         flickrLink.setClickable(true);
+
+        backButton = (Button) findViewById(R.id.back_button);
+        setButtonListeners();
+    }
+
+    public void setButtonListeners() {
+        backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
     }
 }

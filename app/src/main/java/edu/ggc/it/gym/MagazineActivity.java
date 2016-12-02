@@ -1,43 +1,70 @@
 package edu.ggc.it.gym;
 
-import edu.ggc.it.R;
-
-import android.net.Uri;
+import android.app.Activity;
+import android.net.http.SslError;
 import android.os.Bundle;
-import android.view.Menu;
+import android.view.View;
+import android.webkit.SslErrorHandler;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import android.widget.Toast;
 
-import android.app.Activity;
-import android.content.Intent;
+import edu.ggc.it.R;
 
+/**
+ * This class is an activity class
+ *
+ * @author
+ */
 public class MagazineActivity extends Activity {
+    public static final String GGC_ACTIVITY_URL = "http://readsh101.com/ggc.html";
+    private WebView webView;
+
+
+    /* (non-Javadoc)
+     * @see android.app.Activity#onCreate(android.os.Bundle)
+     */
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
-        setContentView(edu.ggc.it.R.layout.activity_magazine);
-        Intent intent = new Intent(this, MagazineActivity.class);
-        WebView webView = (WebView) findViewById(R.id.webView);
-        webView.getSettings().setJavaScriptEnabled(true);
+        setContentView(R.layout.activity_web);
+        webView = (WebView) findViewById(R.id.webview);
         webView.getSettings().setSupportZoom(true);
-        webView.getSettings().setBuiltInZoomControls(true);
-        webView.setWebViewClient(new WebViewClient() {
-            @Override
-            public void onReceivedError(WebView view, int errorCode,
-                                        String description, String failingUrl) {
-                Toast.makeText(MagazineActivity.this, description,
-                        Toast.LENGTH_SHORT).show();
-            }
-
-
-        });
+        webView.setWebViewClient(new MagazineWebViewClient());
+        webView.loadUrl(GGC_ACTIVITY_URL);
+    }
+    @Override
+    public void onBackPressed() {
+        if (webView.canGoBack()) {
+            webView.goBack();
+            return;
+        } else {
+            super.onBackPressed();
+        }
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.activity_magazine, menu);
-        return true;
+    public void onBackClicked(View view) {
+        if (webView.canGoBack()) {
+            webView.goBack();
+            return;
+        } else {
+            super.onBackPressed();
+        }
+    }
+
+    /**
+     * WebViewClient that ignores SSL errors (for some reason the GIL website returns an invalid certificate)
+     */
+    private class MagazineWebViewClient extends WebViewClient {
+
+        @Override
+        public boolean shouldOverrideUrlLoading(WebView view, String url) {
+            return false;
+        }
+
+        @Override
+        public void onReceivedSslError(WebView view, SslErrorHandler handler, SslError error) {
+            handler.proceed();
+        }
     }
 }
-

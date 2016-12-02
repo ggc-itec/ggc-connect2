@@ -13,6 +13,17 @@
     <!-- GGC B Building Image -->
 
     <!-- Link Title -->
+    <Button
+        android:text="@string/go_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/back_button"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:layout_marginEnd="200dip"
+        android:background="@drawable/about_ggc_general_btn"
+        android:textColor="@android:color/white" />
+
     <TextView
         android:id="@+id/geographyLinkTitle"
         android:layout_height="wrap_content"
