@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="edu.ggc.it"
-    android:versionCode="25"
-    android:versionName="1.4.1">
+    android:versionCode="26"
+    android:versionName="1.4.2">
 
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
@@ -121,8 +121,7 @@
             android:label="GGC Desire 2 Learn"></activity>
         <activity
             android:name="edu.ggc.it.library.LibraryActivity"
-            android:label="GGC Galileo"
-            android:screenOrientation="landscape">
+            android:label="GGC Library">
         </activity>
         <activity
             android:name="edu.ggc.it.social_media.Facebook"

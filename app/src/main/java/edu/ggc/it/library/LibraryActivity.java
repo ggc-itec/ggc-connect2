@@ -1,17 +1,15 @@
 package edu.ggc.it.library;
 
 import android.app.Activity;
-import android.net.http.SslError;
 import android.os.Bundle;
 import android.view.View;
-import android.webkit.SslErrorHandler;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
 import edu.ggc.it.R;
 
 public class LibraryActivity extends Activity {
-    public static final String GGC_GIL_LIBRARY_URL = "https://gil.ggc.usg.edu/";
+    public static final String GGC_GIL_LIBRARY_URL = "http://www.ggc.edu/academics/library/";
     private WebView webView;
 
     @Override
@@ -53,10 +51,6 @@ public class LibraryActivity extends Activity {
             return false;
         }
 
-        @Override
-        public void onReceivedSslError(WebView view, SslErrorHandler handler, SslError error) {
-            handler.proceed();
-        }
     }
 
 }

@@ -241,7 +241,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="e7fd57057117fbaf59f2909a67496ffb59439295">
+        sha1="12d04ab67f454c8c856966994f474a1318bf3244">
         <dex dex="C:\Users\Ethan\AndroidStudioProjects\ggc-connect2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_f4e15cb5823a83df274d8580426a917f716ecba2\classes.dex" />
     </item>
     <item
